@@ -42,6 +42,12 @@ public_html/uploads/*
 *.tmp
 *.temp
 
+# Archive/Backup files
+*.zip
+*.rar
+*.tar
+*.gz
+
 # PHP
 vendor/
 composer.lock
