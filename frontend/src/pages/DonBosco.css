@@ -1,0 +1,24 @@
+.don-bosco-page {
+  min-height: 100vh;
+  background: white;
+}
+
+.don-bosco-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+.don-bosco-page h1 {
+  font-size: 2.5rem;
+  color: #667eea;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.don-bosco-page .content {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #555;
+}
+

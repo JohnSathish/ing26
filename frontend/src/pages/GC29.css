@@ -1,0 +1,24 @@
+.gc29-page {
+  min-height: 100vh;
+  background: white;
+}
+
+.gc29-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+.gc29-page h1 {
+  font-size: 2.5rem;
+  color: #667eea;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.gc29-page .content {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #555;
+}
+

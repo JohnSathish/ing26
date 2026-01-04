@@ -1,0 +1,46 @@
+.our-vision-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.our-vision-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  flex: 1;
+}
+
+.our-vision-content-container h1 {
+  font-size: 2.5rem;
+  color: #1e40af;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.our-vision-content-container .content {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #374151;
+  text-align: justify;
+}
+
+.our-vision-content-container .content p {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .our-vision-content-container {
+    padding: 2rem 1rem;
+  }
+
+  .our-vision-content-container h1 {
+    font-size: 2rem;
+  }
+
+  .our-vision-content-container .content {
+    font-size: 1rem;
+  }
+}
+

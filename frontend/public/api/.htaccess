@@ -1,0 +1,15 @@
+# API .htaccess for local development
+RewriteEngine On
+RewriteBase /api/
+
+# If the requested file doesn't exist, route to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Deny direct access to config files
+<FilesMatch "^(database|security|constants)\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+

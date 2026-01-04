@@ -1,0 +1,40 @@
+.about-us-page {
+  min-height: 100vh;
+  background: white;
+}
+
+.about-us-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+.about-us-page h1 {
+  font-size: 2.5rem;
+  color: #667eea;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.about-us-page .section {
+  margin-bottom: 3rem;
+}
+
+.about-us-page .section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 0.5rem;
+}
+
+.about-us-page .section .content {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.about-us-page .section .content p {
+  margin-bottom: 1rem;
+}
+

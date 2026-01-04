@@ -1,0 +1,192 @@
+.provincial-message-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.provincial-message-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  flex: 1;
+  width: 100%;
+}
+
+.breadcrumb {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.breadcrumb a {
+  color: #1e40af;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumb a:hover {
+  color: #1e3a8a;
+  text-decoration: underline;
+}
+
+.breadcrumb span {
+  margin: 0 0.5rem;
+  color: #999;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: #1e40af;
+  margin-bottom: 3rem;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  text-align: center;
+}
+
+.message-full-card {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  border-radius: 1rem;
+  padding: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.message-author-image-full {
+  width: 220px;
+  height: 280px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 3px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.message-author-image-full img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.message-content-full {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+}
+
+.message-quote-full {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.95);
+  position: relative;
+  padding-left: 2rem;
+}
+
+.message-quote-full::before {
+  content: '"';
+  position: absolute;
+  left: 0;
+  top: -0.5rem;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: 'Georgia', serif;
+}
+
+.message-quote-full p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.message-quote-full p:last-child {
+  margin-bottom: 0;
+}
+
+.message-author-full {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.author-name-full {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.author-title-full {
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+.loading,
+.no-message {
+  text-align: center;
+  padding: 4rem 2rem;
+  font-size: 1.125rem;
+  color: #666;
+}
+
+@media (max-width: 968px) {
+  .message-full-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    align-items: center;
+  }
+
+  .message-author-image-full {
+    width: 180px;
+    height: 220px;
+    margin: 0 auto;
+  }
+
+  .message-content-full {
+    text-align: center;
+  }
+
+  .message-quote-full {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .message-quote-full::before {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .provincial-message-content-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .message-full-card {
+    padding: 1.5rem;
+  }
+
+  .message-author-image-full {
+    width: 150px;
+    height: 180px;
+  }
+
+  .message-quote-full {
+    font-size: 1rem;
+  }
+}
+

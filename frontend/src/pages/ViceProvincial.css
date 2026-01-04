@@ -1,0 +1,77 @@
+.vice-provincial-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.vice-provincial-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  flex: 1;
+}
+
+.vice-provincial-content-container h1 {
+  font-size: 2.5rem;
+  color: #1e40af;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.vice-provincial-card {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vice-provincial-card .image-container {
+  width: 100%;
+}
+
+.vice-provincial-card .image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.vice-provincial-card .content h2 {
+  font-size: 2rem;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+
+.vice-provincial-card .content .period {
+  color: #6b7280;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.vice-provincial-card .content .bio {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #374151;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .vice-provincial-content-container {
+    padding: 2rem 1rem;
+  }
+
+  .vice-provincial-content-container h1 {
+    font-size: 2rem;
+  }
+
+  .vice-provincial-card {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+}
+

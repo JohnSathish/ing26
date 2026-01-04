@@ -1,0 +1,91 @@
+.dimension-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dimension-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  flex: 1;
+}
+
+.dimension-content-container h1 {
+  font-size: 2.5rem;
+  color: #1e40af;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.dimension-content-container .description {
+  text-align: center;
+  color: #6b7280;
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+}
+
+.dimensions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dimension-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.dimension-section h2 {
+  font-size: 1.75rem;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+
+.dimension-section .count {
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.members-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.member-item {
+  padding: 0.75rem;
+  background: #f9fafb;
+  border-radius: 0.5rem;
+  border-left: 3px solid #1e40af;
+}
+
+.member-name {
+  font-weight: 600;
+  color: #374151;
+}
+
+.member-role {
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .dimension-content-container {
+    padding: 2rem 1rem;
+  }
+
+  .dimension-content-container h1 {
+    font-size: 2rem;
+  }
+
+  .dimension-section {
+    padding: 1.5rem;
+  }
+}
+

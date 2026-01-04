@@ -1,0 +1,206 @@
+.provincial-message {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.provincial-message::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg"><path d="M30 0L35 20L55 25L35 30L30 50L25 30L5 25L25 20Z" fill="rgba(255,255,255,0.05)"/></svg>');
+  opacity: 0.3;
+}
+
+.provincial-message .section-title-white {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 3rem;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  position: relative;
+  z-index: 1;
+}
+
+.message-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.message-author-image {
+  width: 180px;
+  height: 220px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 3px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.message-author-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+.message-quote {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.95);
+  position: relative;
+  padding-left: 2rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.message-quote::before {
+  content: '"';
+  position: absolute;
+  left: 0;
+  top: -0.5rem;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: 'Georgia', serif;
+}
+
+.message-author {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.author-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.author-title {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+.read-more-btn {
+  align-self: flex-start;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  color: white;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  backdrop-filter: blur(10px);
+  margin-top: 0.5rem;
+}
+
+.read-more-btn:hover {
+  background: white;
+  color: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+.read-more-link-inline {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-style: normal;
+}
+
+.read-more-link-inline:hover {
+  color: white;
+  border-bottom-color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 968px) {
+  .message-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    align-items: center;
+  }
+
+  .message-author-image {
+    width: 150px;
+    height: 180px;
+    margin: 0 auto;
+  }
+
+  .message-content {
+    text-align: center;
+  }
+
+  .message-quote {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .message-quote::before {
+    display: none;
+  }
+
+  .read-more-btn {
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .provincial-message {
+    padding: 2rem 0;
+  }
+
+  .provincial-message .section-title-white {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .message-card {
+    padding: 1.5rem;
+  }
+
+  .message-author-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .message-quote {
+    font-size: 1.125rem;
+  }
+}

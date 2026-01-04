@@ -1,0 +1,98 @@
+.diocese-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.diocese-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  flex: 1;
+}
+
+.diocese-content-container h1 {
+  font-size: 2.5rem;
+  color: #1e40af;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.diocese-content-container .description {
+  text-align: center;
+  color: #6b7280;
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+}
+
+.houses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.house-card {
+  background: white;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.house-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+.house-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #f3f4f6;
+}
+
+.house-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.house-content {
+  padding: 1.5rem;
+}
+
+.house-content h3 {
+  font-size: 1.5rem;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+
+.house-content .location {
+  color: #6b7280;
+  font-size: 0.9375rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.house-content .house-description {
+  color: #374151;
+  line-height: 1.6;
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 768px) {
+  .diocese-content-container {
+    padding: 2rem 1rem;
+  }
+
+  .diocese-content-container h1 {
+    font-size: 2rem;
+  }
+
+  .houses-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

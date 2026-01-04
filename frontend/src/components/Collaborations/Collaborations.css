@@ -1,0 +1,212 @@
+.collaborations {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.collaborations::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="collab-pattern" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23collab-pattern)"/></svg>');
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.collaborations .container {
+  position: relative;
+  z-index: 1;
+}
+
+.collaborations .section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.collaborations .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent 0%, #dc2626 50%, transparent 100%);
+  border-radius: 2px;
+}
+
+.collaborations-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 5%,
+    black 95%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 5%,
+    black 95%,
+    transparent 100%
+  );
+}
+
+.collaborations-track {
+  display: flex;
+  gap: 3rem;
+  animation: scroll-right-to-left 30s linear infinite;
+  will-change: transform;
+}
+
+.collaborations-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-right-to-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.collaboration-item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 1rem;
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 10px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  min-width: 180px;
+  height: 120px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.collaboration-item:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 
+    0 12px 24px rgba(0, 0, 0, 0.15),
+    0 0 0 2px rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 1);
+}
+
+.collaboration-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.collaboration-link img {
+  max-width: 100%;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(20%);
+  transition: all 0.3s ease;
+}
+
+.collaboration-item:hover .collaboration-link img {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .collaborations {
+    padding: 3rem 0;
+  }
+
+  .collaborations .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .collaborations-track {
+    gap: 2rem;
+    animation-duration: 25s;
+  }
+
+  .collaboration-item {
+    min-width: 160px;
+    height: 100px;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .collaboration-link img {
+    max-height: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .collaborations {
+    padding: 2.5rem 0;
+  }
+
+  .collaborations .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .collaborations-track {
+    gap: 1.5rem;
+    animation-duration: 20s;
+  }
+
+  .collaboration-item {
+    min-width: 140px;
+    height: 90px;
+    padding: 1rem 1.25rem;
+  }
+
+  .collaboration-link img {
+    max-height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .collaborations .section-title {
+    font-size: 1.5rem;
+  }
+
+  .collaborations-track {
+    gap: 1.25rem;
+    animation-duration: 18s;
+  }
+
+  .collaboration-item {
+    min-width: 120px;
+    height: 80px;
+    padding: 0.875rem 1rem;
+  }
+
+  .collaboration-link img {
+    max-height: 50px;
+  }
+}
+
