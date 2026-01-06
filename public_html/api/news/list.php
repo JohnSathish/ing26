@@ -18,6 +18,7 @@ try {
     $limit = min(MAX_PAGE_SIZE, max(1, intval($_GET['limit'] ?? DEFAULT_PAGE_SIZE)));
     $offset = ($page - 1) * $limit;
     $featured = isset($_GET['featured']) ? (bool)$_GET['featured'] : null;
+    $search = isset($_GET['search']) ? sanitizeInput($_GET['search'], 'string') : '';
     
     // Check if admin (for unpublished items)
     require_once __DIR__ . '/../middleware/auth.php';
@@ -36,6 +37,15 @@ try {
     if ($featured !== null) {
         $where[] = "is_featured = :featured";
         $params['featured'] = $featured ? 1 : 0;
+    }
+    
+    // Add search filter
+    if (!empty($search)) {
+        $where[] = "(title LIKE :search1 OR excerpt LIKE :search2 OR content LIKE :search3)";
+        $searchTerm = '%' . $search . '%';
+        $params['search1'] = $searchTerm;
+        $params['search2'] = $searchTerm;
+        $params['search3'] = $searchTerm;
     }
     
     $whereClause = implode(' AND ', $where);

@@ -1,3 +1,8 @@
+/* Reset body padding for login page */
+body:has(.login-container) {
+  padding-top: 0 !important;
+}
+
 .login-container {
   min-height: 100vh;
   display: flex;

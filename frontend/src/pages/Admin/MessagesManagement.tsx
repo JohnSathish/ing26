@@ -2,6 +2,8 @@ import { useEffect, useState, useRef } from 'react';
 import AdminLayout from '../../components/AdminLayout/AdminLayout';
 import { apiGet, apiPost, apiPut, apiUploadImage } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
+import { useToast } from '../../contexts/ToastContext';
+import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
 import './Management.css';
 
 interface Message {
@@ -60,13 +62,13 @@ function MessagesManagement() {
 
     // Validate file type
     if (!file.type.startsWith('image/')) {
-      alert('Please select an image file');
+      showError('Please select an image file');
       return;
     }
 
     // Validate file size (5MB)
     if (file.size > 5 * 1024 * 1024) {
-      alert('File size must be less than 5MB');
+      showError('File size must be less than 5MB');
       return;
     }
 
@@ -82,9 +84,9 @@ function MessagesManagement() {
     try {
       const result = await apiUploadImage(file);
       setFormData({ ...formData, author_image: result.url });
-      alert('Image uploaded successfully!');
+      showSuccess('Image uploaded successfully!');
     } catch (error: any) {
-      alert(error.message || 'Failed to upload image');
+      showError(error.message || 'Failed to upload image');
       setImagePreview('');
     } finally {
       setUploading(false);
@@ -121,16 +123,17 @@ function MessagesManagement() {
         await apiPost(API_ENDPOINTS.MESSAGES.CREATE, submitData);
       }
       setShowForm(false);
+      showSuccess(message ? 'Message updated successfully!' : 'Message created successfully!');
       loadMessage();
     } catch (error: any) {
-      alert(error.message || 'Operation failed');
+      showError(error.message || 'Operation failed');
     }
   };
 
   if (loading) {
     return (
       <AdminLayout>
-        <div>Loading...</div>
+        <LoadingSpinner message="Loading message..." />
       </AdminLayout>
     );
   }

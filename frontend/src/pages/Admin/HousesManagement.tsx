@@ -2,6 +2,9 @@ import { useEffect, useState, useRef } from 'react';
 import AdminLayout from '../../components/AdminLayout/AdminLayout';
 import { apiGet, apiPost, apiPut, apiDelete, apiUploadImage } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
+import { useToast } from '../../contexts/ToastContext';
+import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
+import EmptyState from '../../components/EmptyState/EmptyState';
 import './Management.css';
 
 interface House {
@@ -22,6 +25,7 @@ function HousesManagement() {
   const [uploading, setUploading] = useState(false);
   const [imagePreview, setImagePreview] = useState<string>('');
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const { showSuccess, showError } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     description: '',
@@ -64,9 +68,10 @@ function HousesManagement() {
       setShowForm(false);
       setEditing(null);
       resetForm();
+      showSuccess(editing ? 'House updated successfully!' : 'House created successfully!');
       loadHouses();
     } catch (error: any) {
-      alert(error.message || 'Operation failed');
+      showError(error.message || 'Operation failed');
     }
   };
 
@@ -76,9 +81,10 @@ function HousesManagement() {
     }
     try {
       await apiDelete(`${API_ENDPOINTS.HOUSES.DELETE}?id=${id}`);
+      showSuccess('House deleted successfully!');
       loadHouses();
     } catch (error: any) {
-      alert(error.message || 'Delete failed');
+      showError(error.message || 'Delete failed');
     }
   };
 
@@ -103,12 +109,12 @@ function HousesManagement() {
     if (!file) return;
 
     if (!file.type.startsWith('image/')) {
-      alert('Please select an image file');
+      showError('Please select an image file');
       return;
     }
 
     if (file.size > 5 * 1024 * 1024) {
-      alert('Image size should be less than 5MB');
+      showError('Image size should be less than 5MB');
       return;
     }
 
@@ -120,11 +126,12 @@ function HousesManagement() {
         const formattedUrl = imageUrl.startsWith('/') ? imageUrl : '/' + imageUrl;
         setFormData({ ...formData, image: formattedUrl });
         setImagePreview(formattedUrl);
+        showSuccess('Image uploaded successfully!');
       } else {
-        alert('Image upload failed: No URL returned');
+        showError('Image upload failed: No URL returned');
       }
     } catch (error: any) {
-      alert(error.message || 'Image upload failed');
+      showError(error.message || 'Image upload failed');
     } finally {
       setUploading(false);
       if (fileInputRef.current) {
@@ -161,7 +168,7 @@ function HousesManagement() {
   if (loading) {
     return (
       <AdminLayout>
-        <div>Loading...</div>
+        <LoadingSpinner message="Loading houses..." />
       </AdminLayout>
     );
   }

@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import AdminLayout from '../../components/AdminLayout/AdminLayout';
 import { apiGet, apiPost, apiPut, apiDelete } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
+import { useToast } from '../../contexts/ToastContext';
+import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
+import EmptyState from '../../components/EmptyState/EmptyState';
 import './Management.css';
 
 interface GalleryItem {
@@ -114,7 +117,7 @@ function GalleryManagement() {
   if (loading) {
     return (
       <AdminLayout>
-        <div>Loading...</div>
+        <LoadingSpinner message="Loading gallery items..." />
       </AdminLayout>
     );
   }

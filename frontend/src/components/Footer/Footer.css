@@ -7,13 +7,77 @@
 .footer-top {
   background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
   padding: 1.5rem 0;
-  text-align: center;
+}
+
+.footer-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .footer-top p {
   margin: 0;
   font-weight: 600;
   font-size: 1.125rem;
+  color: white;
+  flex: 1;
+  text-align: left;
+}
+
+.footer-top-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.footer-top-social-icons .social-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  color: white;
+}
+
+.footer-top-social-icons .social-icon svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease;
+}
+
+.footer-top-social-icons .social-icon.facebook {
+  background: #1877f2;
+}
+
+.footer-top-social-icons .social-icon.instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.footer-top-social-icons .social-icon.twitter {
+  background: #000000;
+}
+
+.footer-top-social-icons .social-icon.youtube {
+  background: #ff0000;
+}
+
+.footer-top-social-icons .social-icon.linkedin {
+  background: #0077b5;
+}
+
+.footer-top-social-icons .social-icon:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer-top-social-icons .social-icon:hover svg {
+  transform: scale(1.1);
 }
 
 .footer-main {
@@ -364,6 +428,31 @@
 }
 
 @media (max-width: 768px) {
+  .footer-top-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footer-top p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .footer-top-social-icons {
+    justify-content: center;
+  }
+
+  .footer-top-social-icons .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer-top-social-icons .social-icon svg {
+    width: 16px;
+    height: 16px;
+  }
+
   .footer-main {
     padding: 2rem 0;
   }

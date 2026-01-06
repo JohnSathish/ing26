@@ -1,0 +1,15 @@
+# Allow access to image files in uploads directory
+<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+
+# Disable PHP execution in uploads directory
+<FilesMatch "\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Enable directory listing (optional - remove if you want to hide file list)
+Options -Indexes
+

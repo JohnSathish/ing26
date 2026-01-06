@@ -1,0 +1,1718 @@
+[2026-01-06 17:03:28] === Starting News Links Cleanup ===
+[2026-01-06 17:03:28] Target domain: donboscoguwahati.org
+[2026-01-06 17:03:28] Found 572 news items to process
+[2026-01-06 17:03:28] ✓ Updated: Alumni of Holy Family HSS, Rongjeng Celebrate Christmas with Joy and Nostalgia (ID: 3)
+[2026-01-06 17:03:28] ✓ Updated: Salesian Novitiate, Sunnyside Organises Seminar on the Dream of Don Bosco (ID: 6)
+[2026-01-06 17:03:28] ✓ Updated: Third Migrant Workers’ Day Celebrated at Satgaon Parish (ID: 8)
+[2026-01-06 17:03:28]   - Removed 3 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Vocation Camp for Assam Plain Region Concludes at Dimakuchi (ID: 9)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Snehalaya Child Friendly Guwahati Celebrates Christmas with Joy and Togetherness (ID: 14)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Don Bosco School, Doomni Celebrates Annual Day with Colourful Cultural Extravaganza (ID: 15)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Don Bosco Provincial Community Celebrates Pre-Christmas with Support Staff (ID: 16)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Christmas Carols and Carnival Bring Joy to St John Bosco Church, Doomni (ID: 17)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Funeral Mass of Mr. Manuel Soren Held at Don Bosco, Amguri (ID: 18)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: 137 Children Receive First Holy Communion at St. Dominic Savio Church, Garobadha (ID: 19)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Don Bosco School Kokrajhar Celebrates Annual Day cum Parents’ Day with Grandeur (ID: 20)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: 18th Parish Youth Convention Held at Rombagre Village (ID: 21)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Conclusion of the Jubilee Year 2025 at Satgaon (ID: 22)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Fr. Sebastian Karotemprel Memorial Scholarships Awarded to Students (ID: 23)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Fourth Annual Provincial Retreat Concludes with Solemn Thanksgiving (ID: 24)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: First Annual Sunday School Children Meet at Garobadha Parish (ID: 25)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Rev. Fr. Cletus Sebastian SDB Takes Charge as New Director of NERYC (ID: 26)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: DBI Celebrates 25 Years with Solemn Thanksgiving Eucharist (ID: 27)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Vocation Camp for Assam Plain Region Inaugurated at Dimakuchi (ID: 30)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Annual Spiritual Retreat Begins at Provincial House, Panbazar (ID: 48)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Vestition Ceremony Held at Emmaus Salesian Novitiate, Sechü-Zubza (ID: 49)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Satgaon Assistant Parish Priest Celebrates Mass for Migrant Workers in Bangalore (ID: 50)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Parish Day cum Silver Jubilee of First Profession Celebrated at Christ the King Parish, Sojong (ID: 51)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Provincial Blesses Newly Constructed St. Teresa of Avila Church at Sorokpara Village (ID: 52)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Provincial Blesses and Inaugurates New School Building at Don Bosco Higher Secondary School, Satgaon (ID: 53)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Faith Fest 2025 Inaugurated at Don Bosco Institute, Guwahati (ID: 54)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Pilgrimage and Sightseeing Enrich Catechists of Sacred Heart Parish, Shallang (ID: 55)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Foundation Stone for New Science Block and Auditorium Blessed at Don Bosco College, Chapaguri (ID: 56)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Sunday School Final Examination Held in Satgaon Parish (ID: 57)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Blessing and Inauguration of Naekgaon Village Chapel (ID: 58)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Silver Jubilee Celebration at St. Joseph Catholic Church, Kumarikata (ID: 59)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Annual Day celebrated at Don Bosco School (ID: 60)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Fr. Sebastian Ishorary Releases Three Translated Books During Silver Jubilee of Bongaigaon (ID: 61)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Building Dreams – Shaping Lives: Autobiography of Fr. V.M. Thomas Released at DBI Silver Jubilee (ID: 62)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Don Bosco Institute, Kharghuli, Marks 25 Glorious Years with Grand Silver Jubilee Celebration (ID: 63)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Annual Sports Week 2025 Inaugurated at Don Bosco HS School, Boko (ID: 64)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Don Bosco School, Sashipur Celebrates Annual Day with Cultural Extravaganza (ID: 65)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Youth Connect 2025: A Resounding Success at Don Bosco Institute, Kharghuli (ID: 66)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Canonical Visitation by Fr. Provincial to Haflong Parish (ID: 67)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Silver Jubilee of Religious Profession of Rev. Fr. Justin Narzary SDB Celebrated at Borshijora (ID: 68)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Jubilee Celebration of Rev. Fr. Tomey Anikuzhikattil SDB Held with Joy at Mendal (ID: 69)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Silver Jubilee of Priestly Ordination of Rev. Fr. Alex Mathew SDB Celebrated at St. Joseph’s Co-Cathedral (ID: 70)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Haflong Parish Celebrates Jubilee of Rev. Fr. P. J. Joseph SDB and Rev. Fr. Xavier Beck SDB (ID: 71)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Awareness Program on Substance Abuse, Mental Health, Traffic Rules and Social Media Safety Held at St. Dominic Savio School (ID: 72)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Satgaon Youth Celebrate Jubilee Year with Pilgrimage to Diphu Cathedral (ID: 73)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Inauguration of the Renovated Computer Lab, Media cum Creative Room at St Dominic School, Garobadha (ID: 74)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Rev. Fr. Hubert Uttam Molsom SDB Receives the Missionary Cross from the Rector Major in Valdocco (ID: 75)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Rajyapuraskar Glory for St. Dominic Savio School, Garobadha (ID: 76)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Book Launch of “River Traveller” by Sanjoy Hazarika at DBI, Kharghuli (ID: 77)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: DBI Talent Fiesta 2025 Unleashes Creativity and Youthful Energy (ID: 78)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: St. Paul Parish, Amkachi Celebrates its Silver Jubilee with Deep Gratitude and Joy (ID: 79)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Holy Mass for the Deceased Salesians Held at Uzanbazar Cemetery, Guwahati (ID: 80)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Past Pupils Association of St. Dominic Savio School Garobadha Organizes Career Guidance Program (ID: 81)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Holy Mass for the Deceased Confreres (ID: 82)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Tri-Monthly Recollection for Clerics and Brothers Held at Provincial House (ID: 83)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Seventh National Educational Conference of Don Bosco Schools Inaugurated at Shillong (ID: 84)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Formation towards Psychosexual Integration for Salesian Held at Pune (ID: 85)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Road Safety Awareness Programme Held at Don Bosco Institute, Kharghuli (ID: 86)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: All Souls’ Day Observed at Uzanbazar Cemetery with Solemn Holy Mass (ID: 87)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Regional Meeting of Youth Ministry Delegates of South Asia Held at Siliguri (ID: 88)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Science Exhibition Inspires Innovation at DBS, Bhooteachang (ID: 89)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Grand Conclusion of the Month of the Rosary at Sojong Parish (ID: 90)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: DBC, Diphu Concludes the Month of the Holy Rosary with a Devotional Service (ID: 91)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Don Bosco Institute, Kharghuli Concludes Marian Month with a Solemn Procession (ID: 92)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Holy Family Higher Secondary School, Rongjeng, Celebrates Annual Sports Week 2025 (ID: 93)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Graduation Ceremony Held at Don Bosco Institute, Kharghuli (ID: 94)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Graduation Ceremony Held for Spoken English Course at DBSTI, Tezpur (ID: 95)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:28] ✓ Updated: Salesians Reaffirm Commitment to Eradicate Poverty at Strategy Workshop in the Provincial House (ID: 96)
+[2026-01-06 17:03:28]   - Removed 4 links from content
+[2026-01-06 17:03:28]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Salesian Confreres from Guwahati Meet Rector Major at IUS Conference in Rome (ID: 97)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Francis D’ Sales Parish, Barpeta Holds Annual Parish Sabha 2025 (ID: 98)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Bosco Reach Out conducts Career Guidance Session at Don Bosco School, Gojapara (ID: 99)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: DBCL Edges Past Don Bosco Boys’ Home in Thrilling Intercommunity Basketball Final (ID: 100)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: New St. Mary’s Catholic Church Inaugurated in Karigaon (ID: 101)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Fr Abhilash Vadakkekara and Fr Jogesh B. Sangma Leave for Rome to Attend IUS Meeting (ID: 102)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Bosco Reach Out Holds Free Eye Check-Up Camp at Doomni, Baksa (ID: 103)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Rev. Fr. Provincial, Attends Curatorium Meeting at Salesian College, Sonada, meets brothers (ID: 104)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Career Prospects in Law: Hon’ble Justice Medhi Inspires Students at Don Bosco School, Haflong (ID: 105)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Rev Fr Sebastian Kuricheal, Provincial Inaugurates Class XI at Satgaon (ID: 106)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Damra Parish Youth Embrace Faith and Fellowship at Dynamic “Youth for Mary” Camp (ID: 107)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Blessing of St. Dominic Chapel at Sonajuli No. Santhal Basti: A Milestone of Faith and Gratitude (ID: 108)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Canonization of St. Maria Troncatti Celebrated at St. Joseph’s Co-Cathedral, Panbazar (ID: 109)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Province Celebrates Jubilee of Confreres and Province Community Day (ID: 110)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Bishop George Palliparampil Celebrates Holy Mass at Provincial House, Guwahati (ID: 111)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Parish Priests’ Animation and Meeting Held at Provincial House, Guwahati (ID: 112)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Formees Meet 2025 at Bongaigaon: “Called to be Light, Sent to Serve” (ID: 113)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: World Habitat Day Observed at Assam Don Bosco University (ID: 114)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Friendly Basketball Match Rekindles Sporting Spirit at St. Dominic Savio School, Garobadha (ID: 115)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Fr. Uttam Hubert Molsom SDB Leaves for Rome to Begin Missionary Course (ID: 116)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Bosco Mount Rongkhon Hosts Three-Day Annual Concert (ID: 117)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Fr. John Kalapura SDB, Former Provincial Visits Provincial House, Guwahati (ID: 118)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: DBI celebrates Golden Jubilee of Priestly Ordination of Rev. Fr. Joseph Thelekkatt SDB (ID: 119)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Satgaon Migrant Workers in Bangalore Elect New Leaders (ID: 120)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Province Strengthens Commitment to Mission Poverty Eradication (ID: 121)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: ING took part in All India Don Bosco Inter-Province Basketball Tournament at Hyderabad (ID: 122)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Vice Provincial and Vocation Promoter Meet ING Brothers at Divyadaan, Nashik (ID: 123)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Salesian Leaders Gather in Mumbai to Renew Commitment to Vocation Promotion (ID: 124)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Snehalaya ‘House of Love,’ Celebrates 25 Years of Service to Marginalized Youth (ID: 125)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: A Legacy of Love: Fr. Lukose Cheruvalel Honored with Lifetime Achievement Award at YaR Conference (ID: 126)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: National Conference in Guwahati to Forge Ecosystem of Hope for YaR (ID: 127)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: First Holy Communion at Sacred Heart Parish, Shallang (ID: 128)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Annual Parish Retreat Brings Spiritual Renewal at St. Joseph’s Co-Cathedral, Panbazar (ID: 129)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Past Pupils Meet Strengthens Bonds of Salesian Family at St. Dominic Savio School, Garobadha (ID: 130)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Annual Spiritual Retreat for Clerics and Brothers Concludes at DB Skill Institute, Joropara (ID: 131)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Satgaon Retreat Concludes with Remarkable Participation (ID: 132)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Damra Youth Retreat Inspires Over 200 Young People to ‘Be Rooted in Christ’ (ID: 133)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Annual Youth Meet 2025 Concludes at Don Bosco School, Amguri (ID: 134)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Annual Youth Meet 2025 Concludes at St. Francis Xavier Parish, Dotma with Record Participation (ID: 135)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Satgaon Parish Hosts Three-Day Annual Retreat on Theme ‘The Cross Before Us’ (ID: 136)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Annual Retreat at Don Bosco Church, Bhooteachang (ID: 137)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Spiritual Direction and Pastoral Accompaniment Programme at DBRC (ID: 138)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Dominic Savio School Launches Sports Coaching (ID: 139)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Annual Spiritual Retreat for Clerics and Brothers Begins at Joropara (ID: 140)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Inauguration and Blessing of the Blessed Sacrament Chapel at Pattangre (ID: 141)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Two Professors from ADBU Ranked Among World’s Top 2% Scientists by Stanford University (ID: 142)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Catholic Church, Damra celebrates Parish Day (ID: 143)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Province Administrators Gather for Strategic Planning and Financial Review (ID: 144)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Inter-Provincial Quinquennium 2025 Concludes with Call for Renewed Priestly Zeal (ID: 145)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Archbishop Victor Lyngdoh Credits Salesian Formation for Priestly Perseverance at Quinquennium Gathering (ID: 146)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Graduation Ceremony at Don Bosco Vocational Centre, Amguri (ID: 147)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Inter-Provincial Junior Priests and Brothers’ Animation 2025 Begins at Siloam, Umiam (ID: 148)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Parish Day at Mary Help of Christians, Maligaon (ID: 149)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Fr Amit Tete Enrolled as Advocate under Bar Council (ID: 150)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Assam Don Bosco University Pays Tribute to Zubeen Garg (ID: 151)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Five ING Young Salesians Gather for Comprehensive Training on Youth Ministry (ID: 152)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: ‘Sustainable Tourism Centre’ inaugurated in Don Bosco University for the Northeast (ID: 153)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Confirmation and First Holy Communion at St. Joseph’s Church, Kumarikata (ID: 154)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Silver Jubilee of the First Reception of Faith Celebrated at Rongpathar Village, Damra Parish (ID: 155)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Research Conclave on Affordable and Clean Energy Held at ADBU (ID: 156)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Animation Programme of the Past Pupils Association of the Garo Hills Region (ID: 157)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Satgaon Parish – An All-Men Jubilee Pilgrimage (ID: 158)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Missionary Animation Prayer Service Held at Don Bosco Pre-Novitiate, Dotma (ID: 159)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Satgaon Parish Crowned Champions Once Again (ID: 160)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Hindi Divas Celebrated at Don Bosco School, Panbazar (ID: 161)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Holy Family Parish, Rongjeng Celebrates Parish Day with Grandeur (ID: 162)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Province Congratulates Newly Installed Mumbai Provincial (ID: 163)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Satgaon Region Migrant Workers’ Meet Held in Bangalore (ID: 164)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: SYM Leaders Programme Inaugurated with Call to be “Salt and Light” for Society (ID: 165)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: DBI Hosts Dinner for Pastoral Conference Delegates (ID: 166)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Two Salesian Priests Depart for Intensive Counselling Training in Bangalore (ID: 167)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Satgaon Parish Opens Tournament with a Resounding Victory (ID: 168)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Social Communication Commission Charts Ambitious Path for Digital Evangelization (ID: 169)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: New ‘Dream Statues’ Inaugurated at Don Bosco School, Haflong, Inspiring Students to Chase Their Dreams (ID: 170)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Blessing and Inauguration of the New Chapel in Dhaigaon (ID: 171)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco School, Panbazar Hosts Boscolympics 2025 (ID: 172)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Youth of Haflong Parish Animated on Salesian Youth Movement (ID: 173)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Sunday School Teachers’ Meeting at Mary Help of Christians Church, Satgaon (ID: 174)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Celebration of Mothers at St. Joseph’s Co-Cathedral, Panbazar (ID: 175)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Inauguration and Blessing of the New Church at Mongchong Village (ID: 176)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Knowledge Fair and Science-Crafts Exhibition at Don Bosco School, Amguri (ID: 177)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco School, Kumarikata Hosts Arts, Crafts and Science Exhibition (ID: 178)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Rectors and Community Leaders Meeting Held at Provincial House, Panbazar (ID: 179)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Rev. Fr. Biju Michael SDB, Regional Councillor for South Asia, Visits the Province (ID: 180)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Mother’s Day Celebrated at Salesian Parish, Barpeta Road (ID: 181)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Monica’s Day cum Mother’s Day Celebrated at Don Bosco Parish, Kokrajhar (ID: 182)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Canonical Visitation of Provincial to Holy Family Parish, Rongjeng (ID: 183)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Young Minds Shine at Don Bosco Haflong’s Science and Cultural Exhibition (ID: 184)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: BRO–JPN Job Fair 2025 Opens Employment Opportunities for Tezpur Youth (ID: 185)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Francis Xavier School, Dotma Hosts Arts, Crafts and Science Exhibition (ID: 186)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Justice Sanjay Kumar Medhi Visits Don Bosco College, Diphu (ID: 187)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: 9th Batch of Federal Skill Academy (Hotel Management) Graduates from DBI (ID: 188)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Institution of Past Pupils’ Association at Holy Family School, Rongjeng (ID: 189)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Provincial Visitation to Don Bosco College of Teacher Education, Tura (ID: 190)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Psycho-Sexuality Course Held for Pre-Novices at Dotma (ID: 191)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Blessing of the Dream Statue of Don Bosco at Don Bosco Centre for Learning (ID: 192)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Canonical Visitation of Provincial to Don Bosco Centre for Learning, Tura (ID: 193)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Patriotic vibes  at Don Bosco College, Higher Secondary Section, Tura (ID: 194)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Joplang Secondary School Hosts Inter School Science Exhibition and Debate Competition (ID: 195)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Jude Thaddeus Chapel Blessed at West Arnibil Village (ID: 196)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Admissions at DBI (ID: 197)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco Institute of Management Welcomes New MBA Students (ID: 198)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Youth Day Celebrated and Football Tournament Concludes in Satgaon (ID: 199)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Shallang Community Celebrates 210th Birth Anniversary of St. John Bosco (ID: 200)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Vice Provincial Visits Emmaus Novitiate, Zubza (ID: 201)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco Higher Secondary School, Amkachi Celebrates Independence Day with Patriotic Fervour (ID: 202)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: NCC Cadets of Don Bosco College Tura Shine at 79th Independence Day Celebration (ID: 203)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Snehalaya Celebrates 79th Independence Day with Patriotic Fervour (ID: 204)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Holy Family Higher Rongjeng Shines at Sub-Divisional-Level Independence Day Celebration (ID: 205)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Dominic Savio HSS Girls’ Contingent Wins “Best Marching Contingent” Award (ID: 206)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Joplang H.S. School, Shallang, Celebrates 79th Independence Day with Patriotic Spirit (ID: 207)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Dominic Savio HSS, Garobadha, Celebrates 79th Independence Day (ID: 208)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco Institute, Kharghuli Celebrates 79th Independence Day with Patriotic Fervour (ID: 209)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco Senior Secondary School, Panbazar Celebrates 79th Independence Day with Flag Hoisting (ID: 210)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Provincial House, Panbazar Celebrates 79th Independence Day (ID: 211)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Book Release Honours Late Fr (Dr) Francis Hembrom, SDB (ID: 212)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Har Ghar Tiranga at St. Dominic Savio Higher Secondary School, Garobadha (ID: 213)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Annual Youth Sobha at Barpeta Road Inspires Faith and Dedication (ID: 214)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco Centre for Learning, Tura, Celebrates Fresher’s Day 2025 (ID: 215)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Animation Program for Elderly Men Culminates in Holy Eucharist at Mendal (ID: 216)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Patriotic Singing Competition Ignites Spirit of Freedom at DB Primary Section, Kokrajhar (ID: 217)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Practical Trainees’ Animation and Meeting Held at Provincial House, Guwahati (ID: 218)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Past Pupils Meet Strengthens Bonds at Don Bosco School, Sashipur (ID: 219)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: 6th Buccieri Memorial Inter-School Basketball Tournament 2025 Kicks Off at Tura (ID: 220)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: New School Bus Flagged Off at Holy Family School, Rongjeng (ID: 221)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco Higher Secondary School, Haflong Hosts Science &amp; Social Exhibition 2025 (ID: 222)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: General Councillor for Formation Visits Provincial House (ID: 223)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: One-Day Seminar for Students at Don Bosco School, Sashipur (ID: 224)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Grand Display of Creativity and Innovation at  Exhibition 2025 of St. Dominic Savio Hr. Sec. School, Garobadha (ID: 225)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Jesus Youth Udalguri Hosts First Fellowship Meet at Don Bosco Bhooteachang (ID: 226)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Chapel of St. John of the Cross Blessed at Rombagre Village in Rongkhon Parish (ID: 227)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Pictorial Book of St Artemide Zatti Released in Bodo at SAFC Meet (ID: 228)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Second Annual Spiritual Retreat of the Province Concludes with Renewed Commitment (ID: 229)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: South Asia Formation Commission Meeting Begins in Goa (ID: 230)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco School Kokrajhar Shines at CBSE Taekwondo Competition (ID: 231)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Fr Klisterwell Sohthiang and Fr Kishor Mushahary Leave for Rome (ID: 233)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Week-long Music Coaching Class at Apostolic House, Sashipur Begins (ID: 234)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Three-Day Spiritual Retreat Concludes at Don Bosco Centre, Saralpara (ID: 235)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Teachers’ Seminar Unites Staff of Don Bosco Schools at Boko (ID: 236)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco HS School, Boko Organises Orientation Programme for Senior Secondary Students (ID: 237)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Summer Time Youth Ministry 2025 Concludes with Gratitude and Reflection (ID: 238)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Second Annual Spiritual Retreat of the Province Begins at Siloam, Umiam (ID: 239)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Summer Time Youth Camp 2025 at St. Dominic Savio Parish, Garobadha (ID: 240)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Summer Time Youth Ministry 2025 Begins at Don Bosco Kokrajhar (ID: 241)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: STYM at Doomni Inspires Young Minds under the Theme “Pilgrims of Hope” (ID: 242)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Summer Time Youth Ministry Begins at St. Francis Xavier Parish, Dotma (ID: 243)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: DBI Felicitates Kharghuli &amp; Joypur Toppers (ID: 244)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Paul’s Parish, Amkachi Hosts Summer Youth Camp 2025 (ID: 245)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Book on St Artemide Zatti Released in Garo during CRI Meeting in Tura (ID: 246)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Tally Prime Training Concludes with Joyful Graduation at Don Bosco Institute (ID: 247)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Youth Convention at Shallang Parish Inspires Young Pilgrims of Hope (ID: 248)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Summer Time Youth Camp Ignites Young Spirits at Holy Cross Parish, Rongkhon (ID: 249)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Summer Time Youth Camp Brings Joy and Renewal to Umswai Parish (ID: 250)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Anchored in Hope: Summer Time Youth Camp Energizes Youth at DB Kumarikata (ID: 251)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Vocation Commission Charts the Way Forward for Youth Animation and Formation (ID: 252)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Commission Heads Convene at Provincial House for Strategic Planning Meeting (ID: 253)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: First Annual Spiritual Retreat Concludes at Siloam, Umiam (ID: 254)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Dominic High School Scouts and Guides Participate in District-Level Training at Ampati (ID: 255)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: LEAD Academy 2025 Begins at Don Bosco Institute of Management (ID: 256)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: 6-Day Intensive Tally Prime Training at DBI Empowers Religious (ID: 257)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Intensive Primary Teacher Training Program Concludes at DBI (ID: 258)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Fr Simplicius Kerketta Installed as Parish Priest of Holy Family Catholic Church, Rongjeng (ID: 259)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Youth Set Afire with Hope and Mission at STYM 2025 in Gojapara (ID: 260)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Summer Time Youth Ministry 2025 Concludes on a High Note at Mendal (ID: 261)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Charismatic Retreat Inspires Pre-Novices at Dotma to Embrace Salesian Calling (ID: 262)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: STYM Programme Concludes with a Call to Selfless Service at Tangla (ID: 263)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: First Annual Spiritual Retreat 2025 Begins with a Call to Renewal (ID: 264)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Summer Time Youth Ministry Inaugurated at Don Bosco Baithalangso (ID: 265)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: STYM Launched with Zeal at Don Bosco Parish, Tangla (ID: 266)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco Parish, Mendal Launches Summer Time Youth Camp with Great Enthusiasm (ID: 267)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Charismatic Retreat Ignites Faith at Pre-Novitiate, Dotma (ID: 268)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Another Batch of Hospitality Students Graduates from DBI (ID: 269)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Region-wise Don Bosco Schools Football Tournament Held in Guwahati (ID: 270)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Youth Programme at St. John Bosco Parish, Boko (ID: 271)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Satgaon Youth Camp Concludes with Solemn Eucharistic Celebration (ID: 272)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Newly Appointed Rectors Leave for Training in Bangalore (ID: 273)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Catholic Children’s Summer Camp held at St. Francis Xavier Parish, Haflong (ID: 274)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Alumni Meet 2025 at Don Bosco School, Rongkhon (ID: 275)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Two-Day Intensive Workshop for Primary Teachers Held at Rongjeng (ID: 276)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Graduation Ceremony of Tailoring and Driving Courses Held at Amguri (ID: 277)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Regional Meeting for Karbi Anglong and Dima Hasao Regions Held at Sojong (ID: 278)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Summer Youth Camp Ignites Faith and Fellowship at Sojong Parish (ID: 279)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: A·chik Catholic Summer Youth Camp and Jubilee for Youth Begins at Satgaon Parish (ID: 280)
+[2026-01-06 17:03:29] ✓ Updated: Jesus Youth Retreat Brings Inner Healing to Hundreds at Don Bosco Church, Bhooteachang (ID: 281)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Fr. Provincial Visits Mini Boscoree and Scout Master Training Camp at Barpeta (ID: 284)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: STYM Training 2025 Concludes with Renewed Zeal and Youth Spirit (ID: 285)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Summer Time Youth Ministry (STYM) Inaugurated at DBI, Kharghuli (ID: 286)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Mini Boscoree and Scout Master Training Camp Inaugurated at Don Bosco School, Barpeta (ID: 287)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Six ING Brothers Ordained Deacons at SHTC, Mawlai (ID: 288)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Regional Meeting for Garo Hills &amp; Rabha Hasong Region Held at Tura (ID: 289)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Career Guidance Programme Held at Don Bosco School, Sashipur (ID: 290)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Salesians Gather in Dimapur to Strengthen SYM Activities and Youth Engagement (ID: 291)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco School, Rongjeng Hosts Drug Abuse Awareness Programme (ID: 292)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Final Preparations Underway for 15th Mini Boscoree Camp at Barpeta Road (ID: 293)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Blessing and Inauguration of Mary Queen of the Angels Church, Simliguri (ID: 294)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Six ING Clerics to be Ordained Deacons at Sacred Heart Theological College, Shillong (ID: 295)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Mary’s Church Inaugurated and Blessed at Mahur Village, Haflong (ID: 296)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: NCC Cadets from Across Garo Hills Celebrate International Yoga Day at DBC, Tura (ID: 300)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: DBI Observes International Yoga Day with Renowned Guru Dr. Gautam Choudhury (ID: 301)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco College, Chapaguri Observes International Yoga Day (ID: 302)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Regional Meeting (BTR Region) Held at Don Bosco College, Chapaguri (ID: 303)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: BRO Hosts Strategic Meeting on Mission Poverty Eradication (ID: 304)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: St. Joseph’s Co-Cathedral Parish Celebrates Father’s Day (ID: 305)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Fathers’ Day Celebration at Holy Family Catholic Church Rongjeng (ID: 306)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Father’s Day Celebrated at Damra Parish with Holy Mass (ID: 307)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Regional Meeting (Assam Plain) Held at Hubert D’ Rosario Aspirantate, Sirajuli (ID: 308)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Snehalaya and CFG Observe World Day Against Child Labour (ID: 309)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Assam Don Bosco University Hosts One-Day FDP for Teachers (ID: 310)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Three-Day Scouts and Guides Training Camp Held at Don Bosco School, Ramfalbil (ID: 311)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: DB Schools of Bodoland Host Inter-School Tournament in Kokrajhar (ID: 312)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Bro Benedict D. Sangma SDB Departs for Theological Studies in the Philippines (ID: 313)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Principals’ Meeting of the Province discusses Key Educational Issues (ID: 314)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Missionary Cross Presented to the Pre-novices (ID: 315)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Holy Family School, Rongjeng Observes World Environment Day with Tree Plantation Drive (ID: 316)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco Higher Secondary School, Kokrajhar Celebrates World Environment Day (ID: 317)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: DBS Ramfalbil Celebrates World Environment Day with Tree Plantation and Reels Competition (ID: 318)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Graduation Day Celebrated for Hotel Management Students at DBI, Kharghuli (ID: 319)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Province Congratulates Rev. Fr. Ashley Miranda SDB on His Election as Provincial of INB (ID: 320)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Initiation of Pre-novitiate Batch 2025-2026 Held at Dotma (ID: 321)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: First Spiritual Retreat Begins for Sunnyside Novices (ID: 322)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco Inter-School Tournament 2025: A Celebration of Sportsmanship and Talent (ID: 323)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Marian Procession at St Joseph’s Co-Cathedral Parish, Panbazar (ID: 324)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Don Bosco Institute, Kharghuli Celebrates Graduation of Students (ID: 325)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Communication Commission Meeting Charts  Way Forward for Province Media Initiatives (ID: 326)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Initiation of 35 New Novices at St. Dominic Savio Novitiate, Shillong (ID: 327)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Friendly Girls’ Kabaddi &amp; Football Match held at SFX, Dotma (ID: 328)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Ten Pre-Novices Enter Salesian Novitiate at Sunnyside (ID: 329)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Newly Professed Salesians Felicitated at Provincial House (ID: 330)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Initiation of New Novices at Emmaus Novitiate, Zubza, 10 from ING (ID: 331)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Silver Jubilee of Ordination Celebrations of Fr Joseph Teron SDB (ID: 332)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Marian Day Celebrated in Shallang Parish (ID: 333)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Solemn Parish Day Celebrated at Satgaon (ID: 334)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: 38 Youth Receive the Sacrament of Confirmation at St Joseph’s Co-Cathedral, Panbazar (ID: 335)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Five Clerics Make their Perpetual Profession in Guwahati (ID: 336)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Eight ING Novices Make Their First Profession as Salesians (ID: 337)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Six ING Brothers Renew Religious Profession at Salesian College, Dimapur (ID: 338)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: 30 Clerics of Guwahati Province Renew Religious Vows Across Communities (ID: 339)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Snehalaya Organizes Workshops on Organisational Development and Sustainability (ID: 340)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Diphu Diocese Garo Women Convention Concludes  in Satgaon (ID: 341)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Bishop Michael Akasius Toppo Visits Don Bosco School, Bhooteachang (ID: 342)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Animation Programme for Students of Don Bosco School, Bengtol (ID: 343)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Career and Guidance Program Held for students of SFX Dotma and DB Ramfalbil (ID: 344)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Provincial unveils ‘The Bosconian 2024-2025’ School Magazine of DBS, Panbazar (ID: 345)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: Training Session on Educational Reforms by ASSEB Held at Don Bosco School, Panbazar (ID: 346)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:29] ✓ Updated: LKG Students Unite Across Borders in Joyful Exposure Between Don Bosco School, Sashipur and Dechen ECCD, Bhutan (ID: 347)
+[2026-01-06 17:03:29]   - Removed 4 links from content
+[2026-01-06 17:03:29]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Beyond Borders: A Salesian Journey Through Northeast India released (ID: 348)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Institute Concludes International Conference for Teachers 2025 (ID: 349)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr. Provincial Makes Maiden Visit to Don Bosco Saralpara (ID: 350)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Novices of St. Dominic Savio Novitiate Pray at Don Bosco Shrine, Cherrapunjee (ID: 351)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: New Boys’ Hostel Inaugurated at Don Bosco College, Chapaguri (ID: 352)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Initiation of Scouts and Guides Held at Don Bosco School, Amguri, Kokrajhar (ID: 353)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: 1st All Garo Hills Don Bosco Schools Sports Meet Held in Tura (ID: 354)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Assam Don Bosco University Congratulates Padma Shri Awardee Prof. David R. Syiemlieh (ID: 355)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Project Dosti Launched to Empower Children with Digital Literacy Skills (ID: 356)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Vestition Ceremony Held at St. Dominic Savio Novitiate, Upper Shillong (ID: 357)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Province Congratulates Pope Leo XIV (ID: 358)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco School, Guwahati Celebrates 18th Rongali Bihu Utsav with Grandeur (ID: 359)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: TICON-2025 Kicks Off at Don Bosco Institute, Guwahati (ID: 360)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Friendly Football Match Between Don Bosco Schools Ends in Thrilling Penalty Win (ID: 361)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Provincial’s Visit Inspires Students at Don Bosco School, Bhooteachang (ID: 362)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Pre-Novices Embark on Pilgrimage to Don Bosco Kokrajhar for Feast of St. Dominic Savio (ID: 363)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Hubert D’ Rosario Aspirantate at Sirajuli Inaugurates New Academic Year 2025 (ID: 364)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Provincial Visits Don Bosco College, Diphu and Inspires Students (ID: 365)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Parish Youth Day Celebrated at Holy Cross Parish, Rongkhon (ID: 366)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Snehalaya Boys Secure Admission to Assam Jatiya Bidyalay (ID: 367)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Inter-College Students’ Exchange Programme entitled SYNERGY 2025 at DBC Tura (ID: 368)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Easter Blessings at Don Bosco Institute, Kharghuli (ID: 369)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Easter Picnic and Jubilee Year Pilgrimage for Pre-Novices (ID: 370)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Silver Jubilee: Satgaon’s Head Catechist Honoured in Boldampara (ID: 371)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Civil Society Leaders Meet for promoting Child Protection (ID: 372)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Institute, Kharghuli Holds Graduation for April Batch (ID: 373)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Job Fair by Bosco Reach Out at Kokrajhar Government College Opens Doors to 400+ Aspirants (ID: 374)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Province Congratulates Fr. Joseph Thelekkatt on Golden Jubilee of Priestly Ordination (ID: 375)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Silver Jubilee Celebration of Sapkata Catholic Modoli (ID: 376)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Provincial Council Pays Tribute to Pope Francis (ID: 377)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Memorial Service for Pope Francis Held in Guwahati (ID: 378)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Province Participates in SYMLEAD Meeting at Kolkata (ID: 379)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: New Presence of Prabhudasi Sisters at Gabil Blessed (ID: 380)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Province of Guwahati Extends Easter Greetings: A Message of Hope and Peace (ID: 381)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Easter Cantata Brings Good Friday to Life at Don Bosco Institute, Kharghuli (ID: 382)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Salesian Communities Commemorate Good Friday with Solemn Way of the Cross (ID: 383)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Clerics and Brothers Conclude Spirit-Filled Retreat at Provincial House (ID: 384)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Institute Hosts Youth Pasch 2025: “Journeying with Jesus” (ID: 385)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Snehalaya boys Shine in HSLC Exams (ID: 386)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Denis Toju Sangma SDB Installed as Parish Priest of Don Bosco Parish, Gojapara (ID: 387)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Province of Guwahati welcomes Rev. Fr. Sebastian Kuricheal SDB, Provincial, after attending General Chapter (ID: 388)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Retreat for Clerics and Brothers Preparing for Vows Begins at Provincial House, Guwahati (ID: 389)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Palm Sunday Celebrated with Solemn Procession at Sacred Heart Church, Shallang (ID: 390)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Institute, Kharghuli, Celebrates World Youth Day with Palm Sunday (ID: 391)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Palm Sunday Celebrated with Solemn Devotion at St Joseph’s Co-Cathedral Church, Panbazar (ID: 392)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: St Francis Xavier School, Dotma, Inaugurates New Academic Year 2025-2026 (ID: 393)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Schools Shine in SEBA HSLC Examinations 2025 with 95.57% Overall Pass Percentage (ID: 394)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Snehalaya Organizes Joyful One-Day Mela for Children (ID: 395)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Salesian Principals Attend Training on Catholic Education in Northeast India (ID: 396)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Provincial House Community Pays Tribute to Rev Fr George Chittappanatt (CV), SDB on His Second Death Anniversary (ID: 397)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rector Major presents “Medal of Mary” to Provincial and GC29 Delegates as a Sign of Entrustment (ID: 398)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr. Alfred Marzo SDB turns 90, Still Stronger than his Two JCBs (ID: 399)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: New Computer Laboratory Inaugurated at Green Skill Institute, Jorapara (ID: 400)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Holy Family Higher Secondary School, Rongjeng, felicitates Matric Students and Toppers (ID: 401)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Staff Training on Prevention of Sexual Harassment Conducted by Don Bosco CFG (ID: 402)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Schools in Meghalaya Celebrate Outstanding Results in MBOSE 2025 Examinations (ID: 403)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Holy Mass Held in Memory of Rev. Fr. Edasserithottathil Augustine SDB (ID: 404)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: St. Dominic Savio Hr Sec School, Garobadha celebrates Investiture Ceremony (ID: 405)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rector Major Appoints Fr Thathireddy Vijayabhaskar as Personal Secretary (ID: 406)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: South Asian Delegates Capture Historic Moment with Rector Major in Rome (ID: 407)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rector Major Celebrates Holy Mass with GC29 South Asian Provincials and Delegates (ID: 408)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Two-Day Teacher’s Training Programme Held at Don Bosco School, Amguri (ID: 409)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Faithful of Damra Parish Embark on Pilgrimage to Bongaigaon Cathedral (ID: 410)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: New Regional Councillors of the Salesian Congregation (ID: 411)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Juan Carlos Perez Godoy re-elected regional of Mediterranean (ID: 412)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Hugo Orozco Sanchez re-elected Regional Councilor of Interamerica (ID: 413)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Roman Jachimowicz elected as Regional of Central and Northern Europe (ID: 414)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Mathews William elected as Regional of Asia East Oceania (ID: 415)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Romero Hector Gabriel re-elected Regional of America South Cone (ID: 416)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Biju Michael re-elected the Regional of South Asia (ID: 417)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Bizimana Innocent elected Regional of Africa South East (ID: 418)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Alphonse Owoudou elected Regional for Africa Central West Region (ID: 419)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: The Face of the New General Council of the Salesians of Don Bosco (ID: 420)
+[2026-01-06 17:03:30]   - Removed 9 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Gabriel Stawowy elected Economer General (ID: 421)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr. Fidel Maria Orendain Elected as General Councilor for Social Communication (ID: 422)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Jorge Mario Crisafulli Elected General Councillor for Missions (ID: 423)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr. Silvio Roggia Elected General Councilor for Formation (ID: 424)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Rafael Bejarano Elected as the New General Councilor for Youth Ministry (ID: 425)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Satgaon Women Pilgrimage to Diphu (ID: 426)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr. Stefano Martoglio elected Vicar of the Rector Major at the 29th General Chapter (ID: 427)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Guwahati Province Felicitates Newly Appointed Rector Major Fr Fabio Attard SDB (ID: 428)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Salesian Province of Guwahati Rejoices at the Election of Don Fabio Attard SDB as the 11th Successor of Don Bosco (ID: 429)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Vocation Camps for Post Matric Boys Held at Jorapara (Mendal) and Sirajuli (ID: 430)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Friendly Basketball Match between DBI and USTM (ID: 431)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Assam Don Bosco University Students shine at District Level Viksit Bharat Youth Parliament (ID: 432)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Sirajuli Community Hosts Bro Angelus Tete Memorial Basketball Tournament (ID: 433)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Province commemorates First Death Anniversary of Late Rev. Bro. Angelus Tete, SDB (ID: 434)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Youth Leaders gather for Animation and Planning at Don Bosco Institute, Kharghuli (ID: 435)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Amit Tete SDB successfully completes LLB and BAR Examination (ID: 436)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Professor Rakhee Kalita Moral conducts session for DBI Students (ID: 437)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Chain Adoration at Don Bosco Socio Technical Institute, Tezpur (ID: 438)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: First Death Anniversary of Bro Angelus Tete SDB (ID: 439)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: https://www.infoans.org/en/sections/news/item/23795-rmg-sdb-provinces-the-mary-help-of-christians-province-of-india-guwahati-ing (ID: 440)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Institute hosts 38th IGNCA Foundation Day Celebration (ID: 441)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Stakeholders Discuss Welfare of Assam’s Migrant Workers at Don Bosco Institute (ID: 442)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Vice Provincial Visits Emmaus Salesian Novitiate, Zubza (ID: 443)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Marcus Lakra Installed as Parish Priest of Shallang Parish (ID: 444)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Brothers at Salesian College, Dimapur renew Religious Vows on Feast of St. Joseph (ID: 445)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Chapel of Mary Help of Christians blessed at Korebari Village (ID: 446)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Seventeen aspiring Pre-Novices begin intensive programme at Jorapara Vocational Training Centre (ID: 447)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Bl. Michael Rua Parish Bengtol concludes Charismatic Retreat (ID: 448)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Three-Day Spiritual Retreat Inspires Community at Bongaon Centre (ID: 449)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Sports Academy Commission holds Meeting at Don Bosco School, Tura (ID: 450)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Post-Matric boys begin Salesian Vocation Journey (ID: 451)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Charismatic Retreat held at Chibra Agal Village (ID: 452)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Youth Convention 2025 held at St. John Bosco Parish, Boko (ID: 453)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Art and Craft Classes at Don Bosco Socio Technical Institute, Tezpur (ID: 454)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Farmers Trained in Advanced Horticulture Techniques in Goalpara (ID: 455)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Albert Khorgeswar D. Sangma Installed as Rector of Don Bosco Community, Haflong (ID: 456)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Colorful Performances &amp; Celebrations of Sports Week at Don Bosco HSS, Rongkhon (ID: 457)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Higher Sec. School Kokrajhar hosts CBSE’s ‘Training of Trainers’ Programme (ID: 458)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Punit Kumar Lakra SDB installed as Rector of St. Dominic Savio Community, Garobadha (ID: 459)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Tharakunnel Pius Varghese Installed as New Rector of Don Bosco College, Tura (ID: 460)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Auxilium Snehalaya Kids Delight in Flower Show at Guwahati Refinery (ID: 461)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Empowered Artisans shine on Women’s Day in Guwahati (ID: 462)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: One-Day Basketball Lightning Tournament at Don Bosco School, Boko (ID: 463)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr Marcus Lakra installed as Rector of Shallang Community (ID: 464)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Provincial House Celebrates International Women’s Day (ID: 465)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Kunnappillil Thomas installed as Rector of ADBU, Azara Community (ID: 466)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Alfred Marzo inspires students at Assam Don Bosco University (ID: 467)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Edasserithottathil Augustine SDB Laid to Rest (ID: 468)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Holy Mass Celebrated for the Soul of Rev Fr EP Augustine SDB (ID: 469)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Hospitality Students of Don Bosco Institute visit Taj Vivanta for Industry Exposure (ID: 470)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Holy Mass for Fr Edasserithottathil Augustine (E.P.), SDB (01.03.1950 – 05.03.2025) (ID: 471)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: RIP: Rev Fr Edasserithottathil Augustine (E.P.), SDB (ID: 472)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Institute Celebrates Women’s Day with Inmates of Missionaries of Charity (ID: 473)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Addressing Source-Destination Challenges Faced by Assam Migrant Workers (ID: 474)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco College, Chapaguri Hosts Dinner for Northeast Bishops (ID: 475)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Happy Birthday Dear Fr Sebastian Kuricheal SDB, Provincial (ID: 476)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Joplang Higher Secondary School Hosts Annual Sports Week 2025 (ID: 477)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Tourism Awareness Program Celebrated at Don Bosco Institute (ID: 478)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Tri-Monthly Recollection for Clerics Held at Provincial House, Panbazar (ID: 479)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: At 89 Years: Hard Times but No Regrets! (ID: 480)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Entrepreneurship Awareness Programme Held at Don Bosco Institute, Kharghuli (ID: 481)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Pilgrimage to Colle Don Bosco by ING Confreres (ID: 482)
+[2026-01-06 17:03:30]   - Removed 5 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Extended Chapel at Don Bosco Institute, Kharghuli, blessed by Archbishop John Moolachira (ID: 483)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Bosco Youth Gathering 3.0 Inspires ADBU Students (ID: 484)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Indo-Bangla Cultural Exchange Program 2025 of DBC Tura (ID: 485)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Spirituality Days Begin at CG29 with Reflection and Prayer (ID: 486)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Province Delegates Arrive in Turin for 29th General Chapter (ID: 487)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Veteran Salesian Rev. Fr. Alfred Marzo Visits Don Bosco School, Bhooteachang (ID: 488)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Social Communication Meeting held Online (ID: 489)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Special Prayer and felicitation for General Chapter Delegates (ID: 490)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Province celebrates New Priests’ Day 2025 (ID: 491)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Commission Heads Meeting discusses Province Plan and Key Initiatives (ID: 492)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Past Pupils Meet Rekindles Don Bosco’s Legacy in Tura (ID: 493)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr. Alfred Marzo SDB celebrates 73 Years of active Life in India (ID: 494)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: 37th Annual Conference of St. Francis Xavier Parish, Dotma: A Celebration of Faith (ID: 495)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Ordination of Fr. Jerbasius Xalxo, SDB, brings Joy to Mazbat Parish (ID: 496)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Annual Sobha cum Charismatic Healing Retreat Transforms Lives at Solaikunchi Village (ID: 497)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Benla Kemprai of DBS Haflong Wins Bronze in Taekwondo at 38th National Games (ID: 498)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco School Haflong Wins First Prize in District Quiz Competition (ID: 499)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr. Cherak Callistus M. Sangma, SDB, ordained Priest at Shallang Parish (ID: 500)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Livelihood Boost: 15 Households in Satgaon Receive Piglets for Economic Empowerment (ID: 501)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco School, Mendal Concludes Annual Sports Day 2025 with Enthusiasm (ID: 502)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Dn. Jerbasius Xalxo SDB to be Ordained Priest on February 9, 2025 (ID: 503)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Dn. Cherak Callistus M Sangma SDB to be Ordained Priest (ID: 504)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Salesian Province of Guwahati Celebrates Fr (Dr) Johnson Parackal’s Academic Achievement (ID: 505)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Budget 2025 presentation held at Don Bosco Provincial House, Guwahati (ID: 506)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Grand Celebration of the Annual Sobha at St. John Bosco Parish, Mendal (ID: 507)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: New Church Inaugurated and Blessed at Burha Pujahalibasti Village (ID: 508)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: 49th Annual Sabha of Holy Family Parish Rongjeng Concludes with Joy (ID: 509)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Province YAR Commission Meeting Held at Snehalaya, Paltan Bazar (ID: 510)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Satgaon Parish Holds Training for Sunday School Teachers (ID: 511)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Graduation Ceremony of Short-Term Aviation Course Held at Don Bosco Institute, Kharghuli (ID: 512)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Annual Parish Sobha Begins at Holy Family Church, Rongkhon (ID: 513)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Prayer Service Celebrates the Feast of St. John Bosco at the Provincial House (ID: 514)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Shallang Community Celebrates the Feast of St. John Bosco (ID: 515)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: ADBU Azara celebrates Don Bosco Feast (ID: 516)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco College, Diphu, Celebrates the Feast of St. John Bosco (ID: 517)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: SYM Fest Inaugurated at Satgaon Parish on Don Bosco’s Feast (ID: 518)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco College, Chapguri celebrates Don Bosco Feast (ID: 519)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Celebrations of the Feast Day of St. John Bosco (ID: 520)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Centre for Learning celebrates Feast Day of Don Bosco with Salesian Family (ID: 521)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: NCC Cadets from Don Bosco College, Tura Shine at Prime Minister’s Rally and Meghalaya Games (ID: 522)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco School Panbazar receives Exceptional Leadership Award (ID: 523)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Capacitating Educators through Career Counselling Training at BRO, Guwahati (ID: 524)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Social Communication Commission Meeting Highlights Media Excellence and Future Initiatives (ID: 525)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Online Meeting of Youth Mission Delegates evaluates SYM Fest 2024-2025 (ID: 526)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Training for the Community-Based Disaster Response Team (ID: 527)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: St. Michael’s Parish, Damra organizes Sobhas for Garo and Bodo Communities (ID: 528)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Republic Day Celebrations at Don Bosco Institute, Kharghuli (ID: 529)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Republic Day Celebration at Hubert D’Rosario Memorial, Sirajuli (ID: 530)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco School, Bhooteachang, celebrates Republic Day 2025 (ID: 531)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Republic Day Celebrated at Don Bosco Higher Secondary School, Panbazar (ID: 532)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco School, Sashipur Shines at 76th Republic Day Celebrations (ID: 533)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Provincial House Celebrates 76th Republic Day (ID: 534)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Justice Ujjal Bhuyan Visits Don Bosco College, Diphu (ID: 535)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr. Kolombiya Rabha, SDB, Ordained as the First Priest from St. Francis of Assisi Parish, Matia Majerburi (ID: 536)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Dn. Kolombiya Rabha to be ordained to the Priesthood (ID: 537)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Salesian Family Day celebrated at Don Bosco Provincial House, Guwahati (ID: 538)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: ING DBSEM Principals Meet: Focus on Education and Innovation (ID: 539)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Silver Jubilee Celebration of Kalbari Catholic Church Under Bengtol Parish (ID: 540)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Happy Feast of St Sebastian to dear Fr Sebastian Kuricheal SDB, Provincial (ID: 541)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: 44th Annual Sobha of Mary Help of Christians Church, Satgaon concludes with Thanksgiving and Joy (ID: 542)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Vocation Camp concludes at Don Bosco School, Baithalangso (ID: 543)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Marriage Blessings Unite Faith and Community in Saralpara (ID: 544)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fr. Birendra Dungdung, SDB, ordained a Priest at St. Mary’s Church, Singarmunda (ID: 545)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco School, Sashipur hosts Annual Sports Day 2025 (ID: 546)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Federal Bank CSR Initiative: Tailoring Machines distributed at Don Bosco Institute, Kharghuli (ID: 547)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Three-Day Parish Youth Convention Kicks off at Holy Family Parish, Rongjeng (ID: 548)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Priestly Ordination and First Holy Eucharistic Celebration of Dn. Birendra Dungdung (ID: 549)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fifth Vocation Camp Begins at Don Bosco School Baithalangso (ID: 550)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Philemon Pumah SDB, Ordained a Priest of God in Umswai (ID: 551)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Priestly Ordination and First Holy Eucharist of Dn. Philemon Puma, SDB. (ID: 552)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fourth Vocation Camp Concludes at Don Bosco Kokrajhar (ID: 553)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Funeral Service of Late Kohendro Basumatary Held in Bongaon (ID: 554)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Higher Secondary School, Amkachi hosts Annual Sports and Exhibition 2025 (ID: 555)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Faith Exposure Programme Concludes at Don Bosco Shrine, Gojapara with Priestly Ordination (ID: 556)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Don Bosco Institute at Kharghuli Celebrates National Youth Day 2025 (ID: 557)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Fourth Vocation Camp Begins at Don Bosco Kokrajhar (ID: 558)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Rev. Fr. Jecky G. Sangma SDB ordained a Priest Forever (ID: 559)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Former Economer of the Province, Rev. Fr. Benny Plathottathil Basil SDB, Returns After Treatment (ID: 560)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Dn. Jecky G. Sangma, SDB to be ordained a Priest of God (ID: 561)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Third Vocation Camp Begins at Don Bosco Damra (ID: 562)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: DBI and DBIM holds Orientation Programme 2025 (ID: 563)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:30] ✓ Updated: Young Salesians Attend Perpetual Preparation Course in Bangalore (ID: 564)
+[2026-01-06 17:03:30]   - Removed 4 links from content
+[2026-01-06 17:03:30]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: DB Gojapara hosts Mission Exposure Programme 2025 (ID: 565)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Salesian Parish of Garobadha hosts Youth Convention of Tura Diocese (ID: 566)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Deacon Jonas Kujur SDB Ordained a Priest by Bishop Michael Akasius Toppo (ID: 567)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Satgaon Parish Celebrates Migrant Workers’ Day with Theme “Go Safe, Stay Safe” (ID: 568)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Deacon Jonas Kujur SDB to Be Ordained Priest in Dimakuchi (ID: 569)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: SYMFEST 2024-2025 Concludes with a Solemn Holy Mass and Celebrations (ID: 570)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Vocation Camp at Don Bosco Tangla Concludes on a High Note (ID: 571)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Twin Celebrations Mark a Joyful Day in Satgaon (ID: 572)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Inauguration and Blessing of St. Brendan’s Chapel at Samkatha Village (ID: 573)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Salesian Youth Movement Festival at Sacred Heart College, Tirupathur (ID: 574)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Vocation Camp Inaugurated at Don Bosco Tangla (ID: 575)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: New Chapel Blessed at Don Bosco Pre-Novitiate House, Dotma (ID: 576)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Silver Jubilee Celebration of Br. Nirmal Nathan Ekka in Shikari Bangla (ID: 577)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Rev. Fr. Sebastian Kuricheal SDB re-launches Province Website (ID: 578)
+[2026-01-06 17:03:31]   - Removed 5 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Christmas Carols at Provincial House on Christmas Day (ID: 579)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Youth from Guwahati Province depart for SYMFEST 2024-2025. (ID: 580)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Merry Christmas from Provincial House, Guwahati. (ID: 581)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Don Bosco Institute Spreads Christmas Cheer with Joypur Village Families (ID: 582)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Horogor Poth: Third Edition Released in Shallang (ID: 583)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Bosco Reach Out Celebrates Pre-Christmas with Festive Cheer (ID: 584)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Pre-Christmas Celebration at Don Bosco Provincial House, Panbazar (ID: 585)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: First Vocation Camp at Bosco Mount Concludes with Holy Mass (ID: 586)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Don Bosco School Dimakuchi Concludes Annual Sports Day 2024 (ID: 587)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Rev. Fr. Sebastian Kuricheal attends Provincials’ Meeting and Training in Rome (ID: 588)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: DBS Bhooteachang Celebrates Final Sports Day and Pre-Christmas Festivities (ID: 589)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Don Bosco School Haflong Hosts Pre-Christmas Celebration (ID: 590)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Vocation Boys Visit Salesian Centres in Tura (ID: 591)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Vice Provincial Animates ADMA Members of Mendal Parish (ID: 592)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: First Vocation Camp of 2024-2025 Held at Bosco Mount, Tura (ID: 593)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Bosco Reach Out Hosts Human Resource Summit 2024 (ID: 594)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Christmas Cantata Held at Don Bosco Institute, Kharghuli (ID: 595)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Salesians’ Joint Retreat Concludes with Great Appreciation (ID: 596)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Vocational Guidance Commission Meeting Held at Provincial House, Guwahati (ID: 597)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Animation Programme on Mission Poverty Eradication Held at Bosco Reach Out, Guwahati (ID: 598)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Don Bosco School, Panbazar, Hosts Pre-Christmas Decoration Competition (ID: 599)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Graduation Day Celebrations at Don Bosco Institute, Kharghuli (ID: 600)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Blessing of New Facilities at Pre-Novitiate House, Dotma (ID: 601)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Vestition Ceremony at Emmaus Salesian Novitiate, Zubza (ID: 602)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Don Bosco Institute Inaugurates Silver Jubilee with Jubilee Park Dedication (ID: 603)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: Don Bosco H. S. School, Kokrajhar Celebrates International Yoga Day (ID: 605)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] ✓ Updated: DBI Kharghuli Hosts Drawing Competition as part of the Silver Jubilee Celebrations (ID: 607)
+[2026-01-06 17:03:31]   - Removed 4 links from content
+[2026-01-06 17:03:31]   - Removed 0 links from excerpt
+[2026-01-06 17:03:31] 
+[2026-01-06 17:03:31] === Cleanup Complete ===
+[2026-01-06 17:03:31] Total items processed: 572
+[2026-01-06 17:03:31] Items updated: 571
+[2026-01-06 17:03:31] Total links removed: 2300
+[2026-01-06 17:03:31] Total links to old site found: 2300
+[2026-01-06 17:03:31] 
+[2026-01-06 17:03:31] Cleanup completed successfully!

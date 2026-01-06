@@ -1,7 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import AdminLayout from '../../components/AdminLayout/AdminLayout';
-import { apiGet, apiPost, apiPut, apiDelete } from '../../services/api';
+import { apiGet, apiPost, apiPut, apiDelete, apiUploadImage } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
+import { useToast } from '../../contexts/ToastContext';
+import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
+import EmptyState from '../../components/EmptyState/EmptyState';
 import './Management.css';
 
 interface Collaboration {
@@ -19,6 +22,10 @@ function CollaborationsManagement() {
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
   const [editing, setEditing] = useState<Collaboration | null>(null);
+  const [uploading, setUploading] = useState(false);
+  const [imagePreview, setImagePreview] = useState<string>('');
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const { showSuccess, showError } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     logo: '',
@@ -61,9 +68,10 @@ function CollaborationsManagement() {
       setShowForm(false);
       setEditing(null);
       resetForm();
+      showSuccess(editing ? 'Collaboration updated successfully!' : 'Collaboration created successfully!');
       loadCollaborations();
     } catch (error: any) {
-      alert(error.message || 'Operation failed');
+      showError(error.message || 'Operation failed');
     }
   };
 
@@ -73,9 +81,56 @@ function CollaborationsManagement() {
     }
     try {
       await apiDelete(`${API_ENDPOINTS.COLLABORATIONS.DELETE}?id=${id}`);
+      showSuccess('Collaboration deleted successfully!');
       loadCollaborations();
     } catch (error: any) {
-      alert(error.message || 'Delete failed');
+      showError(error.message || 'Delete failed');
+    }
+  };
+
+  const handleFileSelect = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    // Validate file type
+    if (!file.type.startsWith('image/')) {
+      showError('Please select an image file');
+      return;
+    }
+
+    // Validate file size (5MB)
+    if (file.size > 5 * 1024 * 1024) {
+      showError('File size must be less than 5MB');
+      return;
+    }
+
+    // Show preview
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      setImagePreview(e.target?.result as string);
+    };
+    reader.readAsDataURL(file);
+
+    // Upload file
+    setUploading(true);
+    try {
+      const result = await apiUploadImage(file);
+      setFormData({ ...formData, logo: result.url });
+      setImagePreview(result.url);
+      showSuccess('Logo uploaded successfully!');
+    } catch (error: any) {
+      showError(error.message || 'Failed to upload logo');
+      setImagePreview('');
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  const handleRemoveImage = () => {
+    setFormData({ ...formData, logo: '' });
+    setImagePreview('');
+    if (fileInputRef.current) {
+      fileInputRef.current.value = '';
     }
   };
 
@@ -89,6 +144,7 @@ function CollaborationsManagement() {
       order_index: collaboration.order_index,
       is_active: collaboration.is_active,
     });
+    setImagePreview(collaboration.logo || '');
     setShowForm(true);
   };
 
@@ -101,12 +157,16 @@ function CollaborationsManagement() {
       order_index: 0,
       is_active: true,
     });
+    setImagePreview('');
+    if (fileInputRef.current) {
+      fileInputRef.current.value = '';
+    }
   };
 
   if (loading) {
     return (
       <AdminLayout>
-        <div>Loading...</div>
+        <LoadingSpinner message="Loading collaborations..." />
       </AdminLayout>
     );
   }
@@ -136,13 +196,63 @@ function CollaborationsManagement() {
                   />
                 </div>
                 <div className="form-group">
-                  <label>Logo URL *</label>
-                  <input
-                    type="text"
-                    value={formData.logo}
-                    onChange={(e) => setFormData({ ...formData, logo: e.target.value })}
-                    required
-                  />
+                  <label>Logo *</label>
+                  <div className="image-upload-section">
+                    {/* Upload Option */}
+                    <div className="upload-option">
+                      <label className="upload-label">
+                        <input
+                          ref={fileInputRef}
+                          type="file"
+                          accept="image/*"
+                          onChange={handleFileSelect}
+                          disabled={uploading}
+                          style={{ display: 'none' }}
+                        />
+                        <span className="upload-button">
+                          {uploading ? 'Uploading...' : 'Choose Logo File'}
+                        </span>
+                      </label>
+                      <span className="upload-hint">Max 5MB (JPEG, PNG, GIF, WebP)</span>
+                    </div>
+                    
+                    {/* OR Divider */}
+                    <div className="upload-divider">
+                      <span>OR</span>
+                    </div>
+                    
+                    {/* URL Option */}
+                    <div className="url-option">
+                      <label>Logo URL</label>
+                      <input
+                        type="text"
+                        value={formData.logo}
+                        onChange={(e) => {
+                          setFormData({ ...formData, logo: e.target.value });
+                          setImagePreview(e.target.value);
+                        }}
+                        placeholder="https://example.com/logo.png"
+                      />
+                    </div>
+                    
+                    {/* Image Preview */}
+                    {(imagePreview || formData.logo) && (
+                      <div className="image-preview">
+                        <img 
+                          src={imagePreview || formData.logo} 
+                          alt="Logo preview" 
+                          onError={() => setImagePreview('')}
+                        />
+                        <button 
+                          type="button" 
+                          onClick={handleRemoveImage}
+                          className="remove-image-btn"
+                        >
+                          Remove Logo
+                        </button>
+                      </div>
+                    )}
+                  </div>
                 </div>
                 <div className="form-group">
                   <label>Website URL</label>

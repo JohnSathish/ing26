@@ -21,6 +21,8 @@ function Header() {
   const [settings, setSettings] = useState<Settings>({});
   const [currentDate, setCurrentDate] = useState<string>('');
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
+  const [isSticky, setIsSticky] = useState(false);
   const location = useLocation();
   
   // Safeguard: ensure location is an object with pathname
@@ -64,10 +66,23 @@ function Header() {
       .catch(() => {
         // Silent fail
       });
+
+    // Handle scroll for sticky header
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      setIsSticky(scrollTop > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Check initial state
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   return (
-    <header className="header">
+    <header className={`header ${isSticky ? 'header-sticky' : ''}`}>
       {/* Top contact bar */}
       <div className="header-top">
         <div className="container">
@@ -180,15 +195,29 @@ function Header() {
             
             <div 
               className={`nav-dropdown ${openDropdown === 'about' ? 'open' : ''}`}
-              onMouseEnter={() => setOpenDropdown('about')}
-              onMouseLeave={() => setOpenDropdown(null)}
+              onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('about')}
+              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
             >
-              <Link 
-                to={ROUTES.ABOUT_US} 
-                className={currentPath.startsWith('/about-us') ? 'active' : ''}
+              <div 
+                className="dropdown-trigger"
+                onClick={() => {
+                  if (window.matchMedia('(max-width: 768px)').matches) {
+                    setOpenDropdown(openDropdown === 'about' ? null : 'about');
+                  }
+                }}
               >
-                About Us <FaChevronDown className="dropdown-icon" />
-              </Link>
+                <Link 
+                  to={ROUTES.ABOUT_US} 
+                  className={currentPath.startsWith('/about-us') ? 'active' : ''}
+                  onClick={(e) => {
+                    if (window.matchMedia('(max-width: 768px)').matches && openDropdown !== 'about') {
+                      e.preventDefault();
+                    }
+                  }}
+                >
+                  About Us <FaChevronDown className="dropdown-icon" />
+                </Link>
+              </div>
               <div className="dropdown-menu">
                 <Link to={ROUTES.OUR_VISION} className={currentPath === ROUTES.OUR_VISION ? 'active' : ''}>Our Vision</Link>
                 <Link to={ROUTES.OUR_MISSION} className={currentPath === ROUTES.OUR_MISSION ? 'active' : ''}>Our Mission</Link>
@@ -197,15 +226,29 @@ function Header() {
 
             <div 
               className={`nav-dropdown ${openDropdown === 'provincials' ? 'open' : ''}`}
-              onMouseEnter={() => setOpenDropdown('provincials')}
-              onMouseLeave={() => setOpenDropdown(null)}
+              onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('provincials')}
+              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
             >
-              <Link 
-                to={ROUTES.PROVINCIALS} 
-                className={currentPath.startsWith('/provincials') ? 'active' : ''}
+              <div 
+                className="dropdown-trigger"
+                onClick={() => {
+                  if (window.matchMedia('(max-width: 768px)').matches) {
+                    setOpenDropdown(openDropdown === 'provincials' ? null : 'provincials');
+                  }
+                }}
               >
-                ING Provincials <FaChevronDown className="dropdown-icon" />
-              </Link>
+                <Link 
+                  to={ROUTES.PROVINCIALS} 
+                  className={currentPath.startsWith('/provincials') ? 'active' : ''}
+                  onClick={(e) => {
+                    if (window.matchMedia('(max-width: 768px)').matches && openDropdown !== 'provincials') {
+                      e.preventDefault();
+                    }
+                  }}
+                >
+                  ING Provincials <FaChevronDown className="dropdown-icon" />
+                </Link>
+              </div>
               <div className="dropdown-menu">
                 <Link to={ROUTES.VICE_PROVINCIAL} className={currentPath === ROUTES.VICE_PROVINCIAL ? 'active' : ''}>Vice Provincial</Link>
                 <Link to={ROUTES.ECONOMER} className={currentPath === ROUTES.ECONOMER ? 'active' : ''}>Economer</Link>
@@ -218,15 +261,29 @@ function Header() {
             
             <div 
               className={`nav-dropdown ${openDropdown === 'houses' ? 'open' : ''}`}
-              onMouseEnter={() => setOpenDropdown('houses')}
-              onMouseLeave={() => setOpenDropdown(null)}
+              onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('houses')}
+              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
             >
-              <Link 
-                to={ROUTES.HOME + '#houses'} 
-                className={currentHash === '#houses' || currentPath.includes('/houses/') ? 'active' : ''}
+              <div 
+                className="dropdown-trigger"
+                onClick={() => {
+                  if (window.matchMedia('(max-width: 768px)').matches) {
+                    setOpenDropdown(openDropdown === 'houses' ? null : 'houses');
+                  }
+                }}
               >
-                Houses <FaChevronDown className="dropdown-icon" />
-              </Link>
+                <Link 
+                  to={ROUTES.HOME + '#houses'} 
+                  className={currentHash === '#houses' || currentPath.includes('/houses/') ? 'active' : ''}
+                  onClick={(e) => {
+                    if (window.matchMedia('(max-width: 768px)').matches && openDropdown !== 'houses') {
+                      e.preventDefault();
+                    }
+                  }}
+                >
+                  Houses <FaChevronDown className="dropdown-icon" />
+                </Link>
+              </div>
               <div className="dropdown-menu">
                 <Link to={ROUTES.DIOCESE_BONGAIGAON} className={currentPath === ROUTES.DIOCESE_BONGAIGAON ? 'active' : ''}>Bongaigaon Diocese</Link>
                 <Link to={ROUTES.DIOCESE_DIPHU} className={currentPath === ROUTES.DIOCESE_DIPHU ? 'active' : ''}>Diphu Diocese</Link>
@@ -239,20 +296,47 @@ function Header() {
 
             <div 
               className={`nav-dropdown ${openDropdown === 'council' ? 'open' : ''}`}
-              onMouseEnter={() => setOpenDropdown('council')}
-              onMouseLeave={() => setOpenDropdown(null)}
+              onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('council')}
+              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
             >
-              <Link 
-                to={ROUTES.COUNCIL} 
-                className={currentPath.startsWith('/council') ? 'active' : ''}
+              <div 
+                className="dropdown-trigger"
+                onClick={() => {
+                  if (window.matchMedia('(max-width: 768px)').matches) {
+                    setOpenDropdown(openDropdown === 'council' ? null : 'council');
+                  }
+                }}
               >
-                Council <FaChevronDown className="dropdown-icon" />
-              </Link>
+                <Link 
+                  to={ROUTES.COUNCIL} 
+                  className={currentPath.startsWith('/council') ? 'active' : ''}
+                  onClick={(e) => {
+                    if (window.matchMedia('(max-width: 768px)').matches && openDropdown !== 'council') {
+                      e.preventDefault();
+                    }
+                  }}
+                >
+                  Council <FaChevronDown className="dropdown-icon" />
+                </Link>
+              </div>
               <div className="dropdown-menu">
                 <Link to={ROUTES.COUNCILLORS_2024_2025} className={currentPath === ROUTES.COUNCILLORS_2024_2025 ? 'active' : ''}>Councillors 2024 – 2025</Link>
                 <Link to={ROUTES.DIMENSION} className={currentPath === ROUTES.DIMENSION ? 'active' : ''}>Dimension</Link>
-                <div className="dropdown-submenu">
-                  <span className="submenu-label">Commissions <FaChevronDown className="submenu-icon" /></span>
+                <div 
+                  className={`dropdown-submenu ${openSubmenu === 'commissions' ? 'open' : ''}`}
+                  onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenSubmenu('commissions')}
+                  onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenSubmenu(null)}
+                >
+                  <div 
+                    className="submenu-trigger"
+                    onClick={() => {
+                      if (window.matchMedia('(max-width: 768px)').matches) {
+                        setOpenSubmenu(openSubmenu === 'commissions' ? null : 'commissions');
+                      }
+                    }}
+                  >
+                    <span className="submenu-label">Commissions <FaChevronDown className="submenu-icon" /></span>
+                  </div>
                   <div className="submenu-items">
                     <Link to={ROUTES.COMMISSION_SCHOOL_EDUCATION} className={currentPath === ROUTES.COMMISSION_SCHOOL_EDUCATION ? 'active' : ''}>School Education (DBSEM)</Link>
                     <Link to={ROUTES.COMMISSION_HIGHER_EDUCATION} className={currentPath === ROUTES.COMMISSION_HIGHER_EDUCATION ? 'active' : ''}>Higher Education</Link>

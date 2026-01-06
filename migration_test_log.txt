@@ -1,0 +1,104 @@
+[2026-01-05 15:29:08] [INFO] === TEST MODE: Starting news migration (2 pages only) ===
+[2026-01-05 15:29:08] [INFO] This is a test run. Only the first 2 pages will be processed.
+[2026-01-05 15:29:08] [INFO] If successful, run migrate_news.php for full migration.
+[2026-01-05 15:29:08] [INFO] Authenticating...
+[2026-01-05 15:29:08] [ERROR] Migration failed: Failed to authenticate: HTTP 404 - Response: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<hr>
+<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+</body></html>
+
+[2026-01-05 15:29:32] [INFO] === TEST MODE: Starting news migration (2 pages only) ===
+[2026-01-05 15:29:32] [INFO] This is a test run. Only the first 2 pages will be processed.
+[2026-01-05 15:29:32] [INFO] If successful, run migrate_news.php for full migration.
+[2026-01-05 15:29:32] [INFO] Authenticating...
+[2026-01-05 15:29:32] [ERROR] Migration failed: Failed to authenticate: HTTP 404 - Response: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<hr>
+<address>Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 Server at localhost Port 80</address>
+</body></html>
+
+[2026-01-05 15:37:25] [INFO] === TEST MODE: Starting news migration (2 pages only) ===
+[2026-01-05 15:37:25] [INFO] This is a test run. Only the first 2 pages will be processed.
+[2026-01-05 15:37:25] [INFO] If successful, run migrate_news.php for full migration.
+[2026-01-05 15:37:25] [INFO] Authenticating...
+[2026-01-05 15:37:25] [ERROR] Migration failed: Failed to authenticate: HTTP 404 - Response: <!doctype html><html><head><title>404 Not Found</title><style>
+body { background-color: #fcfcfc; color: #333333; margin: 0; padding:0; }
+h1 { font-size: 1.5em; font-weight: normal; background-color: #9999cc; min-height:2em; line-height:2em; border-bottom: 1px inset black; margin: 0; }
+h1, p { padding-left: 10px; }
+code.url { background-color: #eeeeee; font-family:monospace; padding:0 2px;}
+</style>
+</head><body><h1>Not Found</h1><p>The requested resource <code class="url">/api/auth/login</code> was not found on this server.</p></body></html>
+[2026-01-05 15:45:03] [INFO] === TEST MODE: Starting news migration (2 pages only) ===
+[2026-01-05 15:45:03] [INFO] This is a test run. Only the first 2 pages will be processed.
+[2026-01-05 15:45:03] [INFO] If successful, run migrate_news.php for full migration.
+[2026-01-05 15:45:03] [INFO] Authenticating...
+[2026-01-05 15:45:03] [INFO] Authentication successful
+[2026-01-05 15:45:03] [INFO] Processing page 1 of 2
+[2026-01-05 15:45:06] [INFO] Found 0 items on page 1
+[2026-01-05 15:45:06] [INFO] No items found on page 1, stopping migration
+[2026-01-05 15:45:06] [INFO] === TEST MODE: Migration test completed ===
+[2026-01-05 15:45:06] [INFO] Total migrated: 0
+[2026-01-05 15:45:06] [INFO] Total failed: 0
+[2026-01-05 15:45:06] [INFO] If everything looks good, update MAX_PAGES to 58 in migrate_news.php and run the full migration
+[2026-01-05 16:05:57] [INFO] === TEST MODE: Starting news migration (2 pages only) ===
+[2026-01-05 16:05:57] [INFO] This is a test run. Only the first 2 pages will be processed.
+[2026-01-05 16:05:57] [INFO] If successful, run migrate_news.php for full migration.
+[2026-01-05 16:05:57] [INFO] Authenticating...
+[2026-01-05 16:05:57] [INFO] Authentication successful
+[2026-01-05 16:05:57] [INFO] Processing page 1 of 2
+[2026-01-05 16:05:59] [INFO] Found 10 items on page 1
+[2026-01-05 16:05:59] [INFO] Processing: Third Migrant Workers’ Day Celebrated at Satgaon Parish
+[2026-01-05 16:06:04] [SUCCESS] ✓ Successfully migrated: Third Migrant Workers’ Day Celebrated at Satgaon Parish
+[2026-01-05 16:06:05] [INFO] Processing: Vocation Camp for Assam Plain Region Concludes at Dimakuchi
+[2026-01-05 16:06:11] [SUCCESS] ✓ Successfully migrated: Vocation Camp for Assam Plain Region Concludes at Dimakuchi
+[2026-01-05 16:06:12] [INFO] Processing: Vocation Camp for Assam Plain Region Inaugurated at Dimakuchi
+[2026-01-05 16:06:23] [SUCCESS] ✓ Successfully migrated: Vocation Camp for Assam Plain Region Inaugurated at Dimakuchi
+[2026-01-05 16:06:24] [INFO] Processing: Alumni of Holy Family HSS, Rongjeng Celebrate Christmas with Joy and Nostalgia
+[2026-01-05 16:06:29] [SUCCESS] ✓ Successfully migrated: Alumni of Holy Family HSS, Rongjeng Celebrate Christmas with Joy and Nostalgia
+[2026-01-05 16:06:30] [INFO] Processing: Salesian Novitiate, Sunnyside Organises Seminar on the Dream of Don Bosco
+[2026-01-05 16:06:35] [SUCCESS] ✓ Successfully migrated: Salesian Novitiate, Sunnyside Organises Seminar on the Dream of Don Bosco
+[2026-01-05 16:06:36] [INFO] Processing: Merry Christmas
+[2026-01-05 16:06:39] [SUCCESS] ✓ Successfully migrated: Merry Christmas
+[2026-01-05 16:06:40] [INFO] Processing: Snehalaya Child Friendly Guwahati Celebrates Christmas with Joy and Togetherness
+[2026-01-05 16:06:48] [SUCCESS] ✓ Successfully migrated: Snehalaya Child Friendly Guwahati Celebrates Christmas with Joy and Togetherness
+[2026-01-05 16:06:49] [INFO] Processing: Don Bosco School, Doomni Celebrates Annual Day with Colourful Cultural Extravaganza
+[2026-01-05 16:06:55] [SUCCESS] ✓ Successfully migrated: Don Bosco School, Doomni Celebrates Annual Day with Colourful Cultural Extravaganza
+[2026-01-05 16:06:56] [INFO] Processing: Don Bosco Provincial Community Celebrates Pre-Christmas with Support Staff
+[2026-01-05 16:07:03] [SUCCESS] ✓ Successfully migrated: Don Bosco Provincial Community Celebrates Pre-Christmas with Support Staff
+[2026-01-05 16:07:04] [INFO] Processing: Christmas Carols and Carnival Bring Joy to St John Bosco Church, Doomni
+[2026-01-05 16:07:09] [SUCCESS] ✓ Successfully migrated: Christmas Carols and Carnival Bring Joy to St John Bosco Church, Doomni
+[2026-01-05 16:07:11] [INFO] Processing page 2 of 2
+[2026-01-05 16:07:12] [INFO] Found 10 items on page 2
+[2026-01-05 16:07:12] [INFO] Processing: Funeral Mass of Mr. Manuel Soren Held at Don Bosco, Amguri
+[2026-01-05 16:07:18] [SUCCESS] ✓ Successfully migrated: Funeral Mass of Mr. Manuel Soren Held at Don Bosco, Amguri
+[2026-01-05 16:07:19] [INFO] Processing: 137 Children Receive First Holy Communion at St. Dominic Savio Church, Garobadha
+[2026-01-05 16:07:23] [SUCCESS] ✓ Successfully migrated: 137 Children Receive First Holy Communion at St. Dominic Savio Church, Garobadha
+[2026-01-05 16:07:24] [INFO] Processing: Don Bosco School Kokrajhar Celebrates Annual Day cum Parents’ Day with Grandeur
+[2026-01-05 16:07:30] [SUCCESS] ✓ Successfully migrated: Don Bosco School Kokrajhar Celebrates Annual Day cum Parents’ Day with Grandeur
+[2026-01-05 16:07:32] [INFO] Processing: 18th Parish Youth Convention Held at Rombagre Village
+[2026-01-05 16:07:38] [SUCCESS] ✓ Successfully migrated: 18th Parish Youth Convention Held at Rombagre Village
+[2026-01-05 16:07:39] [INFO] Processing: Conclusion of the Jubilee Year 2025 at Satgaon
+[2026-01-05 16:07:46] [SUCCESS] ✓ Successfully migrated: Conclusion of the Jubilee Year 2025 at Satgaon
+[2026-01-05 16:07:47] [INFO] Processing: Fr. Sebastian Karotemprel Memorial Scholarships Awarded to Students
+[2026-01-05 16:07:54] [SUCCESS] ✓ Successfully migrated: Fr. Sebastian Karotemprel Memorial Scholarships Awarded to Students
+[2026-01-05 16:07:55] [INFO] Processing: Fourth Annual Provincial Retreat Concludes with Solemn Thanksgiving
+[2026-01-05 16:08:00] [SUCCESS] ✓ Successfully migrated: Fourth Annual Provincial Retreat Concludes with Solemn Thanksgiving
+[2026-01-05 16:08:01] [INFO] Processing: First Annual Sunday School Children Meet at Garobadha Parish
+[2026-01-05 16:08:08] [SUCCESS] ✓ Successfully migrated: First Annual Sunday School Children Meet at Garobadha Parish
+[2026-01-05 16:08:09] [INFO] Processing: Rev. Fr. Cletus Sebastian SDB Takes Charge as New Director of NERYC
+[2026-01-05 16:08:15] [SUCCESS] ✓ Successfully migrated: Rev. Fr. Cletus Sebastian SDB Takes Charge as New Director of NERYC
+[2026-01-05 16:08:16] [INFO] Processing: DBI Celebrates 25 Years with Solemn Thanksgiving Eucharist
+[2026-01-05 16:08:24] [SUCCESS] ✓ Successfully migrated: DBI Celebrates 25 Years with Solemn Thanksgiving Eucharist
+[2026-01-05 16:08:26] [INFO] === TEST MODE: Migration test completed ===
+[2026-01-05 16:08:26] [INFO] Total migrated: 20
+[2026-01-05 16:08:26] [INFO] Total failed: 0
+[2026-01-05 16:08:26] [INFO] If everything looks good, update MAX_PAGES to 58 in migrate_news.php and run the full migration

@@ -18,10 +18,11 @@ function News() {
   const [news, setNews] = useState<NewsItem[]>([]);
 
   useEffect(() => {
-    apiGet<{ success: boolean; data: NewsItem[] }>(`${API_ENDPOINTS.NEWS.LIST}?limit=5`)
+    apiGet<{ success: boolean; data: NewsItem[] }>(`${API_ENDPOINTS.NEWS.LIST}?limit=5&page=1`)
       .then((response) => {
         if (response.success && response.data) {
-          setNews(response.data);
+          // Ensure we only show the latest 5 items
+          setNews(response.data.slice(0, 5));
         }
       })
       .catch(() => {

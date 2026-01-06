@@ -1,0 +1,713 @@
+[2026-01-06 02:57:11] [INFO] === Starting Retry of Failed News Items ===
+[2026-01-06 02:57:11] [INFO] Reading migration log...
+[2026-01-06 02:57:11] [INFO] Found 352 failed items to retry
+[2026-01-06 02:57:11] [INFO] Authenticating...
+[2026-01-06 02:57:12] [INFO] Authentication successful
+[2026-01-06 02:57:12] [INFO] Retrying: Fr Klisterwell Sohthiang and Fr Kishor Mushahary Leave for Rome
+[2026-01-06 02:57:12] [INFO] Skipping (already exists): Fr Klisterwell Sohthiang and Fr Kishor Mushahary Leave for Rome
+[2026-01-06 02:57:12] [INFO] Retrying: Week-long Music Coaching Class at Apostolic House, Sashipur Begins
+[2026-01-06 02:57:12] [INFO] Skipping (already exists): Week-long Music Coaching Class at Apostolic House, Sashipur Begins
+[2026-01-06 02:57:12] [INFO] Retrying: Three-Day Spiritual Retreat Concludes at Don Bosco Centre, Saralpara
+[2026-01-06 02:57:12] [INFO] Skipping (already exists): Three-Day Spiritual Retreat Concludes at Don Bosco Centre, Saralpara
+[2026-01-06 02:57:12] [INFO] Retrying: Teachers’ Seminar Unites Staff of Don Bosco Schools at Boko
+[2026-01-06 02:57:12] [INFO] Skipping (already exists): Teachers’ Seminar Unites Staff of Don Bosco Schools at Boko
+[2026-01-06 02:57:12] [INFO] Retrying: Don Bosco HS School, Boko Organises Orientation Programme for Senior Secondary Students
+[2026-01-06 02:57:12] [INFO] Skipping (already exists): Don Bosco HS School, Boko Organises Orientation Programme for Senior Secondary Students
+[2026-01-06 02:57:12] [INFO] Retrying: Summer Time Youth Ministry 2025 Concludes with Gratitude and Reflection
+[2026-01-06 02:57:12] [INFO] Skipping (already exists): Summer Time Youth Ministry 2025 Concludes with Gratitude and Reflection
+[2026-01-06 02:57:12] [INFO] Retrying: Second Annual Spiritual Retreat of the Province Begins at Siloam, Umiam
+[2026-01-06 02:57:13] [INFO] Skipping (already exists): Second Annual Spiritual Retreat of the Province Begins at Siloam, Umiam
+[2026-01-06 02:57:13] [INFO] Retrying: Summer Time Youth Camp 2025 at St. Dominic Savio Parish, Garobadha
+[2026-01-06 02:57:13] [INFO] Skipping (already exists): Summer Time Youth Camp 2025 at St. Dominic Savio Parish, Garobadha
+[2026-01-06 02:57:13] [INFO] Retrying: Summer Time Youth Ministry 2025 Begins at Don Bosco Kokrajhar
+[2026-01-06 02:57:13] [INFO] Skipping (already exists): Summer Time Youth Ministry 2025 Begins at Don Bosco Kokrajhar
+[2026-01-06 02:57:13] [INFO] Retrying: STYM at Doomni Inspires Young Minds under the Theme “Pilgrims of Hope”
+[2026-01-06 02:57:13] [INFO] Skipping (already exists): STYM at Doomni Inspires Young Minds under the Theme “Pilgrims of Hope”
+[2026-01-06 02:57:13] [INFO] Retrying: Summer Time Youth Ministry Begins at St. Francis Xavier Parish, Dotma
+[2026-01-06 02:57:13] [INFO] Skipping (already exists): Summer Time Youth Ministry Begins at St. Francis Xavier Parish, Dotma
+[2026-01-06 02:57:13] [INFO] Retrying: DBI Felicitates Kharghuli & Joypur Toppers
+[2026-01-06 02:57:20] [SUCCESS] ✓ Successfully retried: DBI Felicitates Kharghuli & Joypur Toppers
+[2026-01-06 02:57:22] [INFO] Retrying: St. Paul’s Parish, Amkachi Hosts Summer Youth Camp 2025
+[2026-01-06 02:57:22] [INFO] Skipping (already exists): St. Paul’s Parish, Amkachi Hosts Summer Youth Camp 2025
+[2026-01-06 02:57:22] [INFO] Retrying: Book on St Artemide Zatti Released in Garo during CRI Meeting in Tura
+[2026-01-06 02:57:22] [INFO] Skipping (already exists): Book on St Artemide Zatti Released in Garo during CRI Meeting in Tura
+[2026-01-06 02:57:22] [INFO] Retrying: Tally Prime Training Concludes with Joyful Graduation at Don Bosco Institute
+[2026-01-06 02:57:22] [INFO] Skipping (already exists): Tally Prime Training Concludes with Joyful Graduation at Don Bosco Institute
+[2026-01-06 02:57:22] [INFO] Retrying: Youth Convention at Shallang Parish Inspires Young Pilgrims of Hope
+[2026-01-06 02:57:22] [INFO] Skipping (already exists): Youth Convention at Shallang Parish Inspires Young Pilgrims of Hope
+[2026-01-06 02:57:22] [INFO] Retrying: Summer Time Youth Camp Ignites Young Spirits at Holy Cross Parish, Rongkhon
+[2026-01-06 02:57:22] [INFO] Skipping (already exists): Summer Time Youth Camp Ignites Young Spirits at Holy Cross Parish, Rongkhon
+[2026-01-06 02:57:22] [INFO] Retrying: Summer Time Youth Camp Brings Joy and Renewal to Umswai Parish
+[2026-01-06 02:57:22] [INFO] Skipping (already exists): Summer Time Youth Camp Brings Joy and Renewal to Umswai Parish
+[2026-01-06 02:57:22] [INFO] Retrying: Anchored in Hope: Summer Time Youth Camp Energizes Youth at DB Kumarikata
+[2026-01-06 02:57:23] [INFO] Skipping (already exists): Anchored in Hope: Summer Time Youth Camp Energizes Youth at DB Kumarikata
+[2026-01-06 02:57:23] [INFO] Retrying: Vocation Commission Charts the Way Forward for Youth Animation and Formation
+[2026-01-06 02:57:23] [INFO] Skipping (already exists): Vocation Commission Charts the Way Forward for Youth Animation and Formation
+[2026-01-06 02:57:23] [INFO] Retrying: Commission Heads Convene at Provincial House for Strategic Planning Meeting
+[2026-01-06 02:57:23] [INFO] Skipping (already exists): Commission Heads Convene at Provincial House for Strategic Planning Meeting
+[2026-01-06 02:57:23] [INFO] Retrying: First Annual Spiritual Retreat Concludes at Siloam, Umiam
+[2026-01-06 02:57:23] [INFO] Skipping (already exists): First Annual Spiritual Retreat Concludes at Siloam, Umiam
+[2026-01-06 02:57:23] [INFO] Retrying: St. Dominic High School Scouts and Guides Participate in District-Level Training at Ampati
+[2026-01-06 02:57:23] [INFO] Skipping (already exists): St. Dominic High School Scouts and Guides Participate in District-Level Training at Ampati
+[2026-01-06 02:57:23] [INFO] Retrying: LEAD Academy 2025 Begins at Don Bosco Institute of Management
+[2026-01-06 02:57:23] [INFO] Skipping (already exists): LEAD Academy 2025 Begins at Don Bosco Institute of Management
+[2026-01-06 02:57:23] [INFO] Retrying: 6-Day Intensive Tally Prime Training at DBI Empowers Religious
+[2026-01-06 02:57:23] [INFO] Skipping (already exists): 6-Day Intensive Tally Prime Training at DBI Empowers Religious
+[2026-01-06 02:57:23] [INFO] Retrying: Intensive Primary Teacher Training Program Concludes at DBI
+[2026-01-06 02:57:23] [INFO] Skipping (already exists): Intensive Primary Teacher Training Program Concludes at DBI
+[2026-01-06 02:57:23] [INFO] Retrying: Fr Simplicius Kerketta Installed as Parish Priest of Holy Family Catholic Church, Rongjeng
+[2026-01-06 02:57:24] [INFO] Skipping (already exists): Fr Simplicius Kerketta Installed as Parish Priest of Holy Family Catholic Church, Rongjeng
+[2026-01-06 02:57:24] [INFO] Retrying: Youth Set Afire with Hope and Mission at STYM 2025 in Gojapara
+[2026-01-06 02:57:24] [INFO] Skipping (already exists): Youth Set Afire with Hope and Mission at STYM 2025 in Gojapara
+[2026-01-06 02:57:24] [INFO] Retrying: Summer Time Youth Ministry 2025 Concludes on a High Note at Mendal
+[2026-01-06 02:57:24] [INFO] Skipping (already exists): Summer Time Youth Ministry 2025 Concludes on a High Note at Mendal
+[2026-01-06 02:57:24] [INFO] Retrying: Charismatic Retreat Inspires Pre-Novices at Dotma to Embrace Salesian Calling
+[2026-01-06 02:57:24] [INFO] Skipping (already exists): Charismatic Retreat Inspires Pre-Novices at Dotma to Embrace Salesian Calling
+[2026-01-06 02:57:24] [INFO] Retrying: STYM Programme Concludes with a Call to Selfless Service at Tangla
+[2026-01-06 02:57:24] [INFO] Skipping (already exists): STYM Programme Concludes with a Call to Selfless Service at Tangla
+[2026-01-06 02:57:24] [INFO] Retrying: First Annual Spiritual Retreat 2025 Begins with a Call to Renewal
+[2026-01-06 02:57:24] [INFO] Skipping (already exists): First Annual Spiritual Retreat 2025 Begins with a Call to Renewal
+[2026-01-06 02:57:24] [INFO] Retrying: Summer Time Youth Ministry Inaugurated at Don Bosco Baithalangso
+[2026-01-06 02:57:24] [INFO] Skipping (already exists): Summer Time Youth Ministry Inaugurated at Don Bosco Baithalangso
+[2026-01-06 02:57:24] [INFO] Retrying: Fr. Provincial Visits Mini Boscoree and Scout Master Training Camp at Barpeta
+[2026-01-06 02:57:25] [INFO] Skipping (already exists): Fr. Provincial Visits Mini Boscoree and Scout Master Training Camp at Barpeta
+[2026-01-06 02:57:25] [INFO] Retrying: STYM Training 2025 Concludes with Renewed Zeal and Youth Spirit
+[2026-01-06 02:57:25] [INFO] Skipping (already exists): STYM Training 2025 Concludes with Renewed Zeal and Youth Spirit
+[2026-01-06 02:57:25] [INFO] Retrying: Summer Time Youth Ministry (STYM) Inaugurated at DBI, Kharghuli
+[2026-01-06 02:57:25] [INFO] Skipping (already exists): Summer Time Youth Ministry (STYM) Inaugurated at DBI, Kharghuli
+[2026-01-06 02:57:25] [INFO] Retrying: Mini Boscoree and Scout Master Training Camp Inaugurated at Don Bosco School, Barpeta
+[2026-01-06 02:57:25] [INFO] Skipping (already exists): Mini Boscoree and Scout Master Training Camp Inaugurated at Don Bosco School, Barpeta
+[2026-01-06 02:57:25] [INFO] Retrying: Six ING Brothers Ordained Deacons at SHTC, Mawlai
+[2026-01-06 02:57:25] [INFO] Skipping (already exists): Six ING Brothers Ordained Deacons at SHTC, Mawlai
+[2026-01-06 02:57:25] [INFO] Retrying: Regional Meeting for Garo Hills & Rabha Hasong Region Held at Tura
+[2026-01-06 02:57:26] [WARNING] Could not find news item on source site: Regional Meeting for Garo Hills & Rabha Hasong Region Held at Tura
+[2026-01-06 02:57:26] [INFO] Retrying: Career Guidance Programme Held at Don Bosco School, Sashipur
+[2026-01-06 02:57:26] [INFO] Skipping (already exists): Career Guidance Programme Held at Don Bosco School, Sashipur
+[2026-01-06 02:57:26] [INFO] Retrying: Salesians Gather in Dimapur to Strengthen SYM Activities and Youth Engagement
+[2026-01-06 02:57:26] [INFO] Skipping (already exists): Salesians Gather in Dimapur to Strengthen SYM Activities and Youth Engagement
+[2026-01-06 02:57:26] [INFO] Retrying: Don Bosco School, Rongjeng Hosts Drug Abuse Awareness Programme
+[2026-01-06 02:57:27] [INFO] Skipping (already exists): Don Bosco School, Rongjeng Hosts Drug Abuse Awareness Programme
+[2026-01-06 02:57:27] [INFO] Retrying: Final Preparations Underway for 15th Mini Boscoree Camp at Barpeta Road
+[2026-01-06 02:57:27] [INFO] Skipping (already exists): Final Preparations Underway for 15th Mini Boscoree Camp at Barpeta Road
+[2026-01-06 02:57:27] [INFO] Retrying: Blessing and Inauguration of Mary Queen of the Angels Church, Simliguri
+[2026-01-06 02:57:27] [INFO] Skipping (already exists): Blessing and Inauguration of Mary Queen of the Angels Church, Simliguri
+[2026-01-06 02:57:27] [INFO] Retrying: Six ING Clerics to be Ordained Deacons at Sacred Heart Theological College, Shillong
+[2026-01-06 02:57:27] [INFO] Skipping (already exists): Six ING Clerics to be Ordained Deacons at Sacred Heart Theological College, Shillong
+[2026-01-06 02:57:27] [INFO] Retrying: St. Mary’s Church Inaugurated and Blessed at Mahur Village, Haflong
+[2026-01-06 02:57:27] [INFO] Skipping (already exists): St. Mary’s Church Inaugurated and Blessed at Mahur Village, Haflong
+[2026-01-06 02:57:27] [INFO] Retrying: NCC Cadets from Across Garo Hills Celebrate International Yoga Day at DBC, Tura
+[2026-01-06 02:57:27] [INFO] Skipping (already exists): NCC Cadets from Across Garo Hills Celebrate International Yoga Day at DBC, Tura
+[2026-01-06 02:57:27] [INFO] Retrying: DBI Observes International Yoga Day with Renowned Guru Dr. Gautam Choudhury
+[2026-01-06 02:57:27] [INFO] Skipping (already exists): DBI Observes International Yoga Day with Renowned Guru Dr. Gautam Choudhury
+[2026-01-06 02:57:27] [INFO] Retrying: Don Bosco College, Chapaguri Observes International Yoga Day
+[2026-01-06 02:57:28] [INFO] Skipping (already exists): Don Bosco College, Chapaguri Observes International Yoga Day
+[2026-01-06 02:57:28] [INFO] Retrying: Don Bosco H. S. School, Kokrajhar Celebrates International Yoga Day
+[2026-01-06 02:57:36] [SUCCESS] ✓ Successfully retried: Don Bosco H. S. School, Kokrajhar Celebrates International Yoga Day
+[2026-01-06 02:57:38] [INFO] Retrying: Regional Meeting (BTR Region) Held at Don Bosco College, Chapaguri
+[2026-01-06 02:57:38] [INFO] Skipping (already exists): Regional Meeting (BTR Region) Held at Don Bosco College, Chapaguri
+[2026-01-06 02:57:38] [INFO] Retrying: BRO Hosts Strategic Meeting on Mission Poverty Eradication
+[2026-01-06 02:57:38] [INFO] Skipping (already exists): BRO Hosts Strategic Meeting on Mission Poverty Eradication
+[2026-01-06 02:57:38] [INFO] Retrying: St. Joseph’s Co-Cathedral Parish Celebrates Father’s Day
+[2026-01-06 02:57:38] [INFO] Skipping (already exists): St. Joseph’s Co-Cathedral Parish Celebrates Father’s Day
+[2026-01-06 02:57:38] [INFO] Retrying: Fathers’ Day Celebration at Holy Family Catholic Church Rongjeng
+[2026-01-06 02:57:38] [INFO] Skipping (already exists): Fathers’ Day Celebration at Holy Family Catholic Church Rongjeng
+[2026-01-06 02:57:38] [INFO] Retrying: Father’s Day Celebrated at Damra Parish with Holy Mass
+[2026-01-06 02:57:38] [INFO] Skipping (already exists): Father’s Day Celebrated at Damra Parish with Holy Mass
+[2026-01-06 02:57:38] [INFO] Retrying: Regional Meeting (Assam Plain) Held at Hubert D’ Rosario Aspirantate, Sirajuli
+[2026-01-06 02:57:39] [INFO] Skipping (already exists): Regional Meeting (Assam Plain) Held at Hubert D’ Rosario Aspirantate, Sirajuli
+[2026-01-06 02:57:39] [INFO] Retrying: Snehalaya and CFG Observe World Day Against Child Labour
+[2026-01-06 02:57:39] [INFO] Skipping (already exists): Snehalaya and CFG Observe World Day Against Child Labour
+[2026-01-06 02:57:39] [INFO] Retrying: Assam Don Bosco University Hosts One-Day FDP for Teachers
+[2026-01-06 02:57:39] [INFO] Skipping (already exists): Assam Don Bosco University Hosts One-Day FDP for Teachers
+[2026-01-06 02:57:39] [INFO] Retrying: Three-Day Scouts and Guides Training Camp Held at Don Bosco School, Ramfalbil
+[2026-01-06 02:57:39] [INFO] Skipping (already exists): Three-Day Scouts and Guides Training Camp Held at Don Bosco School, Ramfalbil
+[2026-01-06 02:57:39] [INFO] Retrying: DB Schools of Bodoland Host Inter-School Tournament in Kokrajhar
+[2026-01-06 02:57:39] [INFO] Skipping (already exists): DB Schools of Bodoland Host Inter-School Tournament in Kokrajhar
+[2026-01-06 02:57:39] [INFO] Retrying: Bro Benedict D. Sangma SDB Departs for Theological Studies in the Philippines
+[2026-01-06 02:57:39] [INFO] Skipping (already exists): Bro Benedict D. Sangma SDB Departs for Theological Studies in the Philippines
+[2026-01-06 02:57:39] [INFO] Retrying: Principals’ Meeting of the Province discusses Key Educational Issues
+[2026-01-06 02:57:39] [INFO] Skipping (already exists): Principals’ Meeting of the Province discusses Key Educational Issues
+[2026-01-06 02:57:39] [INFO] Retrying: Missionary Cross Presented to the Pre-novices
+[2026-01-06 02:57:40] [INFO] Skipping (already exists): Missionary Cross Presented to the Pre-novices
+[2026-01-06 02:57:40] [INFO] Retrying: Holy Family School, Rongjeng Observes World Environment Day with Tree Plantation Drive
+[2026-01-06 02:57:40] [INFO] Skipping (already exists): Holy Family School, Rongjeng Observes World Environment Day with Tree Plantation Drive
+[2026-01-06 02:57:40] [INFO] Retrying: Don Bosco Higher Secondary School, Kokrajhar Celebrates World Environment Day
+[2026-01-06 02:57:40] [INFO] Skipping (already exists): Don Bosco Higher Secondary School, Kokrajhar Celebrates World Environment Day
+[2026-01-06 02:57:40] [INFO] Retrying: DBS Ramfalbil Celebrates World Environment Day with Tree Plantation and Reels Competition
+[2026-01-06 02:57:40] [INFO] Skipping (already exists): DBS Ramfalbil Celebrates World Environment Day with Tree Plantation and Reels Competition
+[2026-01-06 02:57:40] [INFO] Retrying: Graduation Day Celebrated for Hotel Management Students at DBI, Kharghuli
+[2026-01-06 02:57:40] [INFO] Skipping (already exists): Graduation Day Celebrated for Hotel Management Students at DBI, Kharghuli
+[2026-01-06 02:57:40] [INFO] Retrying: Province Congratulates Rev. Fr. Ashley Miranda SDB on His Election as Provincial of INB
+[2026-01-06 02:57:40] [INFO] Skipping (already exists): Province Congratulates Rev. Fr. Ashley Miranda SDB on His Election as Provincial of INB
+[2026-01-06 02:57:40] [INFO] Retrying: Initiation of Pre-novitiate Batch 2025-2026 Held at Dotma
+[2026-01-06 02:57:40] [INFO] Skipping (already exists): Initiation of Pre-novitiate Batch 2025-2026 Held at Dotma
+[2026-01-06 02:57:40] [INFO] Retrying: First Spiritual Retreat Begins for Sunnyside Novices
+[2026-01-06 02:57:41] [INFO] Skipping (already exists): First Spiritual Retreat Begins for Sunnyside Novices
+[2026-01-06 02:57:41] [INFO] Retrying: Don Bosco Inter-School Tournament 2025: A Celebration of Sportsmanship and Talent
+[2026-01-06 02:57:41] [INFO] Skipping (already exists): Don Bosco Inter-School Tournament 2025: A Celebration of Sportsmanship and Talent
+[2026-01-06 02:57:41] [INFO] Retrying: Marian Procession at St Joseph’s Co-Cathedral Parish, Panbazar
+[2026-01-06 02:57:41] [INFO] Skipping (already exists): Marian Procession at St Joseph’s Co-Cathedral Parish, Panbazar
+[2026-01-06 02:57:41] [INFO] Retrying: Don Bosco Institute, Kharghuli Celebrates Graduation of Students
+[2026-01-06 02:57:41] [INFO] Skipping (already exists): Don Bosco Institute, Kharghuli Celebrates Graduation of Students
+[2026-01-06 02:57:41] [INFO] Retrying: Communication Commission Meeting Charts  Way Forward for Province Media Initiatives
+[2026-01-06 02:57:41] [INFO] Skipping (already exists): Communication Commission Meeting Charts  Way Forward for Province Media Initiatives
+[2026-01-06 02:57:41] [INFO] Retrying: Initiation of 35 New Novices at St. Dominic Savio Novitiate, Shillong
+[2026-01-06 02:57:41] [INFO] Skipping (already exists): Initiation of 35 New Novices at St. Dominic Savio Novitiate, Shillong
+[2026-01-06 02:57:41] [INFO] Retrying: Friendly Girls’ Kabaddi & Football Match held at SFX, Dotma
+[2026-01-06 02:57:49] [SUCCESS] ✓ Successfully retried: Friendly Girls’ Kabaddi & Football Match held at SFX, Dotma
+[2026-01-06 02:57:51] [INFO] Retrying: Ten Pre-Novices Enter Salesian Novitiate at Sunnyside
+[2026-01-06 02:57:51] [INFO] Skipping (already exists): Ten Pre-Novices Enter Salesian Novitiate at Sunnyside
+[2026-01-06 02:57:51] [INFO] Retrying: Newly Professed Salesians Felicitated at Provincial House
+[2026-01-06 02:57:52] [INFO] Skipping (already exists): Newly Professed Salesians Felicitated at Provincial House
+[2026-01-06 02:57:52] [INFO] Retrying: Initiation of New Novices at Emmaus Novitiate, Zubza, 10 from ING
+[2026-01-06 02:57:52] [INFO] Skipping (already exists): Initiation of New Novices at Emmaus Novitiate, Zubza, 10 from ING
+[2026-01-06 02:57:52] [INFO] Retrying: Silver Jubilee of Ordination Celebrations of Fr Joseph Teron SDB
+[2026-01-06 02:57:52] [INFO] Skipping (already exists): Silver Jubilee of Ordination Celebrations of Fr Joseph Teron SDB
+[2026-01-06 02:57:52] [INFO] Retrying: Marian Day Celebrated in Shallang Parish
+[2026-01-06 02:57:52] [INFO] Skipping (already exists): Marian Day Celebrated in Shallang Parish
+[2026-01-06 02:57:52] [INFO] Retrying: Solemn Parish Day Celebrated at Satgaon
+[2026-01-06 02:57:52] [INFO] Skipping (already exists): Solemn Parish Day Celebrated at Satgaon
+[2026-01-06 02:57:52] [INFO] Retrying: 38 Youth Receive the Sacrament of Confirmation at St Joseph’s Co-Cathedral, Panbazar
+[2026-01-06 02:57:52] [INFO] Skipping (already exists): 38 Youth Receive the Sacrament of Confirmation at St Joseph’s Co-Cathedral, Panbazar
+[2026-01-06 02:57:52] [INFO] Retrying: Five Clerics Make their Perpetual Profession in Guwahati
+[2026-01-06 02:57:52] [INFO] Skipping (already exists): Five Clerics Make their Perpetual Profession in Guwahati
+[2026-01-06 02:57:52] [INFO] Retrying: Eight ING Novices Make Their First Profession as Salesians
+[2026-01-06 02:57:53] [INFO] Skipping (already exists): Eight ING Novices Make Their First Profession as Salesians
+[2026-01-06 02:57:53] [INFO] Retrying: Six ING Brothers Renew Religious Profession at Salesian College, Dimapur
+[2026-01-06 02:57:53] [INFO] Skipping (already exists): Six ING Brothers Renew Religious Profession at Salesian College, Dimapur
+[2026-01-06 02:57:53] [INFO] Retrying: 30 Clerics of Guwahati Province Renew Religious Vows Across Communities
+[2026-01-06 02:57:53] [INFO] Skipping (already exists): 30 Clerics of Guwahati Province Renew Religious Vows Across Communities
+[2026-01-06 02:57:53] [INFO] Retrying: Snehalaya Organizes Workshops on Organisational Development and Sustainability
+[2026-01-06 02:57:53] [INFO] Skipping (already exists): Snehalaya Organizes Workshops on Organisational Development and Sustainability
+[2026-01-06 02:57:53] [INFO] Retrying: Diphu Diocese Garo Women Convention Concludes  in Satgaon
+[2026-01-06 02:57:53] [INFO] Skipping (already exists): Diphu Diocese Garo Women Convention Concludes  in Satgaon
+[2026-01-06 02:57:53] [INFO] Retrying: Bishop Michael Akasius Toppo Visits Don Bosco School, Bhooteachang
+[2026-01-06 02:57:53] [INFO] Skipping (already exists): Bishop Michael Akasius Toppo Visits Don Bosco School, Bhooteachang
+[2026-01-06 02:57:53] [INFO] Retrying: Animation Programme for Students of Don Bosco School, Bengtol
+[2026-01-06 02:57:53] [INFO] Skipping (already exists): Animation Programme for Students of Don Bosco School, Bengtol
+[2026-01-06 02:57:53] [INFO] Retrying: Career and Guidance Program Held for students of SFX Dotma and DB Ramfalbil
+[2026-01-06 02:57:54] [INFO] Skipping (already exists): Career and Guidance Program Held for students of SFX Dotma and DB Ramfalbil
+[2026-01-06 02:57:54] [INFO] Retrying: Provincial unveils ‘The Bosconian 2024-2025’ School Magazine of DBS, Panbazar
+[2026-01-06 02:57:54] [INFO] Skipping (already exists): Provincial unveils ‘The Bosconian 2024-2025’ School Magazine of DBS, Panbazar
+[2026-01-06 02:57:54] [INFO] Retrying: Training Session on Educational Reforms by ASSEB Held at Don Bosco School, Panbazar
+[2026-01-06 02:57:54] [INFO] Skipping (already exists): Training Session on Educational Reforms by ASSEB Held at Don Bosco School, Panbazar
+[2026-01-06 02:57:54] [INFO] Retrying: LKG Students Unite Across Borders in Joyful Exposure Between Don Bosco School, Sashipur and Dechen ECCD, Bhutan
+[2026-01-06 02:57:54] [INFO] Skipping (already exists): LKG Students Unite Across Borders in Joyful Exposure Between Don Bosco School, Sashipur and Dechen ECCD, Bhutan
+[2026-01-06 02:57:54] [INFO] Retrying: Beyond Borders: A Salesian Journey Through Northeast India released
+[2026-01-06 02:57:54] [INFO] Skipping (already exists): Beyond Borders: A Salesian Journey Through Northeast India released
+[2026-01-06 02:57:54] [INFO] Retrying: Don Bosco Institute Concludes International Conference for Teachers 2025
+[2026-01-06 02:57:54] [INFO] Skipping (already exists): Don Bosco Institute Concludes International Conference for Teachers 2025
+[2026-01-06 02:57:54] [INFO] Retrying: Fr. Provincial Makes Maiden Visit to Don Bosco Saralpara
+[2026-01-06 02:57:54] [INFO] Skipping (already exists): Fr. Provincial Makes Maiden Visit to Don Bosco Saralpara
+[2026-01-06 02:57:54] [INFO] Retrying: Novices of St. Dominic Savio Novitiate Pray at Don Bosco Shrine, Cherrapunjee
+[2026-01-06 02:57:55] [INFO] Skipping (already exists): Novices of St. Dominic Savio Novitiate Pray at Don Bosco Shrine, Cherrapunjee
+[2026-01-06 02:57:55] [INFO] Retrying: New Boys’ Hostel Inaugurated at Don Bosco College, Chapaguri
+[2026-01-06 02:57:55] [INFO] Skipping (already exists): New Boys’ Hostel Inaugurated at Don Bosco College, Chapaguri
+[2026-01-06 02:57:55] [INFO] Retrying: Initiation of Scouts and Guides Held at Don Bosco School, Amguri, Kokrajhar
+[2026-01-06 02:57:55] [INFO] Skipping (already exists): Initiation of Scouts and Guides Held at Don Bosco School, Amguri, Kokrajhar
+[2026-01-06 02:57:55] [INFO] Retrying: 1st All Garo Hills Don Bosco Schools Sports Meet Held in Tura
+[2026-01-06 02:57:55] [INFO] Skipping (already exists): 1st All Garo Hills Don Bosco Schools Sports Meet Held in Tura
+[2026-01-06 02:57:55] [INFO] Retrying: Assam Don Bosco University Congratulates Padma Shri Awardee Prof. David R. Syiemlieh
+[2026-01-06 02:57:55] [INFO] Skipping (already exists): Assam Don Bosco University Congratulates Padma Shri Awardee Prof. David R. Syiemlieh
+[2026-01-06 02:57:55] [INFO] Retrying: Project Dosti Launched to Empower Children with Digital Literacy Skills
+[2026-01-06 02:57:55] [INFO] Skipping (already exists): Project Dosti Launched to Empower Children with Digital Literacy Skills
+[2026-01-06 02:57:55] [INFO] Retrying: Vestition Ceremony Held at St. Dominic Savio Novitiate, Upper Shillong
+[2026-01-06 02:57:55] [INFO] Skipping (already exists): Vestition Ceremony Held at St. Dominic Savio Novitiate, Upper Shillong
+[2026-01-06 02:57:55] [INFO] Retrying: Province Congratulates Pope Leo XIV
+[2026-01-06 02:57:56] [INFO] Skipping (already exists): Province Congratulates Pope Leo XIV
+[2026-01-06 02:57:56] [INFO] Retrying: Don Bosco School, Guwahati Celebrates 18th Rongali Bihu Utsav with Grandeur
+[2026-01-06 02:57:56] [INFO] Skipping (already exists): Don Bosco School, Guwahati Celebrates 18th Rongali Bihu Utsav with Grandeur
+[2026-01-06 02:57:56] [INFO] Retrying: TICON-2025 Kicks Off at Don Bosco Institute, Guwahati
+[2026-01-06 02:57:56] [INFO] Skipping (already exists): TICON-2025 Kicks Off at Don Bosco Institute, Guwahati
+[2026-01-06 02:57:56] [INFO] Retrying: Friendly Football Match Between Don Bosco Schools Ends in Thrilling Penalty Win
+[2026-01-06 02:57:56] [INFO] Skipping (already exists): Friendly Football Match Between Don Bosco Schools Ends in Thrilling Penalty Win
+[2026-01-06 02:57:56] [INFO] Retrying: Provincial’s Visit Inspires Students at Don Bosco School, Bhooteachang
+[2026-01-06 02:57:56] [INFO] Skipping (already exists): Provincial’s Visit Inspires Students at Don Bosco School, Bhooteachang
+[2026-01-06 02:57:56] [INFO] Retrying: Pre-Novices Embark on Pilgrimage to Don Bosco Kokrajhar for Feast of St. Dominic Savio
+[2026-01-06 02:57:56] [INFO] Skipping (already exists): Pre-Novices Embark on Pilgrimage to Don Bosco Kokrajhar for Feast of St. Dominic Savio
+[2026-01-06 02:57:56] [INFO] Retrying: Hubert D’ Rosario Aspirantate at Sirajuli Inaugurates New Academic Year 2025
+[2026-01-06 02:57:56] [INFO] Skipping (already exists): Hubert D’ Rosario Aspirantate at Sirajuli Inaugurates New Academic Year 2025
+[2026-01-06 02:57:56] [INFO] Retrying: Provincial Visits Don Bosco College, Diphu and Inspires Students
+[2026-01-06 02:57:56] [INFO] Skipping (already exists): Provincial Visits Don Bosco College, Diphu and Inspires Students
+[2026-01-06 02:57:56] [INFO] Retrying: Parish Youth Day Celebrated at Holy Cross Parish, Rongkhon
+[2026-01-06 02:57:57] [INFO] Skipping (already exists): Parish Youth Day Celebrated at Holy Cross Parish, Rongkhon
+[2026-01-06 02:57:57] [INFO] Retrying: Snehalaya Boys Secure Admission to Assam Jatiya Bidyalay
+[2026-01-06 02:57:57] [INFO] Skipping (already exists): Snehalaya Boys Secure Admission to Assam Jatiya Bidyalay
+[2026-01-06 02:57:57] [INFO] Retrying: Inter-College Students’ Exchange Programme entitled SYNERGY 2025 at DBC Tura
+[2026-01-06 02:57:57] [INFO] Skipping (already exists): Inter-College Students’ Exchange Programme entitled SYNERGY 2025 at DBC Tura
+[2026-01-06 02:57:57] [INFO] Retrying: Easter Blessings at Don Bosco Institute, Kharghuli
+[2026-01-06 02:57:57] [INFO] Skipping (already exists): Easter Blessings at Don Bosco Institute, Kharghuli
+[2026-01-06 02:57:57] [INFO] Retrying: Easter Picnic and Jubilee Year Pilgrimage for Pre-Novices
+[2026-01-06 02:57:57] [INFO] Skipping (already exists): Easter Picnic and Jubilee Year Pilgrimage for Pre-Novices
+[2026-01-06 02:57:57] [INFO] Retrying: Silver Jubilee: Satgaon’s Head Catechist Honoured in Boldampara
+[2026-01-06 02:57:57] [INFO] Skipping (already exists): Silver Jubilee: Satgaon’s Head Catechist Honoured in Boldampara
+[2026-01-06 02:57:57] [INFO] Retrying: Civil Society Leaders Meet for promoting Child Protection
+[2026-01-06 02:57:57] [INFO] Skipping (already exists): Civil Society Leaders Meet for promoting Child Protection
+[2026-01-06 02:57:57] [INFO] Retrying: Don Bosco Institute, Kharghuli Holds Graduation for April Batch
+[2026-01-06 02:57:58] [INFO] Skipping (already exists): Don Bosco Institute, Kharghuli Holds Graduation for April Batch
+[2026-01-06 02:57:58] [INFO] Retrying: Job Fair by Bosco Reach Out at Kokrajhar Government College Opens Doors to 400+ Aspirants
+[2026-01-06 02:57:58] [INFO] Skipping (already exists): Job Fair by Bosco Reach Out at Kokrajhar Government College Opens Doors to 400+ Aspirants
+[2026-01-06 02:57:58] [INFO] Retrying: Province Congratulates Fr. Joseph Thelekkatt on Golden Jubilee of Priestly Ordination
+[2026-01-06 02:57:58] [INFO] Skipping (already exists): Province Congratulates Fr. Joseph Thelekkatt on Golden Jubilee of Priestly Ordination
+[2026-01-06 02:57:58] [INFO] Retrying: Silver Jubilee Celebration of Sapkata Catholic Modoli
+[2026-01-06 02:57:58] [INFO] Skipping (already exists): Silver Jubilee Celebration of Sapkata Catholic Modoli
+[2026-01-06 02:57:58] [INFO] Retrying: Provincial Council Pays Tribute to Pope Francis
+[2026-01-06 02:57:58] [INFO] Skipping (already exists): Provincial Council Pays Tribute to Pope Francis
+[2026-01-06 02:57:58] [INFO] Retrying: Memorial Service for Pope Francis Held in Guwahati
+[2026-01-06 02:57:58] [INFO] Skipping (already exists): Memorial Service for Pope Francis Held in Guwahati
+[2026-01-06 02:57:58] [INFO] Retrying: Province Participates in SYMLEAD Meeting at Kolkata
+[2026-01-06 02:57:58] [INFO] Skipping (already exists): Province Participates in SYMLEAD Meeting at Kolkata
+[2026-01-06 02:57:58] [INFO] Retrying: New Presence of Prabhudasi Sisters at Gabil Blessed
+[2026-01-06 02:57:59] [INFO] Skipping (already exists): New Presence of Prabhudasi Sisters at Gabil Blessed
+[2026-01-06 02:57:59] [INFO] Retrying: Province of Guwahati Extends Easter Greetings: A Message of Hope and Peace
+[2026-01-06 02:57:59] [INFO] Skipping (already exists): Province of Guwahati Extends Easter Greetings: A Message of Hope and Peace
+[2026-01-06 02:57:59] [INFO] Retrying: Easter Cantata Brings Good Friday to Life at Don Bosco Institute, Kharghuli
+[2026-01-06 02:57:59] [INFO] Skipping (already exists): Easter Cantata Brings Good Friday to Life at Don Bosco Institute, Kharghuli
+[2026-01-06 02:57:59] [INFO] Retrying: Salesian Communities Commemorate Good Friday with Solemn Way of the Cross
+[2026-01-06 02:57:59] [INFO] Skipping (already exists): Salesian Communities Commemorate Good Friday with Solemn Way of the Cross
+[2026-01-06 02:57:59] [INFO] Retrying: Clerics and Brothers Conclude Spirit-Filled Retreat at Provincial House
+[2026-01-06 02:57:59] [INFO] Skipping (already exists): Clerics and Brothers Conclude Spirit-Filled Retreat at Provincial House
+[2026-01-06 02:57:59] [INFO] Retrying: Don Bosco Institute Hosts Youth Pasch 2025: “Journeying with Jesus”
+[2026-01-06 02:57:59] [INFO] Skipping (already exists): Don Bosco Institute Hosts Youth Pasch 2025: “Journeying with Jesus”
+[2026-01-06 02:57:59] [INFO] Retrying: Snehalaya boys Shine in HSLC Exams
+[2026-01-06 02:57:59] [INFO] Skipping (already exists): Snehalaya boys Shine in HSLC Exams
+[2026-01-06 02:57:59] [INFO] Retrying: Rev. Fr. Denis Toju Sangma SDB Installed as Parish Priest of Don Bosco Parish, Gojapara
+[2026-01-06 02:58:00] [INFO] Skipping (already exists): Rev. Fr. Denis Toju Sangma SDB Installed as Parish Priest of Don Bosco Parish, Gojapara
+[2026-01-06 02:58:00] [INFO] Retrying: Province of Guwahati welcomes Rev. Fr. Sebastian Kuricheal SDB, Provincial, after attending General Chapter
+[2026-01-06 02:58:00] [INFO] Skipping (already exists): Province of Guwahati welcomes Rev. Fr. Sebastian Kuricheal SDB, Provincial, after attending General Chapter
+[2026-01-06 02:58:00] [INFO] Retrying: Retreat for Clerics and Brothers Preparing for Vows Begins at Provincial House, Guwahati
+[2026-01-06 02:58:00] [INFO] Skipping (already exists): Retreat for Clerics and Brothers Preparing for Vows Begins at Provincial House, Guwahati
+[2026-01-06 02:58:00] [INFO] Retrying: Palm Sunday Celebrated with Solemn Procession at Sacred Heart Church, Shallang
+[2026-01-06 02:58:00] [INFO] Skipping (already exists): Palm Sunday Celebrated with Solemn Procession at Sacred Heart Church, Shallang
+[2026-01-06 02:58:00] [INFO] Retrying: Don Bosco Institute, Kharghuli, Celebrates World Youth Day with Palm Sunday
+[2026-01-06 02:58:00] [INFO] Skipping (already exists): Don Bosco Institute, Kharghuli, Celebrates World Youth Day with Palm Sunday
+[2026-01-06 02:58:00] [INFO] Retrying: Palm Sunday Celebrated with Solemn Devotion at St Joseph’s Co-Cathedral Church, Panbazar
+[2026-01-06 02:58:00] [INFO] Skipping (already exists): Palm Sunday Celebrated with Solemn Devotion at St Joseph’s Co-Cathedral Church, Panbazar
+[2026-01-06 02:58:00] [INFO] Retrying: St Francis Xavier School, Dotma, Inaugurates New Academic Year 2025-2026
+[2026-01-06 02:58:00] [INFO] Skipping (already exists): St Francis Xavier School, Dotma, Inaugurates New Academic Year 2025-2026
+[2026-01-06 02:58:00] [INFO] Retrying: Don Bosco Schools Shine in SEBA HSLC Examinations 2025 with 95.57% Overall Pass Percentage
+[2026-01-06 02:58:01] [INFO] Skipping (already exists): Don Bosco Schools Shine in SEBA HSLC Examinations 2025 with 95.57% Overall Pass Percentage
+[2026-01-06 02:58:01] [INFO] Retrying: Snehalaya Organizes Joyful One-Day Mela for Children
+[2026-01-06 02:58:01] [INFO] Skipping (already exists): Snehalaya Organizes Joyful One-Day Mela for Children
+[2026-01-06 02:58:01] [INFO] Retrying: Salesian Principals Attend Training on Catholic Education in Northeast India
+[2026-01-06 02:58:01] [INFO] Skipping (already exists): Salesian Principals Attend Training on Catholic Education in Northeast India
+[2026-01-06 02:58:01] [INFO] Retrying: Provincial House Community Pays Tribute to Rev Fr George Chittappanatt (CV), SDB on His Second Death Anniversary
+[2026-01-06 02:58:01] [INFO] Skipping (already exists): Provincial House Community Pays Tribute to Rev Fr George Chittappanatt (CV), SDB on His Second Death Anniversary
+[2026-01-06 02:58:01] [INFO] Retrying: Rector Major presents “Medal of Mary” to Provincial and GC29 Delegates as a Sign of Entrustment
+[2026-01-06 02:58:01] [INFO] Skipping (already exists): Rector Major presents “Medal of Mary” to Provincial and GC29 Delegates as a Sign of Entrustment
+[2026-01-06 02:58:01] [INFO] Retrying: Fr. Alfred Marzo SDB turns 90, Still Stronger than his Two JCBs
+[2026-01-06 02:58:01] [INFO] Skipping (already exists): Fr. Alfred Marzo SDB turns 90, Still Stronger than his Two JCBs
+[2026-01-06 02:58:01] [INFO] Retrying: New Computer Laboratory Inaugurated at Green Skill Institute, Jorapara
+[2026-01-06 02:58:01] [INFO] Skipping (already exists): New Computer Laboratory Inaugurated at Green Skill Institute, Jorapara
+[2026-01-06 02:58:01] [INFO] Retrying: Holy Family Higher Secondary School, Rongjeng, felicitates Matric Students and Toppers
+[2026-01-06 02:58:02] [INFO] Skipping (already exists): Holy Family Higher Secondary School, Rongjeng, felicitates Matric Students and Toppers
+[2026-01-06 02:58:02] [INFO] Retrying: Staff Training on Prevention of Sexual Harassment Conducted by Don Bosco CFG
+[2026-01-06 02:58:02] [INFO] Skipping (already exists): Staff Training on Prevention of Sexual Harassment Conducted by Don Bosco CFG
+[2026-01-06 02:58:02] [INFO] Retrying: Don Bosco Schools in Meghalaya Celebrate Outstanding Results in MBOSE 2025 Examinations
+[2026-01-06 02:58:02] [INFO] Skipping (already exists): Don Bosco Schools in Meghalaya Celebrate Outstanding Results in MBOSE 2025 Examinations
+[2026-01-06 02:58:02] [INFO] Retrying: Holy Mass Held in Memory of Rev. Fr. Edasserithottathil Augustine SDB
+[2026-01-06 02:58:02] [INFO] Skipping (already exists): Holy Mass Held in Memory of Rev. Fr. Edasserithottathil Augustine SDB
+[2026-01-06 02:58:02] [INFO] Retrying: St. Dominic Savio Hr Sec School, Garobadha celebrates Investiture Ceremony
+[2026-01-06 02:58:02] [INFO] Skipping (already exists): St. Dominic Savio Hr Sec School, Garobadha celebrates Investiture Ceremony
+[2026-01-06 02:58:02] [INFO] Retrying: Rector Major Appoints Fr Thathireddy Vijayabhaskar as Personal Secretary
+[2026-01-06 02:58:02] [INFO] Skipping (already exists): Rector Major Appoints Fr Thathireddy Vijayabhaskar as Personal Secretary
+[2026-01-06 02:58:02] [INFO] Retrying: South Asian Delegates Capture Historic Moment with Rector Major in Rome
+[2026-01-06 02:58:02] [INFO] Skipping (already exists): South Asian Delegates Capture Historic Moment with Rector Major in Rome
+[2026-01-06 02:58:02] [INFO] Retrying: Rector Major Celebrates Holy Mass with GC29 South Asian Provincials and Delegates
+[2026-01-06 02:58:02] [INFO] Skipping (already exists): Rector Major Celebrates Holy Mass with GC29 South Asian Provincials and Delegates
+[2026-01-06 02:58:02] [INFO] Retrying: Two-Day Teacher’s Training Programme Held at Don Bosco School, Amguri
+[2026-01-06 02:58:02] [INFO] Skipping (already exists): Two-Day Teacher’s Training Programme Held at Don Bosco School, Amguri
+[2026-01-06 02:58:02] [INFO] Retrying: Faithful of Damra Parish Embark on Pilgrimage to Bongaigaon Cathedral
+[2026-01-06 02:58:03] [INFO] Skipping (already exists): Faithful of Damra Parish Embark on Pilgrimage to Bongaigaon Cathedral
+[2026-01-06 02:58:03] [INFO] Retrying: New Regional Councillors of the Salesian Congregation
+[2026-01-06 02:58:03] [INFO] Skipping (already exists): New Regional Councillors of the Salesian Congregation
+[2026-01-06 02:58:03] [INFO] Retrying: Fr Juan Carlos Perez Godoy re-elected regional of Mediterranean
+[2026-01-06 02:58:03] [INFO] Skipping (already exists): Fr Juan Carlos Perez Godoy re-elected regional of Mediterranean
+[2026-01-06 02:58:03] [INFO] Retrying: Fr Hugo Orozco Sanchez re-elected Regional Councilor of Interamerica
+[2026-01-06 02:58:03] [INFO] Skipping (already exists): Fr Hugo Orozco Sanchez re-elected Regional Councilor of Interamerica
+[2026-01-06 02:58:03] [INFO] Retrying: Fr Roman Jachimowicz elected as Regional of Central and Northern Europe
+[2026-01-06 02:58:03] [INFO] Skipping (already exists): Fr Roman Jachimowicz elected as Regional of Central and Northern Europe
+[2026-01-06 02:58:03] [INFO] Retrying: Fr Mathews William elected as Regional of Asia East Oceania
+[2026-01-06 02:58:03] [INFO] Skipping (already exists): Fr Mathews William elected as Regional of Asia East Oceania
+[2026-01-06 02:58:03] [INFO] Retrying: Fr Romero Hector Gabriel re-elected Regional of America South Cone
+[2026-01-06 02:58:03] [INFO] Skipping (already exists): Fr Romero Hector Gabriel re-elected Regional of America South Cone
+[2026-01-06 02:58:03] [INFO] Retrying: Fr Biju Michael re-elected the Regional of South Asia
+[2026-01-06 02:58:04] [INFO] Skipping (already exists): Fr Biju Michael re-elected the Regional of South Asia
+[2026-01-06 02:58:04] [INFO] Retrying: Fr Bizimana Innocent elected Regional of Africa South East
+[2026-01-06 02:58:04] [INFO] Skipping (already exists): Fr Bizimana Innocent elected Regional of Africa South East
+[2026-01-06 02:58:04] [INFO] Retrying: Fr Alphonse Owoudou elected Regional for Africa Central West Region
+[2026-01-06 02:58:04] [INFO] Skipping (already exists): Fr Alphonse Owoudou elected Regional for Africa Central West Region
+[2026-01-06 02:58:04] [INFO] Retrying: The Face of the New General Council of the Salesians of Don Bosco
+[2026-01-06 02:58:04] [INFO] Skipping (already exists): The Face of the New General Council of the Salesians of Don Bosco
+[2026-01-06 02:58:04] [INFO] Retrying: Fr Gabriel Stawowy elected Economer General
+[2026-01-06 02:58:04] [INFO] Skipping (already exists): Fr Gabriel Stawowy elected Economer General
+[2026-01-06 02:58:04] [INFO] Retrying: Fr. Fidel Maria Orendain Elected as General Councilor for Social Communication
+[2026-01-06 02:58:04] [INFO] Skipping (already exists): Fr. Fidel Maria Orendain Elected as General Councilor for Social Communication
+[2026-01-06 02:58:04] [INFO] Retrying: Fr Jorge Mario Crisafulli Elected General Councillor for Missions
+[2026-01-06 02:58:04] [INFO] Skipping (already exists): Fr Jorge Mario Crisafulli Elected General Councillor for Missions
+[2026-01-06 02:58:04] [INFO] Retrying: Fr. Silvio Roggia Elected General Councilor for Formation
+[2026-01-06 02:58:04] [INFO] Skipping (already exists): Fr. Silvio Roggia Elected General Councilor for Formation
+[2026-01-06 02:58:04] [INFO] Retrying: Fr Rafael Bejarano Elected as the New General Councilor for Youth Ministry
+[2026-01-06 02:58:05] [INFO] Skipping (already exists): Fr Rafael Bejarano Elected as the New General Councilor for Youth Ministry
+[2026-01-06 02:58:05] [INFO] Retrying: Satgaon Women Pilgrimage to Diphu
+[2026-01-06 02:58:05] [INFO] Skipping (already exists): Satgaon Women Pilgrimage to Diphu
+[2026-01-06 02:58:05] [INFO] Retrying: Fr. Stefano Martoglio elected Vicar of the Rector Major at the 29th General Chapter
+[2026-01-06 02:58:05] [INFO] Skipping (already exists): Fr. Stefano Martoglio elected Vicar of the Rector Major at the 29th General Chapter
+[2026-01-06 02:58:05] [INFO] Retrying: Guwahati Province Felicitates Newly Appointed Rector Major Fr Fabio Attard SDB
+[2026-01-06 02:58:05] [INFO] Skipping (already exists): Guwahati Province Felicitates Newly Appointed Rector Major Fr Fabio Attard SDB
+[2026-01-06 02:58:05] [INFO] Retrying: Salesian Province of Guwahati Rejoices at the Election of Don Fabio Attard SDB as the 11th Successor of Don Bosco
+[2026-01-06 02:58:05] [INFO] Skipping (already exists): Salesian Province of Guwahati Rejoices at the Election of Don Fabio Attard SDB as the 11th Successor of Don Bosco
+[2026-01-06 02:58:05] [INFO] Retrying: Vocation Camps for Post Matric Boys Held at Jorapara (Mendal) and Sirajuli
+[2026-01-06 02:58:05] [INFO] Skipping (already exists): Vocation Camps for Post Matric Boys Held at Jorapara (Mendal) and Sirajuli
+[2026-01-06 02:58:05] [INFO] Retrying: Friendly Basketball Match between DBI and USTM
+[2026-01-06 02:58:05] [INFO] Skipping (already exists): Friendly Basketball Match between DBI and USTM
+[2026-01-06 02:58:05] [INFO] Retrying: Assam Don Bosco University Students shine at District Level Viksit Bharat Youth Parliament
+[2026-01-06 02:58:05] [INFO] Skipping (already exists): Assam Don Bosco University Students shine at District Level Viksit Bharat Youth Parliament
+[2026-01-06 02:58:05] [INFO] Retrying: Sirajuli Community Hosts Bro Angelus Tete Memorial Basketball Tournament
+[2026-01-06 02:58:06] [INFO] Skipping (already exists): Sirajuli Community Hosts Bro Angelus Tete Memorial Basketball Tournament
+[2026-01-06 02:58:06] [INFO] Retrying: Province commemorates First Death Anniversary of Late Rev. Bro. Angelus Tete, SDB
+[2026-01-06 02:58:06] [INFO] Skipping (already exists): Province commemorates First Death Anniversary of Late Rev. Bro. Angelus Tete, SDB
+[2026-01-06 02:58:06] [INFO] Retrying: Youth Leaders gather for Animation and Planning at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:06] [INFO] Skipping (already exists): Youth Leaders gather for Animation and Planning at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:06] [INFO] Retrying: Rev. Fr. Amit Tete SDB successfully completes LLB and BAR Examination
+[2026-01-06 02:58:06] [INFO] Skipping (already exists): Rev. Fr. Amit Tete SDB successfully completes LLB and BAR Examination
+[2026-01-06 02:58:06] [INFO] Retrying: Professor Rakhee Kalita Moral conducts session for DBI Students
+[2026-01-06 02:58:06] [INFO] Skipping (already exists): Professor Rakhee Kalita Moral conducts session for DBI Students
+[2026-01-06 02:58:06] [INFO] Retrying: Chain Adoration at Don Bosco Socio Technical Institute, Tezpur
+[2026-01-06 02:58:07] [INFO] Skipping (already exists): Chain Adoration at Don Bosco Socio Technical Institute, Tezpur
+[2026-01-06 02:58:07] [INFO] Retrying: First Death Anniversary of Bro Angelus Tete SDB
+[2026-01-06 02:58:07] [INFO] Skipping (already exists): First Death Anniversary of Bro Angelus Tete SDB
+[2026-01-06 02:58:07] [INFO] Retrying: https://www.infoans.org/en/sections/news/item/23795-rmg-sdb-provinces-the-mary-help-of-christians-province-of-india-guwahati-ing
+[2026-01-06 02:58:07] [INFO] Skipping (already exists): https://www.infoans.org/en/sections/news/item/23795-rmg-sdb-provinces-the-mary-help-of-christians-province-of-india-guwahati-ing
+[2026-01-06 02:58:07] [INFO] Retrying: Don Bosco Institute hosts 38th IGNCA Foundation Day Celebration
+[2026-01-06 02:58:07] [INFO] Skipping (already exists): Don Bosco Institute hosts 38th IGNCA Foundation Day Celebration
+[2026-01-06 02:58:07] [INFO] Retrying: Stakeholders Discuss Welfare of Assam’s Migrant Workers at Don Bosco Institute
+[2026-01-06 02:58:07] [INFO] Skipping (already exists): Stakeholders Discuss Welfare of Assam’s Migrant Workers at Don Bosco Institute
+[2026-01-06 02:58:07] [INFO] Retrying: Vice Provincial Visits Emmaus Salesian Novitiate, Zubza
+[2026-01-06 02:58:07] [INFO] Skipping (already exists): Vice Provincial Visits Emmaus Salesian Novitiate, Zubza
+[2026-01-06 02:58:07] [INFO] Retrying: Rev. Fr. Marcus Lakra Installed as Parish Priest of Shallang Parish
+[2026-01-06 02:58:07] [INFO] Skipping (already exists): Rev. Fr. Marcus Lakra Installed as Parish Priest of Shallang Parish
+[2026-01-06 02:58:07] [INFO] Retrying: Brothers at Salesian College, Dimapur renew Religious Vows on Feast of St. Joseph
+[2026-01-06 02:58:07] [INFO] Skipping (already exists): Brothers at Salesian College, Dimapur renew Religious Vows on Feast of St. Joseph
+[2026-01-06 02:58:07] [INFO] Retrying: Chapel of Mary Help of Christians blessed at Korebari Village
+[2026-01-06 02:58:07] [INFO] Skipping (already exists): Chapel of Mary Help of Christians blessed at Korebari Village
+[2026-01-06 02:58:07] [INFO] Retrying: Seventeen aspiring Pre-Novices begin intensive programme at Jorapara Vocational Training Centre
+[2026-01-06 02:58:07] [INFO] Skipping (already exists): Seventeen aspiring Pre-Novices begin intensive programme at Jorapara Vocational Training Centre
+[2026-01-06 02:58:07] [INFO] Retrying: Bl. Michael Rua Parish Bengtol concludes Charismatic Retreat
+[2026-01-06 02:58:08] [INFO] Skipping (already exists): Bl. Michael Rua Parish Bengtol concludes Charismatic Retreat
+[2026-01-06 02:58:08] [INFO] Retrying: Three-Day Spiritual Retreat Inspires Community at Bongaon Centre
+[2026-01-06 02:58:08] [INFO] Skipping (already exists): Three-Day Spiritual Retreat Inspires Community at Bongaon Centre
+[2026-01-06 02:58:08] [INFO] Retrying: Sports Academy Commission holds Meeting at Don Bosco School, Tura
+[2026-01-06 02:58:08] [INFO] Skipping (already exists): Sports Academy Commission holds Meeting at Don Bosco School, Tura
+[2026-01-06 02:58:08] [INFO] Retrying: Post-Matric boys begin Salesian Vocation Journey
+[2026-01-06 02:58:08] [INFO] Skipping (already exists): Post-Matric boys begin Salesian Vocation Journey
+[2026-01-06 02:58:08] [INFO] Retrying: Charismatic Retreat held at Chibra Agal Village
+[2026-01-06 02:58:08] [INFO] Skipping (already exists): Charismatic Retreat held at Chibra Agal Village
+[2026-01-06 02:58:08] [INFO] Retrying: Youth Convention 2025 held at St. John Bosco Parish, Boko
+[2026-01-06 02:58:09] [INFO] Skipping (already exists): Youth Convention 2025 held at St. John Bosco Parish, Boko
+[2026-01-06 02:58:09] [INFO] Retrying: Art and Craft Classes at Don Bosco Socio Technical Institute, Tezpur
+[2026-01-06 02:58:09] [INFO] Skipping (already exists): Art and Craft Classes at Don Bosco Socio Technical Institute, Tezpur
+[2026-01-06 02:58:09] [INFO] Retrying: Farmers Trained in Advanced Horticulture Techniques in Goalpara
+[2026-01-06 02:58:09] [INFO] Skipping (already exists): Farmers Trained in Advanced Horticulture Techniques in Goalpara
+[2026-01-06 02:58:09] [INFO] Retrying: Rev. Fr. Albert Khorgeswar D. Sangma Installed as Rector of Don Bosco Community, Haflong
+[2026-01-06 02:58:09] [INFO] Skipping (already exists): Rev. Fr. Albert Khorgeswar D. Sangma Installed as Rector of Don Bosco Community, Haflong
+[2026-01-06 02:58:09] [INFO] Retrying: Colorful Performances & Celebrations of Sports Week at Don Bosco HSS, Rongkhon
+[2026-01-06 02:58:10] [WARNING] Could not find news item on source site: Colorful Performances & Celebrations of Sports Week at Don Bosco HSS, Rongkhon
+[2026-01-06 02:58:10] [INFO] Retrying: Don Bosco Higher Sec. School Kokrajhar hosts CBSE’s ‘Training of Trainers’ Programme
+[2026-01-06 02:58:10] [INFO] Skipping (already exists): Don Bosco Higher Sec. School Kokrajhar hosts CBSE’s ‘Training of Trainers’ Programme
+[2026-01-06 02:58:10] [INFO] Retrying: Rev. Fr. Punit Kumar Lakra SDB installed as Rector of St. Dominic Savio Community, Garobadha
+[2026-01-06 02:58:10] [INFO] Skipping (already exists): Rev. Fr. Punit Kumar Lakra SDB installed as Rector of St. Dominic Savio Community, Garobadha
+[2026-01-06 02:58:10] [INFO] Retrying: Rev. Fr. Tharakunnel Pius Varghese Installed as New Rector of Don Bosco College, Tura
+[2026-01-06 02:58:11] [INFO] Skipping (already exists): Rev. Fr. Tharakunnel Pius Varghese Installed as New Rector of Don Bosco College, Tura
+[2026-01-06 02:58:11] [INFO] Retrying: Auxilium Snehalaya Kids Delight in Flower Show at Guwahati Refinery
+[2026-01-06 02:58:11] [INFO] Skipping (already exists): Auxilium Snehalaya Kids Delight in Flower Show at Guwahati Refinery
+[2026-01-06 02:58:11] [INFO] Retrying: Empowered Artisans shine on Women’s Day in Guwahati
+[2026-01-06 02:58:11] [INFO] Skipping (already exists): Empowered Artisans shine on Women’s Day in Guwahati
+[2026-01-06 02:58:11] [INFO] Retrying: One-Day Basketball Lightning Tournament at Don Bosco School, Boko
+[2026-01-06 02:58:11] [INFO] Skipping (already exists): One-Day Basketball Lightning Tournament at Don Bosco School, Boko
+[2026-01-06 02:58:11] [INFO] Retrying: Fr Marcus Lakra installed as Rector of Shallang Community
+[2026-01-06 02:58:11] [INFO] Skipping (already exists): Fr Marcus Lakra installed as Rector of Shallang Community
+[2026-01-06 02:58:11] [INFO] Retrying: Don Bosco Provincial House Celebrates International Women’s Day
+[2026-01-06 02:58:11] [INFO] Skipping (already exists): Don Bosco Provincial House Celebrates International Women’s Day
+[2026-01-06 02:58:11] [INFO] Retrying: Rev. Fr. Kunnappillil Thomas installed as Rector of ADBU, Azara Community
+[2026-01-06 02:58:11] [INFO] Skipping (already exists): Rev. Fr. Kunnappillil Thomas installed as Rector of ADBU, Azara Community
+[2026-01-06 02:58:11] [INFO] Retrying: Rev. Fr. Alfred Marzo inspires students at Assam Don Bosco University
+[2026-01-06 02:58:11] [INFO] Skipping (already exists): Rev. Fr. Alfred Marzo inspires students at Assam Don Bosco University
+[2026-01-06 02:58:11] [INFO] Retrying: Rev. Fr. Edasserithottathil Augustine SDB Laid to Rest
+[2026-01-06 02:58:12] [INFO] Skipping (already exists): Rev. Fr. Edasserithottathil Augustine SDB Laid to Rest
+[2026-01-06 02:58:12] [INFO] Retrying: Holy Mass Celebrated for the Soul of Rev Fr EP Augustine SDB
+[2026-01-06 02:58:12] [INFO] Skipping (already exists): Holy Mass Celebrated for the Soul of Rev Fr EP Augustine SDB
+[2026-01-06 02:58:12] [INFO] Retrying: Hospitality Students of Don Bosco Institute visit Taj Vivanta for Industry Exposure
+[2026-01-06 02:58:12] [INFO] Skipping (already exists): Hospitality Students of Don Bosco Institute visit Taj Vivanta for Industry Exposure
+[2026-01-06 02:58:12] [INFO] Retrying: Holy Mass for Fr Edasserithottathil Augustine (E.P.), SDB (01.03.1950 – 05.03.2025)
+[2026-01-06 02:58:12] [INFO] Skipping (already exists): Holy Mass for Fr Edasserithottathil Augustine (E.P.), SDB (01.03.1950 – 05.03.2025)
+[2026-01-06 02:58:12] [INFO] Retrying: RIP: Rev Fr Edasserithottathil Augustine (E.P.), SDB
+[2026-01-06 02:58:12] [INFO] Skipping (already exists): RIP: Rev Fr Edasserithottathil Augustine (E.P.), SDB
+[2026-01-06 02:58:12] [INFO] Retrying: Don Bosco Institute Celebrates Women’s Day with Inmates of Missionaries of Charity
+[2026-01-06 02:58:12] [INFO] Skipping (already exists): Don Bosco Institute Celebrates Women’s Day with Inmates of Missionaries of Charity
+[2026-01-06 02:58:12] [INFO] Retrying: Addressing Source-Destination Challenges Faced by Assam Migrant Workers
+[2026-01-06 02:58:12] [INFO] Skipping (already exists): Addressing Source-Destination Challenges Faced by Assam Migrant Workers
+[2026-01-06 02:58:12] [INFO] Retrying: Don Bosco College, Chapaguri Hosts Dinner for Northeast Bishops
+[2026-01-06 02:58:13] [INFO] Skipping (already exists): Don Bosco College, Chapaguri Hosts Dinner for Northeast Bishops
+[2026-01-06 02:58:13] [INFO] Retrying: Happy Birthday Dear Fr Sebastian Kuricheal SDB, Provincial
+[2026-01-06 02:58:13] [INFO] Skipping (already exists): Happy Birthday Dear Fr Sebastian Kuricheal SDB, Provincial
+[2026-01-06 02:58:13] [INFO] Retrying: Joplang Higher Secondary School Hosts Annual Sports Week 2025
+[2026-01-06 02:58:13] [INFO] Skipping (already exists): Joplang Higher Secondary School Hosts Annual Sports Week 2025
+[2026-01-06 02:58:13] [INFO] Retrying: Tourism Awareness Program Celebrated at Don Bosco Institute
+[2026-01-06 02:58:13] [INFO] Skipping (already exists): Tourism Awareness Program Celebrated at Don Bosco Institute
+[2026-01-06 02:58:13] [INFO] Retrying: Tri-Monthly Recollection for Clerics Held at Provincial House, Panbazar
+[2026-01-06 02:58:13] [INFO] Skipping (already exists): Tri-Monthly Recollection for Clerics Held at Provincial House, Panbazar
+[2026-01-06 02:58:13] [INFO] Retrying: At 89 Years: Hard Times but No Regrets!
+[2026-01-06 02:58:13] [INFO] Skipping (already exists): At 89 Years: Hard Times but No Regrets!
+[2026-01-06 02:58:13] [INFO] Retrying: Entrepreneurship Awareness Programme Held at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:13] [INFO] Skipping (already exists): Entrepreneurship Awareness Programme Held at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:13] [INFO] Retrying: Pilgrimage to Colle Don Bosco by ING Confreres
+[2026-01-06 02:58:13] [INFO] Skipping (already exists): Pilgrimage to Colle Don Bosco by ING Confreres
+[2026-01-06 02:58:13] [INFO] Retrying: Extended Chapel at Don Bosco Institute, Kharghuli, blessed by Archbishop John Moolachira
+[2026-01-06 02:58:14] [INFO] Skipping (already exists): Extended Chapel at Don Bosco Institute, Kharghuli, blessed by Archbishop John Moolachira
+[2026-01-06 02:58:14] [INFO] Retrying: Bosco Youth Gathering 3.0 Inspires ADBU Students
+[2026-01-06 02:58:14] [INFO] Skipping (already exists): Bosco Youth Gathering 3.0 Inspires ADBU Students
+[2026-01-06 02:58:14] [INFO] Retrying: Indo-Bangla Cultural Exchange Program 2025 of DBC Tura
+[2026-01-06 02:58:14] [INFO] Skipping (already exists): Indo-Bangla Cultural Exchange Program 2025 of DBC Tura
+[2026-01-06 02:58:14] [INFO] Retrying: Spirituality Days Begin at CG29 with Reflection and Prayer
+[2026-01-06 02:58:14] [INFO] Skipping (already exists): Spirituality Days Begin at CG29 with Reflection and Prayer
+[2026-01-06 02:58:14] [INFO] Retrying: Province Delegates Arrive in Turin for 29th General Chapter
+[2026-01-06 02:58:14] [INFO] Skipping (already exists): Province Delegates Arrive in Turin for 29th General Chapter
+[2026-01-06 02:58:14] [INFO] Retrying: Veteran Salesian Rev. Fr. Alfred Marzo Visits Don Bosco School, Bhooteachang
+[2026-01-06 02:58:14] [INFO] Skipping (already exists): Veteran Salesian Rev. Fr. Alfred Marzo Visits Don Bosco School, Bhooteachang
+[2026-01-06 02:58:14] [INFO] Retrying: Social Communication Meeting held Online
+[2026-01-06 02:58:14] [INFO] Skipping (already exists): Social Communication Meeting held Online
+[2026-01-06 02:58:14] [INFO] Retrying: Special Prayer and felicitation for General Chapter Delegates
+[2026-01-06 02:58:15] [INFO] Skipping (already exists): Special Prayer and felicitation for General Chapter Delegates
+[2026-01-06 02:58:15] [INFO] Retrying: Province celebrates New Priests’ Day 2025
+[2026-01-06 02:58:15] [INFO] Skipping (already exists): Province celebrates New Priests’ Day 2025
+[2026-01-06 02:58:15] [INFO] Retrying: Commission Heads Meeting discusses Province Plan and Key Initiatives
+[2026-01-06 02:58:15] [INFO] Skipping (already exists): Commission Heads Meeting discusses Province Plan and Key Initiatives
+[2026-01-06 02:58:15] [INFO] Retrying: Past Pupils Meet Rekindles Don Bosco’s Legacy in Tura
+[2026-01-06 02:58:15] [INFO] Skipping (already exists): Past Pupils Meet Rekindles Don Bosco’s Legacy in Tura
+[2026-01-06 02:58:15] [INFO] Retrying: Fr. Alfred Marzo SDB celebrates 73 Years of active Life in India
+[2026-01-06 02:58:15] [INFO] Skipping (already exists): Fr. Alfred Marzo SDB celebrates 73 Years of active Life in India
+[2026-01-06 02:58:15] [INFO] Retrying: 37th Annual Conference of St. Francis Xavier Parish, Dotma: A Celebration of Faith
+[2026-01-06 02:58:15] [INFO] Skipping (already exists): 37th Annual Conference of St. Francis Xavier Parish, Dotma: A Celebration of Faith
+[2026-01-06 02:58:15] [INFO] Retrying: Ordination of Fr. Jerbasius Xalxo, SDB, brings Joy to Mazbat Parish
+[2026-01-06 02:58:15] [INFO] Skipping (already exists): Ordination of Fr. Jerbasius Xalxo, SDB, brings Joy to Mazbat Parish
+[2026-01-06 02:58:15] [INFO] Retrying: Annual Sobha cum Charismatic Healing Retreat Transforms Lives at Solaikunchi Village
+[2026-01-06 02:58:15] [INFO] Skipping (already exists): Annual Sobha cum Charismatic Healing Retreat Transforms Lives at Solaikunchi Village
+[2026-01-06 02:58:15] [INFO] Retrying: Benla Kemprai of DBS Haflong Wins Bronze in Taekwondo at 38th National Games
+[2026-01-06 02:58:16] [INFO] Skipping (already exists): Benla Kemprai of DBS Haflong Wins Bronze in Taekwondo at 38th National Games
+[2026-01-06 02:58:16] [INFO] Retrying: Don Bosco School Haflong Wins First Prize in District Quiz Competition
+[2026-01-06 02:58:16] [INFO] Skipping (already exists): Don Bosco School Haflong Wins First Prize in District Quiz Competition
+[2026-01-06 02:58:16] [INFO] Retrying: Fr. Cherak Callistus M. Sangma, SDB, ordained Priest at Shallang Parish
+[2026-01-06 02:58:16] [INFO] Skipping (already exists): Fr. Cherak Callistus M. Sangma, SDB, ordained Priest at Shallang Parish
+[2026-01-06 02:58:16] [INFO] Retrying: Livelihood Boost: 15 Households in Satgaon Receive Piglets for Economic Empowerment
+[2026-01-06 02:58:16] [INFO] Skipping (already exists): Livelihood Boost: 15 Households in Satgaon Receive Piglets for Economic Empowerment
+[2026-01-06 02:58:16] [INFO] Retrying: Don Bosco School, Mendal Concludes Annual Sports Day 2025 with Enthusiasm
+[2026-01-06 02:58:16] [INFO] Skipping (already exists): Don Bosco School, Mendal Concludes Annual Sports Day 2025 with Enthusiasm
+[2026-01-06 02:58:16] [INFO] Retrying: Dn. Jerbasius Xalxo SDB to be Ordained Priest on February 9, 2025
+[2026-01-06 02:58:16] [INFO] Skipping (already exists): Dn. Jerbasius Xalxo SDB to be Ordained Priest on February 9, 2025
+[2026-01-06 02:58:16] [INFO] Retrying: Dn. Cherak Callistus M Sangma SDB to be Ordained Priest
+[2026-01-06 02:58:16] [INFO] Skipping (already exists): Dn. Cherak Callistus M Sangma SDB to be Ordained Priest
+[2026-01-06 02:58:16] [INFO] Retrying: Salesian Province of Guwahati Celebrates Fr (Dr) Johnson Parackal’s Academic Achievement
+[2026-01-06 02:58:17] [INFO] Skipping (already exists): Salesian Province of Guwahati Celebrates Fr (Dr) Johnson Parackal’s Academic Achievement
+[2026-01-06 02:58:17] [INFO] Retrying: Budget 2025 presentation held at Don Bosco Provincial House, Guwahati
+[2026-01-06 02:58:17] [INFO] Skipping (already exists): Budget 2025 presentation held at Don Bosco Provincial House, Guwahati
+[2026-01-06 02:58:17] [INFO] Retrying: Grand Celebration of the Annual Sobha at St. John Bosco Parish, Mendal
+[2026-01-06 02:58:17] [INFO] Skipping (already exists): Grand Celebration of the Annual Sobha at St. John Bosco Parish, Mendal
+[2026-01-06 02:58:17] [INFO] Retrying: New Church Inaugurated and Blessed at Burha Pujahalibasti Village
+[2026-01-06 02:58:17] [INFO] Skipping (already exists): New Church Inaugurated and Blessed at Burha Pujahalibasti Village
+[2026-01-06 02:58:17] [INFO] Retrying: 49th Annual Sabha of Holy Family Parish Rongjeng Concludes with Joy
+[2026-01-06 02:58:17] [INFO] Skipping (already exists): 49th Annual Sabha of Holy Family Parish Rongjeng Concludes with Joy
+[2026-01-06 02:58:17] [INFO] Retrying: Province YAR Commission Meeting Held at Snehalaya, Paltan Bazar
+[2026-01-06 02:58:17] [INFO] Skipping (already exists): Province YAR Commission Meeting Held at Snehalaya, Paltan Bazar
+[2026-01-06 02:58:17] [INFO] Retrying: Satgaon Parish Holds Training for Sunday School Teachers
+[2026-01-06 02:58:17] [INFO] Skipping (already exists): Satgaon Parish Holds Training for Sunday School Teachers
+[2026-01-06 02:58:17] [INFO] Retrying: Graduation Ceremony of Short-Term Aviation Course Held at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:17] [INFO] Skipping (already exists): Graduation Ceremony of Short-Term Aviation Course Held at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:17] [INFO] Retrying: Annual Parish Sobha Begins at Holy Family Church, Rongkhon
+[2026-01-06 02:58:18] [INFO] Skipping (already exists): Annual Parish Sobha Begins at Holy Family Church, Rongkhon
+[2026-01-06 02:58:18] [INFO] Retrying: Prayer Service Celebrates the Feast of St. John Bosco at the Provincial House
+[2026-01-06 02:58:18] [INFO] Skipping (already exists): Prayer Service Celebrates the Feast of St. John Bosco at the Provincial House
+[2026-01-06 02:58:18] [INFO] Retrying: DBI Kharghuli Hosts Drawing Competition as part of the Silver Jubilee Celebrations
+[2026-01-06 02:58:27] [SUCCESS] ✓ Successfully retried: DBI Kharghuli Hosts Drawing Competition as part of the Silver Jubilee Celebrations
+[2026-01-06 02:58:29] [INFO] Retrying: Shallang Community Celebrates the Feast of St. John Bosco
+[2026-01-06 02:58:29] [INFO] Skipping (already exists): Shallang Community Celebrates the Feast of St. John Bosco
+[2026-01-06 02:58:29] [INFO] Retrying: ADBU Azara celebrates Don Bosco Feast
+[2026-01-06 02:58:29] [INFO] Skipping (already exists): ADBU Azara celebrates Don Bosco Feast
+[2026-01-06 02:58:29] [INFO] Retrying: Don Bosco College, Diphu, Celebrates the Feast of St. John Bosco
+[2026-01-06 02:58:29] [INFO] Skipping (already exists): Don Bosco College, Diphu, Celebrates the Feast of St. John Bosco
+[2026-01-06 02:58:29] [INFO] Retrying: SYM Fest Inaugurated at Satgaon Parish on Don Bosco’s Feast
+[2026-01-06 02:58:29] [INFO] Skipping (already exists): SYM Fest Inaugurated at Satgaon Parish on Don Bosco’s Feast
+[2026-01-06 02:58:29] [INFO] Retrying: Don Bosco College, Chapguri celebrates Don Bosco Feast
+[2026-01-06 02:58:29] [INFO] Skipping (already exists): Don Bosco College, Chapguri celebrates Don Bosco Feast
+[2026-01-06 02:58:29] [INFO] Retrying: Celebrations of the Feast Day of St. John Bosco
+[2026-01-06 02:58:29] [INFO] Skipping (already exists): Celebrations of the Feast Day of St. John Bosco
+[2026-01-06 02:58:29] [INFO] Retrying: Don Bosco Centre for Learning celebrates Feast Day of Don Bosco with Salesian Family
+[2026-01-06 02:58:30] [INFO] Skipping (already exists): Don Bosco Centre for Learning celebrates Feast Day of Don Bosco with Salesian Family
+[2026-01-06 02:58:30] [INFO] Retrying: NCC Cadets from Don Bosco College, Tura Shine at Prime Minister’s Rally and Meghalaya Games
+[2026-01-06 02:58:30] [INFO] Skipping (already exists): NCC Cadets from Don Bosco College, Tura Shine at Prime Minister’s Rally and Meghalaya Games
+[2026-01-06 02:58:30] [INFO] Retrying: Don Bosco School Panbazar receives Exceptional Leadership Award
+[2026-01-06 02:58:30] [INFO] Skipping (already exists): Don Bosco School Panbazar receives Exceptional Leadership Award
+[2026-01-06 02:58:30] [INFO] Retrying: Capacitating Educators through Career Counselling Training at BRO, Guwahati
+[2026-01-06 02:58:30] [INFO] Skipping (already exists): Capacitating Educators through Career Counselling Training at BRO, Guwahati
+[2026-01-06 02:58:30] [INFO] Retrying: Social Communication Commission Meeting Highlights Media Excellence and Future Initiatives
+[2026-01-06 02:58:30] [INFO] Skipping (already exists): Social Communication Commission Meeting Highlights Media Excellence and Future Initiatives
+[2026-01-06 02:58:30] [INFO] Retrying: Online Meeting of Youth Mission Delegates evaluates SYM Fest 2024-2025
+[2026-01-06 02:58:30] [INFO] Skipping (already exists): Online Meeting of Youth Mission Delegates evaluates SYM Fest 2024-2025
+[2026-01-06 02:58:30] [INFO] Retrying: Training for the Community-Based Disaster Response Team
+[2026-01-06 02:58:30] [INFO] Skipping (already exists): Training for the Community-Based Disaster Response Team
+[2026-01-06 02:58:30] [INFO] Retrying: St. Michael’s Parish, Damra organizes Sobhas for Garo and Bodo Communities
+[2026-01-06 02:58:31] [INFO] Skipping (already exists): St. Michael’s Parish, Damra organizes Sobhas for Garo and Bodo Communities
+[2026-01-06 02:58:31] [INFO] Retrying: Republic Day Celebrations at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:31] [INFO] Skipping (already exists): Republic Day Celebrations at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:31] [INFO] Retrying: Republic Day Celebration at Hubert D’Rosario Memorial, Sirajuli
+[2026-01-06 02:58:31] [INFO] Skipping (already exists): Republic Day Celebration at Hubert D’Rosario Memorial, Sirajuli
+[2026-01-06 02:58:31] [INFO] Retrying: Don Bosco School, Bhooteachang, celebrates Republic Day 2025
+[2026-01-06 02:58:31] [INFO] Skipping (already exists): Don Bosco School, Bhooteachang, celebrates Republic Day 2025
+[2026-01-06 02:58:31] [INFO] Retrying: Republic Day Celebrated at Don Bosco Higher Secondary School, Panbazar
+[2026-01-06 02:58:31] [INFO] Skipping (already exists): Republic Day Celebrated at Don Bosco Higher Secondary School, Panbazar
+[2026-01-06 02:58:31] [INFO] Retrying: Don Bosco School, Sashipur Shines at 76th Republic Day Celebrations
+[2026-01-06 02:58:31] [INFO] Skipping (already exists): Don Bosco School, Sashipur Shines at 76th Republic Day Celebrations
+[2026-01-06 02:58:31] [INFO] Retrying: Don Bosco Provincial House Celebrates 76th Republic Day
+[2026-01-06 02:58:31] [INFO] Skipping (already exists): Don Bosco Provincial House Celebrates 76th Republic Day
+[2026-01-06 02:58:31] [INFO] Retrying: Justice Ujjal Bhuyan Visits Don Bosco College, Diphu
+[2026-01-06 02:58:31] [INFO] Skipping (already exists): Justice Ujjal Bhuyan Visits Don Bosco College, Diphu
+[2026-01-06 02:58:31] [INFO] Retrying: Fr. Kolombiya Rabha, SDB, Ordained as the First Priest from St. Francis of Assisi Parish, Matia Majerburi
+[2026-01-06 02:58:32] [INFO] Skipping (already exists): Fr. Kolombiya Rabha, SDB, Ordained as the First Priest from St. Francis of Assisi Parish, Matia Majerburi
+[2026-01-06 02:58:32] [INFO] Retrying: Dn. Kolombiya Rabha to be ordained to the Priesthood
+[2026-01-06 02:58:32] [INFO] Skipping (already exists): Dn. Kolombiya Rabha to be ordained to the Priesthood
+[2026-01-06 02:58:32] [INFO] Retrying: Salesian Family Day celebrated at Don Bosco Provincial House, Guwahati
+[2026-01-06 02:58:32] [INFO] Skipping (already exists): Salesian Family Day celebrated at Don Bosco Provincial House, Guwahati
+[2026-01-06 02:58:32] [INFO] Retrying: ING DBSEM Principals Meet: Focus on Education and Innovation
+[2026-01-06 02:58:32] [INFO] Skipping (already exists): ING DBSEM Principals Meet: Focus on Education and Innovation
+[2026-01-06 02:58:32] [INFO] Retrying: Silver Jubilee Celebration of Kalbari Catholic Church Under Bengtol Parish
+[2026-01-06 02:58:32] [INFO] Skipping (already exists): Silver Jubilee Celebration of Kalbari Catholic Church Under Bengtol Parish
+[2026-01-06 02:58:32] [INFO] Retrying: Happy Feast of St Sebastian to dear Fr Sebastian Kuricheal SDB, Provincial
+[2026-01-06 02:58:32] [INFO] Skipping (already exists): Happy Feast of St Sebastian to dear Fr Sebastian Kuricheal SDB, Provincial
+[2026-01-06 02:58:32] [INFO] Retrying: 44th Annual Sobha of Mary Help of Christians Church, Satgaon concludes with Thanksgiving and Joy
+[2026-01-06 02:58:32] [INFO] Skipping (already exists): 44th Annual Sobha of Mary Help of Christians Church, Satgaon concludes with Thanksgiving and Joy
+[2026-01-06 02:58:32] [INFO] Retrying: Vocation Camp concludes at Don Bosco School, Baithalangso
+[2026-01-06 02:58:32] [INFO] Skipping (already exists): Vocation Camp concludes at Don Bosco School, Baithalangso
+[2026-01-06 02:58:32] [INFO] Retrying: Marriage Blessings Unite Faith and Community in Saralpara
+[2026-01-06 02:58:33] [INFO] Skipping (already exists): Marriage Blessings Unite Faith and Community in Saralpara
+[2026-01-06 02:58:33] [INFO] Retrying: Fr. Birendra Dungdung, SDB, ordained a Priest at St. Mary’s Church, Singarmunda
+[2026-01-06 02:58:33] [INFO] Skipping (already exists): Fr. Birendra Dungdung, SDB, ordained a Priest at St. Mary’s Church, Singarmunda
+[2026-01-06 02:58:33] [INFO] Retrying: Don Bosco School, Sashipur hosts Annual Sports Day 2025
+[2026-01-06 02:58:33] [INFO] Skipping (already exists): Don Bosco School, Sashipur hosts Annual Sports Day 2025
+[2026-01-06 02:58:33] [INFO] Retrying: Federal Bank CSR Initiative: Tailoring Machines distributed at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:33] [INFO] Skipping (already exists): Federal Bank CSR Initiative: Tailoring Machines distributed at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:33] [INFO] Retrying: Three-Day Parish Youth Convention Kicks off at Holy Family Parish, Rongjeng
+[2026-01-06 02:58:33] [INFO] Skipping (already exists): Three-Day Parish Youth Convention Kicks off at Holy Family Parish, Rongjeng
+[2026-01-06 02:58:33] [INFO] Retrying: Priestly Ordination and First Holy Eucharistic Celebration of Dn. Birendra Dungdung
+[2026-01-06 02:58:33] [INFO] Skipping (already exists): Priestly Ordination and First Holy Eucharistic Celebration of Dn. Birendra Dungdung
+[2026-01-06 02:58:33] [INFO] Retrying: Fifth Vocation Camp Begins at Don Bosco School Baithalangso
+[2026-01-06 02:58:33] [INFO] Skipping (already exists): Fifth Vocation Camp Begins at Don Bosco School Baithalangso
+[2026-01-06 02:58:33] [INFO] Retrying: Rev. Fr. Philemon Pumah SDB, Ordained a Priest of God in Umswai
+[2026-01-06 02:58:34] [INFO] Skipping (already exists): Rev. Fr. Philemon Pumah SDB, Ordained a Priest of God in Umswai
+[2026-01-06 02:58:34] [INFO] Retrying: Priestly Ordination and First Holy Eucharist of Dn. Philemon Puma, SDB.
+[2026-01-06 02:58:34] [INFO] Skipping (already exists): Priestly Ordination and First Holy Eucharist of Dn. Philemon Puma, SDB.
+[2026-01-06 02:58:34] [INFO] Retrying: Fourth Vocation Camp Concludes at Don Bosco Kokrajhar
+[2026-01-06 02:58:34] [INFO] Skipping (already exists): Fourth Vocation Camp Concludes at Don Bosco Kokrajhar
+[2026-01-06 02:58:34] [INFO] Retrying: Funeral Service of Late Kohendro Basumatary Held in Bongaon
+[2026-01-06 02:58:34] [INFO] Skipping (already exists): Funeral Service of Late Kohendro Basumatary Held in Bongaon
+[2026-01-06 02:58:34] [INFO] Retrying: Don Bosco Higher Secondary School, Amkachi hosts Annual Sports and Exhibition 2025
+[2026-01-06 02:58:34] [INFO] Skipping (already exists): Don Bosco Higher Secondary School, Amkachi hosts Annual Sports and Exhibition 2025
+[2026-01-06 02:58:34] [INFO] Retrying: Faith Exposure Programme Concludes at Don Bosco Shrine, Gojapara with Priestly Ordination
+[2026-01-06 02:58:34] [INFO] Skipping (already exists): Faith Exposure Programme Concludes at Don Bosco Shrine, Gojapara with Priestly Ordination
+[2026-01-06 02:58:34] [INFO] Retrying: Don Bosco Institute at Kharghuli Celebrates National Youth Day 2025
+[2026-01-06 02:58:34] [INFO] Skipping (already exists): Don Bosco Institute at Kharghuli Celebrates National Youth Day 2025
+[2026-01-06 02:58:34] [INFO] Retrying: Fourth Vocation Camp Begins at Don Bosco Kokrajhar
+[2026-01-06 02:58:34] [INFO] Skipping (already exists): Fourth Vocation Camp Begins at Don Bosco Kokrajhar
+[2026-01-06 02:58:34] [INFO] Retrying: Rev. Fr. Jecky G. Sangma SDB ordained a Priest Forever
+[2026-01-06 02:58:34] [INFO] Skipping (already exists): Rev. Fr. Jecky G. Sangma SDB ordained a Priest Forever
+[2026-01-06 02:58:34] [INFO] Retrying: Former Economer of the Province, Rev. Fr. Benny Plathottathil Basil SDB, Returns After Treatment
+[2026-01-06 02:58:35] [INFO] Skipping (already exists): Former Economer of the Province, Rev. Fr. Benny Plathottathil Basil SDB, Returns After Treatment
+[2026-01-06 02:58:35] [INFO] Retrying: Dn. Jecky G. Sangma, SDB to be ordained a Priest of God
+[2026-01-06 02:58:35] [INFO] Skipping (already exists): Dn. Jecky G. Sangma, SDB to be ordained a Priest of God
+[2026-01-06 02:58:35] [INFO] Retrying: Third Vocation Camp Begins at Don Bosco Damra
+[2026-01-06 02:58:35] [INFO] Skipping (already exists): Third Vocation Camp Begins at Don Bosco Damra
+[2026-01-06 02:58:35] [INFO] Retrying: DBI and DBIM holds Orientation Programme 2025
+[2026-01-06 02:58:35] [INFO] Skipping (already exists): DBI and DBIM holds Orientation Programme 2025
+[2026-01-06 02:58:35] [INFO] Retrying: Young Salesians Attend Perpetual Preparation Course in Bangalore
+[2026-01-06 02:58:35] [INFO] Skipping (already exists): Young Salesians Attend Perpetual Preparation Course in Bangalore
+[2026-01-06 02:58:35] [INFO] Retrying: DB Gojapara hosts Mission Exposure Programme 2025
+[2026-01-06 02:58:35] [INFO] Skipping (already exists): DB Gojapara hosts Mission Exposure Programme 2025
+[2026-01-06 02:58:35] [INFO] Retrying: Salesian Parish of Garobadha hosts Youth Convention of Tura Diocese
+[2026-01-06 02:58:35] [INFO] Skipping (already exists): Salesian Parish of Garobadha hosts Youth Convention of Tura Diocese
+[2026-01-06 02:58:35] [INFO] Retrying: Deacon Jonas Kujur SDB Ordained a Priest by Bishop Michael Akasius Toppo
+[2026-01-06 02:58:36] [INFO] Skipping (already exists): Deacon Jonas Kujur SDB Ordained a Priest by Bishop Michael Akasius Toppo
+[2026-01-06 02:58:36] [INFO] Retrying: Satgaon Parish Celebrates Migrant Workers’ Day with Theme “Go Safe, Stay Safe”
+[2026-01-06 02:58:36] [INFO] Skipping (already exists): Satgaon Parish Celebrates Migrant Workers’ Day with Theme “Go Safe, Stay Safe”
+[2026-01-06 02:58:36] [INFO] Retrying: Deacon Jonas Kujur SDB to Be Ordained Priest in Dimakuchi
+[2026-01-06 02:58:36] [INFO] Skipping (already exists): Deacon Jonas Kujur SDB to Be Ordained Priest in Dimakuchi
+[2026-01-06 02:58:36] [INFO] Retrying: SYMFEST 2024-2025 Concludes with a Solemn Holy Mass and Celebrations
+[2026-01-06 02:58:36] [INFO] Skipping (already exists): SYMFEST 2024-2025 Concludes with a Solemn Holy Mass and Celebrations
+[2026-01-06 02:58:36] [INFO] Retrying: Vocation Camp at Don Bosco Tangla Concludes on a High Note
+[2026-01-06 02:58:36] [INFO] Skipping (already exists): Vocation Camp at Don Bosco Tangla Concludes on a High Note
+[2026-01-06 02:58:36] [INFO] Retrying: Twin Celebrations Mark a Joyful Day in Satgaon
+[2026-01-06 02:58:36] [INFO] Skipping (already exists): Twin Celebrations Mark a Joyful Day in Satgaon
+[2026-01-06 02:58:36] [INFO] Retrying: Inauguration and Blessing of St. Brendan’s Chapel at Samkatha Village
+[2026-01-06 02:58:36] [INFO] Skipping (already exists): Inauguration and Blessing of St. Brendan’s Chapel at Samkatha Village
+[2026-01-06 02:58:36] [INFO] Retrying: Salesian Youth Movement Festival at Sacred Heart College, Tirupathur
+[2026-01-06 02:58:37] [INFO] Skipping (already exists): Salesian Youth Movement Festival at Sacred Heart College, Tirupathur
+[2026-01-06 02:58:37] [INFO] Retrying: Vocation Camp Inaugurated at Don Bosco Tangla
+[2026-01-06 02:58:37] [INFO] Skipping (already exists): Vocation Camp Inaugurated at Don Bosco Tangla
+[2026-01-06 02:58:37] [INFO] Retrying: New Chapel Blessed at Don Bosco Pre-Novitiate House, Dotma
+[2026-01-06 02:58:37] [INFO] Skipping (already exists): New Chapel Blessed at Don Bosco Pre-Novitiate House, Dotma
+[2026-01-06 02:58:37] [INFO] Retrying: Silver Jubilee Celebration of Br. Nirmal Nathan Ekka in Shikari Bangla
+[2026-01-06 02:58:37] [INFO] Skipping (already exists): Silver Jubilee Celebration of Br. Nirmal Nathan Ekka in Shikari Bangla
+[2026-01-06 02:58:37] [INFO] Retrying: Rev. Fr. Sebastian Kuricheal SDB re-launches Province Website
+[2026-01-06 02:58:37] [INFO] Skipping (already exists): Rev. Fr. Sebastian Kuricheal SDB re-launches Province Website
+[2026-01-06 02:58:37] [INFO] Retrying: Christmas Carols at Provincial House on Christmas Day
+[2026-01-06 02:58:37] [INFO] Skipping (already exists): Christmas Carols at Provincial House on Christmas Day
+[2026-01-06 02:58:37] [INFO] Retrying: Youth from Guwahati Province depart for SYMFEST 2024-2025.
+[2026-01-06 02:58:37] [INFO] Skipping (already exists): Youth from Guwahati Province depart for SYMFEST 2024-2025.
+[2026-01-06 02:58:37] [INFO] Retrying: Merry Christmas from Provincial House, Guwahati.
+[2026-01-06 02:58:37] [INFO] Skipping (already exists): Merry Christmas from Provincial House, Guwahati.
+[2026-01-06 02:58:37] [INFO] Retrying: Don Bosco Institute Spreads Christmas Cheer with Joypur Village Families
+[2026-01-06 02:58:38] [INFO] Skipping (already exists): Don Bosco Institute Spreads Christmas Cheer with Joypur Village Families
+[2026-01-06 02:58:38] [INFO] Retrying: Horogor Poth: Third Edition Released in Shallang
+[2026-01-06 02:58:38] [INFO] Skipping (already exists): Horogor Poth: Third Edition Released in Shallang
+[2026-01-06 02:58:38] [INFO] Retrying: Bosco Reach Out Celebrates Pre-Christmas with Festive Cheer
+[2026-01-06 02:58:38] [INFO] Skipping (already exists): Bosco Reach Out Celebrates Pre-Christmas with Festive Cheer
+[2026-01-06 02:58:38] [INFO] Retrying: Pre-Christmas Celebration at Don Bosco Provincial House, Panbazar
+[2026-01-06 02:58:38] [INFO] Skipping (already exists): Pre-Christmas Celebration at Don Bosco Provincial House, Panbazar
+[2026-01-06 02:58:38] [INFO] Retrying: First Vocation Camp at Bosco Mount Concludes with Holy Mass
+[2026-01-06 02:58:38] [INFO] Skipping (already exists): First Vocation Camp at Bosco Mount Concludes with Holy Mass
+[2026-01-06 02:58:38] [INFO] Retrying: Don Bosco School Dimakuchi Concludes Annual Sports Day 2024
+[2026-01-06 02:58:38] [INFO] Skipping (already exists): Don Bosco School Dimakuchi Concludes Annual Sports Day 2024
+[2026-01-06 02:58:38] [INFO] Retrying: Rev. Fr. Sebastian Kuricheal attends Provincials’ Meeting and Training in Rome
+[2026-01-06 02:58:38] [INFO] Skipping (already exists): Rev. Fr. Sebastian Kuricheal attends Provincials’ Meeting and Training in Rome
+[2026-01-06 02:58:38] [INFO] Retrying: DBS Bhooteachang Celebrates Final Sports Day and Pre-Christmas Festivities
+[2026-01-06 02:58:38] [INFO] Skipping (already exists): DBS Bhooteachang Celebrates Final Sports Day and Pre-Christmas Festivities
+[2026-01-06 02:58:38] [INFO] Retrying: Don Bosco School Haflong Hosts Pre-Christmas Celebration
+[2026-01-06 02:58:39] [INFO] Skipping (already exists): Don Bosco School Haflong Hosts Pre-Christmas Celebration
+[2026-01-06 02:58:39] [INFO] Retrying: Vocation Boys Visit Salesian Centres in Tura
+[2026-01-06 02:58:39] [INFO] Skipping (already exists): Vocation Boys Visit Salesian Centres in Tura
+[2026-01-06 02:58:39] [INFO] Retrying: Vice Provincial Animates ADMA Members of Mendal Parish
+[2026-01-06 02:58:39] [INFO] Skipping (already exists): Vice Provincial Animates ADMA Members of Mendal Parish
+[2026-01-06 02:58:39] [INFO] Retrying: First Vocation Camp of 2024-2025 Held at Bosco Mount, Tura
+[2026-01-06 02:58:39] [INFO] Skipping (already exists): First Vocation Camp of 2024-2025 Held at Bosco Mount, Tura
+[2026-01-06 02:58:39] [INFO] Retrying: Bosco Reach Out Hosts Human Resource Summit 2024
+[2026-01-06 02:58:39] [INFO] Skipping (already exists): Bosco Reach Out Hosts Human Resource Summit 2024
+[2026-01-06 02:58:39] [INFO] Retrying: Christmas Cantata Held at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:39] [INFO] Skipping (already exists): Christmas Cantata Held at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:39] [INFO] Retrying: Salesians’ Joint Retreat Concludes with Great Appreciation
+[2026-01-06 02:58:39] [INFO] Skipping (already exists): Salesians’ Joint Retreat Concludes with Great Appreciation
+[2026-01-06 02:58:39] [INFO] Retrying: Vocational Guidance Commission Meeting Held at Provincial House, Guwahati
+[2026-01-06 02:58:39] [INFO] Skipping (already exists): Vocational Guidance Commission Meeting Held at Provincial House, Guwahati
+[2026-01-06 02:58:39] [INFO] Retrying: Animation Programme on Mission Poverty Eradication Held at Bosco Reach Out, Guwahati
+[2026-01-06 02:58:40] [INFO] Skipping (already exists): Animation Programme on Mission Poverty Eradication Held at Bosco Reach Out, Guwahati
+[2026-01-06 02:58:40] [INFO] Retrying: Don Bosco School, Panbazar, Hosts Pre-Christmas Decoration Competition
+[2026-01-06 02:58:40] [INFO] Skipping (already exists): Don Bosco School, Panbazar, Hosts Pre-Christmas Decoration Competition
+[2026-01-06 02:58:40] [INFO] Retrying: Graduation Day Celebrations at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:40] [INFO] Skipping (already exists): Graduation Day Celebrations at Don Bosco Institute, Kharghuli
+[2026-01-06 02:58:40] [INFO] Retrying: Blessing of New Facilities at Pre-Novitiate House, Dotma
+[2026-01-06 02:58:40] [INFO] Skipping (already exists): Blessing of New Facilities at Pre-Novitiate House, Dotma
+[2026-01-06 02:58:40] [INFO] Retrying: Vestition Ceremony at Emmaus Salesian Novitiate, Zubza
+[2026-01-06 02:58:40] [INFO] Skipping (already exists): Vestition Ceremony at Emmaus Salesian Novitiate, Zubza
+[2026-01-06 02:58:40] [INFO] Retrying: Don Bosco Institute Inaugurates Silver Jubilee with Jubilee Park Dedication
+[2026-01-06 02:58:40] [INFO] Skipping (already exists): Don Bosco Institute Inaugurates Silver Jubilee with Jubilee Park Dedication
+[2026-01-06 02:58:40] [INFO] === Retry Completed ===
+[2026-01-06 02:58:40] [INFO] Total retried: 4
+[2026-01-06 02:58:40] [INFO] Total skipped (already exists): 346
+[2026-01-06 02:58:40] [INFO] Total failed: 2

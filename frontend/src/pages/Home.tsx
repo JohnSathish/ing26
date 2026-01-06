@@ -1,5 +1,6 @@
 import Header from '../components/Header/Header';
 import Hero from '../components/Hero/Hero';
+import FlashNews from '../components/FlashNews/FlashNews';
 // import Statistics from '../components/Statistics/Statistics';
 import Welcome from '../components/Welcome/Welcome';
 import ProvincialMessage from '../components/ProvincialMessage/ProvincialMessage';
@@ -19,6 +20,7 @@ function Home() {
     <div className="home">
       <Header />
       <Hero />
+      <FlashNews />
       {/* <Statistics /> */}
       <Welcome />
       <ProvincialMessage />

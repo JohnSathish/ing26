@@ -2,6 +2,9 @@ import { useEffect, useState, useRef } from 'react';
 import AdminLayout from '../../components/AdminLayout/AdminLayout';
 import { apiGet, apiPost, apiPut, apiDelete, apiUploadImage } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
+import { useToast } from '../../contexts/ToastContext';
+import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
+import EmptyState from '../../components/EmptyState/EmptyState';
 import './Management.css';
 
 interface BirthdayWish {
@@ -30,6 +33,7 @@ function BirthdayManagement() {
   const [uploading, setUploading] = useState(false);
   const [imagePreview, setImagePreview] = useState<string>('');
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const { showSuccess, showError } = useToast();
 
   useEffect(() => {
     loadWishes();
@@ -64,9 +68,10 @@ function BirthdayManagement() {
       setShowForm(false);
       setEditing(null);
       resetForm();
+      showSuccess(editing ? 'Birthday wish updated successfully!' : 'Birthday wish created successfully!');
       loadWishes();
     } catch (error: any) {
-      alert(error.message || 'Operation failed');
+      showError(error.message || 'Operation failed');
     }
   };
 
@@ -76,9 +81,10 @@ function BirthdayManagement() {
     }
     try {
       await apiDelete(`${API_ENDPOINTS.BIRTHDAY.DELETE}?id=${id}`);
+      showSuccess('Birthday wish deleted successfully!');
       loadWishes();
     } catch (error: any) {
-      alert(error.message || 'Delete failed');
+      showError(error.message || 'Delete failed');
     }
   };
 
@@ -117,13 +123,13 @@ function BirthdayManagement() {
 
     // Validate file type
     if (!file.type.startsWith('image/')) {
-      alert('Please select an image file');
+      showError('Please select an image file');
       return;
     }
 
     // Validate file size (5MB)
     if (file.size > 5 * 1024 * 1024) {
-      alert('File size must be less than 5MB');
+      showError('File size must be less than 5MB');
       return;
     }
 
@@ -139,9 +145,9 @@ function BirthdayManagement() {
     try {
       const result = await apiUploadImage(file);
       setFormData({ ...formData, profile_image: result.url });
-      alert('Image uploaded successfully!');
+      showSuccess('Image uploaded successfully!');
     } catch (error: any) {
-      alert(error.message || 'Failed to upload image');
+      showError(error.message || 'Failed to upload image');
       setImagePreview('');
     } finally {
       setUploading(false);
@@ -162,7 +168,7 @@ function BirthdayManagement() {
   if (loading) {
     return (
       <AdminLayout>
-        <div>Loading...</div>
+        <LoadingSpinner message="Loading birthday wishes..." />
       </AdminLayout>
     );
   }
@@ -308,18 +314,34 @@ function BirthdayManagement() {
               </tr>
             </thead>
             <tbody>
-              {wishes.map((wish) => (
-                <tr key={wish.id}>
-                  <td>{wish.name}</td>
-                  <td>{new Date(wish.date_of_birth).toLocaleDateString()}</td>
-                  <td>{wish.message || '-'}</td>
-                  <td>{wish.is_active ? 'Active' : 'Inactive'}</td>
-                  <td>
-                    <button onClick={() => handleEdit(wish)} className="btn-edit">Edit</button>
-                    <button onClick={() => handleDelete(wish.id)} className="btn-delete">Delete</button>
+              {wishes.length === 0 ? (
+                <tr>
+                  <td colSpan={5} style={{ textAlign: 'center', padding: '3rem' }}>
+                    <EmptyState
+                      title="No Birthday Wishes"
+                      message="No birthday wishes found. Create your first birthday wish to get started."
+                      icon="🎂"
+                      action={{
+                        label: "Create Birthday Wish",
+                        onClick: () => { setShowForm(true); setEditing(null); resetForm(); }
+                      }}
+                    />
                   </td>
                 </tr>
-              ))}
+              ) : (
+                wishes.map((wish) => (
+                  <tr key={wish.id}>
+                    <td>{wish.name}</td>
+                    <td>{new Date(wish.date_of_birth).toLocaleDateString()}</td>
+                    <td>{wish.message || '-'}</td>
+                    <td>{wish.is_active ? 'Active' : 'Inactive'}</td>
+                    <td>
+                      <button onClick={() => handleEdit(wish)} className="btn-edit">Edit</button>
+                      <button onClick={() => handleDelete(wish.id)} className="btn-delete">Delete</button>
+                    </td>
+                  </tr>
+                ))
+              )}
             </tbody>
           </table>
         </div>

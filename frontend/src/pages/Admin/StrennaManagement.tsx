@@ -2,6 +2,8 @@ import { useEffect, useState, useRef } from 'react';
 import AdminLayout from '../../components/AdminLayout/AdminLayout';
 import { apiGet, apiPost, apiPut, apiUploadImage } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
+import { useToast } from '../../contexts/ToastContext';
+import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
 import './Management.css';
 
 interface Strenna {
@@ -162,7 +164,7 @@ function StrennaManagement() {
   if (loading) {
     return (
       <AdminLayout>
-        <div className="loading">Loading...</div>
+        <LoadingSpinner message="Loading STRENNA..." />
       </AdminLayout>
     );
   }

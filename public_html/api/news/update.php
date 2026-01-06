@@ -44,7 +44,8 @@ $title = sanitizeInput($input['title'] ?? null, 'string');
 $content = $input['content'] ?? null;
 $excerpt = sanitizeInput($input['excerpt'] ?? null, 'string');
 $featuredImage = sanitizeInput($input['featured_image'] ?? null, 'string');
-$eventDate = sanitizeInput($input['event_date'] ?? null, 'string');
+// Get event_date directly from input to preserve empty strings
+$eventDate = isset($input['event_date']) ? trim($input['event_date']) : null;
 $isFeatured = isset($input['is_featured']) ? (bool)$input['is_featured'] : null;
 $isPublished = isset($input['is_published']) ? (bool)$input['is_published'] : null;
 $publishedAt = $input['published_at'] ?? null;
@@ -93,11 +94,11 @@ if ($featuredImage !== null) {
 }
 
 if ($hasEventDate) {
-    // Always update event_date, even if it's empty (to clear it)
-    if ($eventDate !== null) {
+    // Always update event_date if it's in the input (even if empty string, to clear it)
+    if (isset($input['event_date'])) {
         $updates[] = "event_date = :event_date";
         // Convert empty string to null for database
-        $params['event_date'] = (trim($eventDate) === '') ? null : trim($eventDate);
+        $params['event_date'] = ($eventDate === null || $eventDate === '') ? null : $eventDate;
     }
 }
 

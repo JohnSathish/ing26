@@ -32,30 +32,11 @@
 }
 
 .news-row {
-  display: flex;
-  gap: 1.25rem;
-  overflow-x: auto;
-  padding-bottom: 1rem;
-  scrollbar-width: thin;
-  scrollbar-color: #cbd5e1 #f1f5f9;
-}
-
-.news-row::-webkit-scrollbar {
-  height: 8px;
-}
-
-.news-row::-webkit-scrollbar-track {
-  background: #f1f5f9;
-  border-radius: 4px;
-}
-
-.news-row::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 4px;
-}
-
-.news-row::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  width: 100%;
+  overflow: hidden;
 }
 
 .news-card {
@@ -79,9 +60,8 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  min-width: 280px;
-  max-width: 280px;
-  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
 .news-card:hover,
@@ -106,7 +86,7 @@
 }
 
 .news-card-small .news-image {
-  aspect-ratio: 4/3;
+  aspect-ratio: 16/10;
 }
 
 .news-image.no-image {
@@ -157,7 +137,7 @@
 }
 
 .news-card-small .news-content {
-  padding: 1rem;
+  padding: 0.875rem;
   gap: 0.5rem;
 }
 
@@ -184,8 +164,9 @@
 }
 
 .news-card-small .news-title {
-  font-size: 1rem;
+  font-size: 0.9375rem;
   -webkit-line-clamp: 2;
+  line-height: 1.3;
 }
 
 .news-excerpt {
@@ -200,8 +181,9 @@
 }
 
 .news-card-small .news-excerpt {
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   -webkit-line-clamp: 2;
+  line-height: 1.4;
 }
 
 .read-more-link {
@@ -264,6 +246,20 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .news-row {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.875rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .news-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.875rem;
+  }
+}
+
 @media (max-width: 768px) {
   .news {
     padding: 2rem 0;
@@ -283,16 +279,31 @@
   }
 
   .news-row {
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
   }
 
-  .news-card-small {
-    min-width: 260px;
-    max-width: 260px;
+  .news-card-small .news-content {
+    padding: 0.75rem;
+  }
+
+  .news-card-small .news-title {
+    font-size: 0.875rem;
+  }
+
+  .news-card-small .news-excerpt {
+    font-size: 0.75rem;
   }
 
   .view-all-link {
     font-size: 1rem;
     padding: 0.75rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .news-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }

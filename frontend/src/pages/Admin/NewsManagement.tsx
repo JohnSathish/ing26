@@ -6,6 +6,8 @@ import TextAlign from '@tiptap/extension-text-align';
 import AdminLayout from '../../components/AdminLayout/AdminLayout';
 import { apiGet, apiPost, apiPut, apiDelete, apiUploadImage } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
+import { useToast } from '../../contexts/ToastContext';
+import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
 import './Management.css';
 
 interface NewsItem {
@@ -28,8 +30,16 @@ function NewsManagement() {
   const [editing, setEditing] = useState<NewsItem | null>(null);
   const [uploading, setUploading] = useState(false);
   const [imagePreview, setImagePreview] = useState<string>('');
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [itemsPerPage] = useState<number>(20);
+  const [totalItems, setTotalItems] = useState<number>(0);
+  const [totalPages, setTotalPages] = useState<number>(0);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const { showSuccess, showError } = useToast();
   const editorImageInputRef = useRef<HTMLInputElement>(null);
+  const bulkImageInputRef = useRef<HTMLInputElement>(null);
+  const [uploadingBulk, setUploadingBulk] = useState(false);
   const [formData, setFormData] = useState({
     title: '',
     content: '',
@@ -140,15 +150,43 @@ function NewsManagement() {
 
   useEffect(() => {
     loadNews();
-  }, []);
+  }, [currentPage, searchQuery]);
+
+  // Reset to page 1 when search query changes
+  useEffect(() => {
+    setCurrentPage(1);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchQuery]);
 
   const loadNews = async () => {
     try {
-      const response = await apiGet<{ success: boolean; data: NewsItem[] }>(
-        API_ENDPOINTS.NEWS.LIST
-      );
+      setLoading(true);
+      let url = `${API_ENDPOINTS.NEWS.LIST}?page=${currentPage}&limit=${itemsPerPage}`;
+      if (searchQuery.trim()) {
+        url += `&search=${encodeURIComponent(searchQuery.trim())}`;
+      }
+      const response = await apiGet<{ 
+        success: boolean; 
+        data: NewsItem[];
+        pagination?: {
+          page: number;
+          limit: number;
+          total: number;
+          pages: number;
+        };
+      }>(url);
+      
       if (response.success) {
         setNews(response.data);
+        // Update pagination info from API response
+        if (response.pagination) {
+          setTotalItems(response.pagination.total);
+          setTotalPages(response.pagination.pages);
+        } else {
+          // Fallback: if API doesn't return pagination, use data length
+          setTotalItems(response.data.length);
+          setTotalPages(1);
+        }
       }
     } catch (error) {
       console.error('Failed to load news:', error);
@@ -163,13 +201,13 @@ function NewsManagement() {
 
     // Validate file type
     if (!file.type.startsWith('image/')) {
-      alert('Please select an image file');
+      showError('Please select an image file');
       return;
     }
 
     // Validate file size (5MB)
     if (file.size > 5 * 1024 * 1024) {
-      alert('File size must be less than 5MB');
+      showError('File size must be less than 5MB');
       return;
     }
 
@@ -185,9 +223,9 @@ function NewsManagement() {
     try {
       const result = await apiUploadImage(file);
       setFormData({ ...formData, featured_image: result.url });
-      alert('Image uploaded successfully!');
+      showSuccess('Image uploaded successfully!');
     } catch (error: any) {
-      alert(error.message || 'Failed to upload image');
+      showError(error.message || 'Failed to upload image');
       setImagePreview('');
     } finally {
       setUploading(false);
@@ -233,11 +271,96 @@ function NewsManagement() {
     try {
       const url = await handleEditorImageUpload(file);
       editor.chain().focus().setImage({ src: url }).run();
+      showSuccess('Image inserted successfully!');
     } catch (error: any) {
-      alert(error.message || 'Failed to upload image');
+      showError(error.message || 'Failed to upload image');
     } finally {
       if (editorImageInputRef.current) {
         editorImageInputRef.current.value = '';
+      }
+    }
+  };
+
+  // Handle bulk image upload button click
+  const handleBulkImageClick = () => {
+    if (bulkImageInputRef.current) {
+      bulkImageInputRef.current.click();
+    }
+  };
+
+  // Handle bulk image file selection for editor
+  const handleBulkImageSelect = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = e.target.files;
+    if (!files || files.length === 0 || !editor) return;
+
+    const fileArray = Array.from(files);
+    
+    // Validate all files
+    for (const file of fileArray) {
+      if (!file.type.startsWith('image/')) {
+        showError(`"${file.name}" is not an image file. Skipping.`);
+        continue;
+      }
+      if (file.size > 5 * 1024 * 1024) {
+        showError(`"${file.name}" is too large (max 5MB). Skipping.`);
+        continue;
+      }
+    }
+
+    setUploadingBulk(true);
+    const validFiles = fileArray.filter(
+      file => file.type.startsWith('image/') && file.size <= 5 * 1024 * 1024
+    );
+
+    if (validFiles.length === 0) {
+      setUploadingBulk(false);
+      showError('No valid images to upload');
+      return;
+    }
+
+    try {
+      // Upload all images sequentially
+      const uploadedUrls: string[] = [];
+      let successCount = 0;
+      let failCount = 0;
+
+      for (const file of validFiles) {
+        try {
+          const result = await apiUploadImage(file);
+          uploadedUrls.push(result.url);
+          successCount++;
+        } catch (error: any) {
+          console.error(`Failed to upload ${file.name}:`, error);
+          failCount++;
+        }
+      }
+
+      // Insert all images consecutively in the editor
+      if (uploadedUrls.length > 0) {
+        editor.chain().focus();
+        
+        // Insert images consecutively so they can be detected as a group for collage layout
+        // Wrap each image in a paragraph to ensure proper spacing
+        uploadedUrls.forEach((url, index) => {
+          // Insert image wrapped in a paragraph
+          editor.chain().insertContent(`<p><img src="${url}" alt="Event image ${index + 1}" /></p>`).run();
+        });
+
+        // Show success message
+        if (failCount === 0) {
+          showSuccess(`Successfully uploaded and inserted ${successCount} image${successCount !== 1 ? 's' : ''}!`);
+        } else {
+          showSuccess(`Uploaded ${successCount} image${successCount !== 1 ? 's' : ''}${failCount > 0 ? ` (${failCount} failed)` : ''}`);
+        }
+      } else {
+        showError('Failed to upload any images');
+      }
+    } catch (error: any) {
+      showError(error.message || 'Failed to upload images');
+    } finally {
+      setUploadingBulk(false);
+      if (bulkImageInputRef.current) {
+        bulkImageInputRef.current.value = '';
       }
     }
   };
@@ -258,15 +381,17 @@ function NewsManagement() {
           ...formData,
           id: editing.id,
         });
+        showSuccess('News item updated successfully!');
       } else {
         await apiPost(API_ENDPOINTS.NEWS.CREATE, formData);
+        showSuccess('News item created successfully!');
       }
       setShowForm(false);
       setEditing(null);
       resetForm();
       loadNews();
     } catch (error: any) {
-      alert(error.message || 'Operation failed');
+      showError(error.message || 'Operation failed');
     }
   };
 
@@ -276,9 +401,10 @@ function NewsManagement() {
     }
     try {
       await apiDelete(`${API_ENDPOINTS.NEWS.DELETE}?id=${id}`);
+      showSuccess('News item deleted successfully!');
       loadNews();
     } catch (error: any) {
-      alert(error.message || 'Delete failed');
+      showError(error.message || 'Delete failed');
     }
   };
 
@@ -331,7 +457,7 @@ function NewsManagement() {
   if (loading) {
     return (
       <AdminLayout>
-        <div>Loading...</div>
+        <LoadingSpinner message="Loading news..." />
       </AdminLayout>
     );
   }
@@ -474,15 +600,33 @@ function NewsManagement() {
                           <button
                             type="button"
                             onClick={handleEditorImageClick}
-                            title="Insert Image"
+                            title="Insert Single Image"
+                            disabled={uploadingBulk}
                           >
                             🖼
+                          </button>
+                          <button
+                            type="button"
+                            onClick={handleBulkImageClick}
+                            title="Upload Multiple Images"
+                            disabled={uploadingBulk}
+                            className={uploadingBulk ? 'uploading' : ''}
+                          >
+                            {uploadingBulk ? '⏳' : '🖼️+'}
                           </button>
                           <input
                             ref={editorImageInputRef}
                             type="file"
                             accept="image/*"
                             onChange={handleEditorImageSelect}
+                            style={{ display: 'none' }}
+                          />
+                          <input
+                            ref={bulkImageInputRef}
+                            type="file"
+                            accept="image/*"
+                            multiple
+                            onChange={handleBulkImageSelect}
                             style={{ display: 'none' }}
                           />
                           <button
@@ -611,14 +755,52 @@ function NewsManagement() {
     );
   }
 
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <AdminLayout>
       <div className="management">
         <div className="management-header">
-          <h1>News Management</h1>
+          <div>
+            <h1>News Management</h1>
+            <div className="total-count">
+              Total News Items: <strong>{totalItems}</strong>
+            </div>
+          </div>
           <button onClick={() => { setShowForm(true); setEditing(null); resetForm(); }} className="btn-primary">
             Add New
           </button>
+        </div>
+
+        {/* Search Bar */}
+        <div className="search-bar">
+          <div className="search-input-wrapper">
+            <input
+              type="text"
+              placeholder="Search by title..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="search-input"
+            />
+            {searchQuery && (
+              <button
+                type="button"
+                onClick={() => setSearchQuery('')}
+                className="search-clear-btn"
+                title="Clear search"
+              >
+                ✕
+              </button>
+            )}
+          </div>
+          {searchQuery && (
+            <div className="search-results-info">
+              Found {totalItems} result{totalItems !== 1 ? 's' : ''} matching "{searchQuery}"
+            </div>
+          )}
         </div>
 
         <div className="table-container">
@@ -633,37 +815,101 @@ function NewsManagement() {
               </tr>
             </thead>
             <tbody>
-              {news.map((item) => (
-                <tr key={item.id}>
-                  <td>{item.title}</td>
-                  <td>{item.excerpt || '-'}</td>
-                  <td>{item.is_featured ? 'Yes' : 'No'}</td>
-                  <td>{item.is_published ? 'Yes' : 'No'}</td>
-                  <td>
-                    <div className="action-buttons">
-                      <button 
-                        onClick={() => handleEdit(item)} 
-                        className="btn-action btn-edit"
-                        title="Edit this news item"
-                      >
-                        <span className="btn-icon">✏️</span>
-                        <span className="btn-text">Edit</span>
-                      </button>
-                      <button 
-                        onClick={() => handleDelete(item.id)} 
-                        className="btn-action btn-delete"
-                        title="Delete this news item"
-                      >
-                        <span className="btn-icon">🗑️</span>
-                        <span className="btn-text">Delete</span>
-                      </button>
-                    </div>
+              {news.length === 0 ? (
+                <tr>
+                  <td colSpan={5} style={{ textAlign: 'center', padding: '2rem', color: '#6b7280' }}>
+                    {searchQuery ? `No news items found matching "${searchQuery}"` : 'No news items found'}
                   </td>
                 </tr>
-              ))}
+              ) : (
+                news.map((item) => (
+                  <tr key={item.id}>
+                    <td>{item.title}</td>
+                    <td>{item.excerpt || '-'}</td>
+                    <td>{item.is_featured ? 'Yes' : 'No'}</td>
+                    <td>{item.is_published ? 'Yes' : 'No'}</td>
+                    <td>
+                      <div className="action-buttons">
+                        <button 
+                          onClick={() => handleEdit(item)} 
+                          className="btn-action btn-edit"
+                          title="Edit this news item"
+                        >
+                          <span className="btn-icon">✏️</span>
+                          <span className="btn-text">Edit</span>
+                        </button>
+                        <button 
+                          onClick={() => handleDelete(item.id)} 
+                          className="btn-action btn-delete"
+                          title="Delete this news item"
+                        >
+                          <span className="btn-icon">🗑️</span>
+                          <span className="btn-text">Delete</span>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                ))
+              )}
             </tbody>
           </table>
         </div>
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div className="pagination">
+            <div className="pagination-info">
+              Showing {((currentPage - 1) * itemsPerPage) + 1} to {Math.min(currentPage * itemsPerPage, totalItems)} of {totalItems} items
+            </div>
+            <div className="pagination-controls">
+              <button
+                onClick={() => handlePageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+                className="pagination-btn"
+                title="Previous page"
+              >
+                ← Previous
+              </button>
+              
+              <div className="pagination-numbers">
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                  // Show first page, last page, current page, and pages around current
+                  if (
+                    page === 1 ||
+                    page === totalPages ||
+                    page === currentPage ||
+                    (page >= currentPage - 2 && page <= currentPage + 2)
+                  ) {
+                    return (
+                      <button
+                        key={page}
+                        onClick={() => handlePageChange(page)}
+                        className={`pagination-btn ${page === currentPage ? 'active' : ''}`}
+                      >
+                        {page}
+                      </button>
+                    );
+                  } else if (
+                    page === currentPage - 3 ||
+                    page === currentPage + 3
+                  ) {
+                    return <span key={page} className="pagination-ellipsis">...</span>;
+                  }
+                  return null;
+                })}
+              </div>
+              
+              <button
+                onClick={() => handlePageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className="pagination-btn"
+                title="Next page"
+              >
+                Next →
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </AdminLayout>
   );

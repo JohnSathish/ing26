@@ -18,12 +18,15 @@ interface Banner {
 
 function BannersManagement() {
   const [banners, setBanners] = useState<Banner[]>([]);
+  const [filteredBanners, setFilteredBanners] = useState<Banner[]>([]);
+  const [filterType, setFilterType] = useState<'all' | 'hero' | 'flash_news'>('all');
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
   const [editing, setEditing] = useState<Banner | null>(null);
   const [uploading, setUploading] = useState(false);
   const [imagePreview, setImagePreview] = useState<string>('');
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const { showSuccess, showError } = useToast();
   const [formData, setFormData] = useState({
     type: 'hero' as 'hero' | 'flash_news',
     title: '',
@@ -46,6 +49,7 @@ function BannersManagement() {
       );
       if (response.success) {
         setBanners(response.data);
+        applyFilter(response.data, filterType);
       }
     } catch (error) {
       console.error('Failed to load banners:', error);
@@ -53,6 +57,18 @@ function BannersManagement() {
       setLoading(false);
     }
   };
+
+  const applyFilter = (bannerList: Banner[], type: 'all' | 'hero' | 'flash_news') => {
+    if (type === 'all') {
+      setFilteredBanners(bannerList);
+    } else {
+      setFilteredBanners(bannerList.filter(banner => banner.type === type));
+    }
+  };
+
+  useEffect(() => {
+    applyFilter(banners, filterType);
+  }, [filterType, banners]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -68,9 +84,10 @@ function BannersManagement() {
       setShowForm(false);
       setEditing(null);
       resetForm();
+      showSuccess(editing ? 'Banner updated successfully!' : 'Banner created successfully!');
       loadBanners();
     } catch (error: any) {
-      alert(error.message || 'Operation failed');
+      showError(error.message || 'Operation failed');
     }
   };
 
@@ -80,9 +97,10 @@ function BannersManagement() {
     }
     try {
       await apiDelete(`${API_ENDPOINTS.BANNERS.DELETE}?id=${id}`);
+      showSuccess('Banner deleted successfully!');
       loadBanners();
     } catch (error: any) {
-      alert(error.message || 'Delete failed');
+      showError(error.message || 'Delete failed');
     }
   };
 
@@ -92,13 +110,13 @@ function BannersManagement() {
 
     // Validate file type
     if (!file.type.startsWith('image/')) {
-      alert('Please select an image file');
+      showError('Please select an image file');
       return;
     }
 
     // Validate file size (5MB)
     if (file.size > 5 * 1024 * 1024) {
-      alert('File size must be less than 5MB');
+      showError('File size must be less than 5MB');
       return;
     }
 
@@ -114,9 +132,9 @@ function BannersManagement() {
     try {
       const result = await apiUploadImage(file);
       setFormData({ ...formData, image: result.url });
-      alert('Image uploaded successfully!');
+      showSuccess('Image uploaded successfully!');
     } catch (error: any) {
-      alert(error.message || 'Failed to upload image');
+      showError(error.message || 'Failed to upload image');
       setImagePreview('');
     } finally {
       setUploading(false);
@@ -180,9 +198,26 @@ function BannersManagement() {
       <div className="management">
         <div className="management-header">
           <h1>Banners Management</h1>
-          <button onClick={() => { setShowForm(true); setEditing(null); resetForm(); }} className="btn-primary">
-            Add New
-          </button>
+          <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+            <select
+              value={filterType}
+              onChange={(e) => setFilterType(e.target.value as 'all' | 'hero' | 'flash_news')}
+              style={{
+                padding: '0.5rem 1rem',
+                borderRadius: '0.375rem',
+                border: '1px solid #e5e7eb',
+                fontSize: '0.9375rem',
+                cursor: 'pointer',
+              }}
+            >
+              <option value="all">All Banners</option>
+              <option value="hero">Hero Slider</option>
+              <option value="flash_news">Flash News</option>
+            </select>
+            <button onClick={() => { setShowForm(true); setEditing(null); resetForm(); }} className="btn-primary">
+              Add New
+            </button>
+          </div>
         </div>
 
         {showForm && (
@@ -334,19 +369,57 @@ function BannersManagement() {
               </tr>
             </thead>
             <tbody>
-              {banners.map((banner) => (
-                <tr key={banner.id}>
-                  <td>{banner.type}</td>
-                  <td>{banner.title || '-'}</td>
-                  <td>{banner.content ? banner.content.substring(0, 50) + '...' : '-'}</td>
-                  <td>{banner.order_index}</td>
-                  <td>{banner.is_active ? 'Active' : 'Inactive'}</td>
-                  <td>
-                    <button onClick={() => handleEdit(banner)} className="btn-edit">Edit</button>
-                    <button onClick={() => handleDelete(banner.id)} className="btn-delete">Delete</button>
+              {filteredBanners.length === 0 && !loading ? (
+                <tr>
+                  <td colSpan={6} style={{ textAlign: 'center', padding: '2rem' }}>
+                    <EmptyState
+                      title="No Banners Found"
+                      message={`No ${filterType === 'all' ? '' : filterType === 'hero' ? 'hero ' : 'flash news '}banners found. Create your first banner to get started.`}
+                      icon="🎯"
+                      action={{
+                        label: "Create Banner",
+                        onClick: () => { setShowForm(true); setEditing(null); resetForm(); }
+                      }}
+                    />
                   </td>
                 </tr>
-              ))}
+              ) : (
+                filteredBanners.map((banner) => (
+                  <tr key={banner.id}>
+                    <td>
+                      <span style={{
+                        padding: '0.25rem 0.5rem',
+                        borderRadius: '0.25rem',
+                        fontSize: '0.75rem',
+                        fontWeight: 600,
+                        backgroundColor: banner.type === 'hero' ? '#dbeafe' : '#fef3c7',
+                        color: banner.type === 'hero' ? '#1e40af' : '#92400e',
+                      }}>
+                        {banner.type === 'hero' ? 'Hero' : 'Flash News'}
+                      </span>
+                    </td>
+                    <td>{banner.title || '-'}</td>
+                    <td>{banner.content ? banner.content.substring(0, 50) + '...' : '-'}</td>
+                    <td>{banner.order_index}</td>
+                    <td>
+                      <span style={{
+                        padding: '0.25rem 0.5rem',
+                        borderRadius: '0.25rem',
+                        fontSize: '0.75rem',
+                        fontWeight: 600,
+                        backgroundColor: banner.is_active ? '#d1fae5' : '#fee2e2',
+                        color: banner.is_active ? '#065f46' : '#991b1b',
+                      }}>
+                        {banner.is_active ? 'Active' : 'Inactive'}
+                      </span>
+                    </td>
+                    <td>
+                      <button onClick={() => handleEdit(banner)} className="btn-edit">Edit</button>
+                      <button onClick={() => handleDelete(banner.id)} className="btn-delete">Delete</button>
+                    </td>
+                  </tr>
+                ))
+              )}
             </tbody>
           </table>
         </div>

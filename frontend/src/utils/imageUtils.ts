@@ -1,56 +1,89 @@
+import { useState, useEffect, useRef } from 'react';
+
 /**
- * Image URL utility functions for subdirectory deployment
+ * Image utility functions for lazy loading and error handling
  */
 
 /**
- * Normalize image URL for subdirectory deployment
- * Handles both root and subdirectory paths
+ * Get image URL with fallback
  */
-export function getImageUrl(image: string | null | undefined): string {
-  if (!image) return '';
-
-  const imageStr = image.trim();
+export function getImageUrl(url: string | null | undefined, fallback: string = '/placeholder.jpg'): string {
+  if (!url || url.trim() === '') {
+    return fallback;
+  }
   
-  // If already a full URL, return as is
-  if (imageStr.startsWith('http://') || imageStr.startsWith('https://')) {
-    return imageStr;
+  // If URL is already absolute, return as is
+  if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('//')) {
+    return url;
   }
-
-  // If starts with /uploads/ or uploads/, normalize to /uploads/
-  if (imageStr.startsWith('/uploads/') || imageStr.startsWith('uploads/')) {
-    // For subdirectory deployment, keep as /uploads/ (accessible from root)
-    return imageStr.startsWith('/') ? imageStr : '/' + imageStr;
+  
+  // If URL starts with /, it's a relative path
+  if (url.startsWith('/')) {
+    return url;
   }
-
-  // If it's just a filename, prepend /uploads/images/
-  return '/uploads/images/' + imageStr;
+  
+  // Otherwise, prepend /uploads/ if it's a relative path
+  return `/uploads/${url}`;
 }
 
 /**
- * Get image URL for subdirectory deployment
- * Use this when images are in /newsite/uploads/
+ * Lazy load image with intersection observer
  */
-export function getImageUrlForSubdirectory(image: string | null | undefined): string {
-  if (!image) return '';
+export function useLazyImage(src: string, fallback?: string) {
+  const [imageSrc, setImageSrc] = useState<string>(fallback || '/placeholder.jpg');
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [hasError, setHasError] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
 
-  const imageStr = image.trim();
-  
-  // If already a full URL, return as is
-  if (imageStr.startsWith('http://') || imageStr.startsWith('https://')) {
-    return imageStr;
-  }
+  useEffect(() => {
+    if (!src) return;
 
-  // If starts with /uploads/ or uploads/, add /newsite/ prefix
-  if (imageStr.startsWith('/uploads/') || imageStr.startsWith('uploads/')) {
-    const normalized = imageStr.startsWith('/') ? imageStr : '/' + imageStr;
-    // Check if already has /newsite/ prefix
-    if (normalized.startsWith('/newsite/')) {
-      return normalized;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const img = new Image();
+            img.src = getImageUrl(src);
+            img.onload = () => {
+              setImageSrc(getImageUrl(src));
+              setIsLoaded(true);
+            };
+            img.onerror = () => {
+              setHasError(true);
+              if (fallback) {
+                setImageSrc(fallback);
+              }
+            };
+            observer.disconnect();
+          }
+        });
+      },
+      { rootMargin: '50px' }
+    );
+
+    if (imgRef.current) {
+      observer.observe(imgRef.current);
     }
-    return '/newsite' + normalized;
-  }
 
-  // If it's just a filename, prepend /newsite/uploads/images/
-  return '/newsite/uploads/images/' + imageStr;
+    return () => {
+      observer.disconnect();
+    };
+  }, [src, fallback]);
+
+  return { imageSrc, isLoaded, hasError, imgRef };
 }
 
+/**
+ * Handle image error with fallback
+ */
+export function handleImageError(
+  e: React.SyntheticEvent<HTMLImageElement, Event>,
+  fallback: string = '/placeholder.jpg'
+) {
+  const target = e.target as HTMLImageElement;
+  if (target.src !== fallback) {
+    target.src = fallback;
+  } else {
+    target.style.display = 'none';
+  }
+}

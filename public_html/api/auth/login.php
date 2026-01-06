@@ -6,6 +6,11 @@
 
 if (!defined('API_ACCESS')) { define('API_ACCESS', true); }
 
+// Enable error reporting in development
+if (!defined('ENVIRONMENT')) {
+    define('ENVIRONMENT', 'development');
+}
+
 require_once __DIR__ . '/../config/database.php';
 require_once __DIR__ . '/../config/security.php';
 require_once __DIR__ . '/../config/constants.php';
@@ -118,7 +123,33 @@ try {
 } catch (PDOException $e) {
     error_log("Login error: " . $e->getMessage());
     http_response_code(500);
-    echo json_encode(['error' => 'Login failed']);
+    
+    // In development, show detailed error
+    if (defined('ENVIRONMENT') && ENVIRONMENT === 'development') {
+        echo json_encode([
+            'error' => 'Login failed',
+            'message' => $e->getMessage(),
+            'file' => $e->getFile(),
+            'line' => $e->getLine()
+        ]);
+    } else {
+        echo json_encode(['error' => 'Login failed']);
+    }
+} catch (Exception $e) {
+    error_log("Login error: " . $e->getMessage());
+    http_response_code(500);
+    
+    // In development, show detailed error
+    if (defined('ENVIRONMENT') && ENVIRONMENT === 'development') {
+        echo json_encode([
+            'error' => 'Login failed',
+            'message' => $e->getMessage(),
+            'file' => $e->getFile(),
+            'line' => $e->getLine()
+        ]);
+    } else {
+        echo json_encode(['error' => 'Login failed']);
+    }
 }
 
 

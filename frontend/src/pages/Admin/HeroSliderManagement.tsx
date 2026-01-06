@@ -2,6 +2,9 @@ import { useEffect, useState, useRef } from 'react';
 import AdminLayout from '../../components/AdminLayout/AdminLayout';
 import { apiGet, apiPost, apiPut, apiDelete, apiUploadImage } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
+import { useToast } from '../../contexts/ToastContext';
+import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
+import EmptyState from '../../components/EmptyState/EmptyState';
 import './Management.css';
 
 interface HeroBanner {
@@ -24,6 +27,7 @@ function HeroSliderManagement() {
   const [uploading, setUploading] = useState(false);
   const [imagePreview, setImagePreview] = useState<string>('');
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const { showSuccess, showError } = useToast();
   const [formData, setFormData] = useState({
     title: '',
     subtitle: '',
@@ -73,10 +77,10 @@ function HeroSliderManagement() {
       setShowForm(false);
       setEditing(null);
       resetForm();
+      showSuccess(editing ? 'Hero slider updated successfully!' : 'Hero slider created successfully!');
       loadBanners();
-      alert('Hero slider saved successfully!');
     } catch (error: any) {
-      alert(error.message || 'Operation failed');
+      showError(error.message || 'Operation failed');
     }
   };
 
@@ -86,10 +90,10 @@ function HeroSliderManagement() {
     }
     try {
       await apiDelete(`${API_ENDPOINTS.BANNERS.DELETE}?id=${id}`);
+      showSuccess('Hero slider deleted successfully!');
       loadBanners();
-      alert('Hero slider deleted successfully!');
     } catch (error: any) {
-      alert(error.message || 'Delete failed');
+      showError(error.message || 'Delete failed');
     }
   };
 
@@ -115,12 +119,12 @@ function HeroSliderManagement() {
     if (!file) return;
 
     if (!file.type.startsWith('image/')) {
-      alert('Please select an image file');
+      showError('Please select an image file');
       return;
     }
 
     if (file.size > 5 * 1024 * 1024) {
-      alert('Image size should be less than 5MB');
+      showError('Image size should be less than 5MB');
       return;
     }
 
@@ -132,11 +136,12 @@ function HeroSliderManagement() {
         const formattedUrl = imageUrl.startsWith('/') ? imageUrl : '/' + imageUrl;
         setFormData({ ...formData, image: formattedUrl });
         setImagePreview(formattedUrl);
+        showSuccess('Image uploaded successfully!');
       } else {
-        alert('Image upload failed: No URL returned');
+        showError('Image upload failed: No URL returned');
       }
     } catch (error: any) {
-      alert(error.message || 'Image upload failed');
+      showError(error.message || 'Image upload failed');
     } finally {
       setUploading(false);
       if (fileInputRef.current) {
@@ -185,7 +190,7 @@ function HeroSliderManagement() {
   if (loading) {
     return (
       <AdminLayout>
-        <div className="loading">Loading...</div>
+        <LoadingSpinner message="Loading hero sliders..." />
       </AdminLayout>
     );
   }

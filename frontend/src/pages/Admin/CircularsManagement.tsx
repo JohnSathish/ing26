@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import AdminLayout from '../../components/AdminLayout/AdminLayout';
 import { apiGet, apiPost, apiPut, apiDelete } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
+import { useToast } from '../../contexts/ToastContext';
+import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
+import EmptyState from '../../components/EmptyState/EmptyState';
 import './Management.css';
 
 interface Circular {
@@ -61,9 +64,10 @@ function CircularsManagement() {
       setShowForm(false);
       setEditing(null);
       resetForm();
+      showSuccess(editing ? 'Circular updated successfully!' : 'Circular created successfully!');
       loadCirculars();
     } catch (error: any) {
-      alert(error.message || 'Operation failed');
+      showError(error.message || 'Operation failed');
     }
   };
 
@@ -73,9 +77,10 @@ function CircularsManagement() {
     }
     try {
       await apiDelete(`${API_ENDPOINTS.CIRCULARS.DELETE}?id=${id}`);
+      showSuccess('Circular deleted successfully!');
       loadCirculars();
     } catch (error: any) {
-      alert(error.message || 'Delete failed');
+      showError(error.message || 'Delete failed');
     }
   };
 
@@ -108,7 +113,7 @@ function CircularsManagement() {
   if (loading) {
     return (
       <AdminLayout>
-        <div>Loading...</div>
+        <LoadingSpinner message="Loading circulars..." />
       </AdminLayout>
     );
   }

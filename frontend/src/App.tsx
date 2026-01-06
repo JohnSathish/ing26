@@ -1,5 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './hooks/useAuth';
+import { ToastProvider, useToast } from './contexts/ToastContext';
+import ToastContainer from './components/ToastContainer/ToastContainer';
+import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner';
 import { ROUTES } from './utils/constants';
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -49,7 +52,7 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { authenticated, loading } = useAuth();
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <LoadingSpinner fullScreen message="Loading..." />;
   }
 
   if (!authenticated) {
@@ -64,7 +67,7 @@ function AdminRoute({ children }: { children: React.ReactNode }) {
   const { authenticated, loading, user } = useAuth();
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <LoadingSpinner fullScreen message="Loading..." />;
   }
 
   if (!authenticated) {
@@ -76,6 +79,18 @@ function AdminRoute({ children }: { children: React.ReactNode }) {
   }
 
   return <>{children}</>;
+}
+
+// App with Toast Container
+function AppWithToast() {
+  const { toasts, removeToast } = useToast();
+
+  return (
+    <>
+      <AppRoutes />
+      <ToastContainer toasts={toasts} onRemove={removeToast} />
+    </>
+  );
 }
 
 function AppRoutes() {
@@ -301,9 +316,11 @@ function AppRoutes() {
 function App() {
   return (
     <BrowserRouter>
-      <AuthProvider>
-        <AppRoutes />
-      </AuthProvider>
+      <ToastProvider>
+        <AuthProvider>
+          <AppWithToast />
+        </AuthProvider>
+      </ToastProvider>
     </BrowserRouter>
   );
 }
