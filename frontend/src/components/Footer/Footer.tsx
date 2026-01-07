@@ -51,10 +51,14 @@ function Footer() {
           const response = await apiGet<{ success: boolean; data: any }>(
             `${API_ENDPOINTS.SETTINGS.GET}?key=visitor_count`
           );
-          if (response.success && response.data?.visitor_count) {
-            const count = parseInt(response.data.visitor_count, 10) || 1247;
-            setVisitorCount(count + 1);
-            return;
+          if (response.success && response.data) {
+            // Handle both old format (object with key_name) and new format (key-value object)
+            const visitorCount = response.data.visitor_count || response.data.value;
+            if (visitorCount) {
+              const count = parseInt(visitorCount, 10) || 1247;
+              setVisitorCount(count + 1);
+              return;
+            }
           }
         } catch (error) {
           // API not available, use localStorage

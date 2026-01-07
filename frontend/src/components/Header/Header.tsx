@@ -218,7 +218,14 @@ function Header() {
             <div 
               className={`nav-dropdown ${openDropdown === 'about' ? 'open' : ''}`}
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('about')}
-              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
+              onMouseLeave={(e) => {
+                if (!window.matchMedia('(max-width: 768px)').matches) {
+                  const relatedTarget = e.relatedTarget as HTMLElement;
+                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                    setOpenDropdown(null);
+                  }
+                }
+              }}
             >
               <div 
                 className="dropdown-trigger"
@@ -241,8 +248,6 @@ function Header() {
                 </Link>
               </div>
               <div className="dropdown-menu">
-                <Link to={ROUTES.OUR_VISION} className={currentPath === ROUTES.OUR_VISION ? 'active' : ''}>Our Vision</Link>
-                <Link to={ROUTES.OUR_MISSION} className={currentPath === ROUTES.OUR_MISSION ? 'active' : ''}>Our Mission</Link>
                 {dynamicPages
                   .filter(page => page.parent_menu === 'about')
                   .sort((a, b) => a.sort_order - b.sort_order)
@@ -261,7 +266,14 @@ function Header() {
             <div 
               className={`nav-dropdown ${openDropdown === 'provincials' ? 'open' : ''}`}
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('provincials')}
-              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
+              onMouseLeave={(e) => {
+                if (!window.matchMedia('(max-width: 768px)').matches) {
+                  const relatedTarget = e.relatedTarget as HTMLElement;
+                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                    setOpenDropdown(null);
+                  }
+                }
+              }}
             >
               <div 
                 className="dropdown-trigger"
@@ -284,9 +296,6 @@ function Header() {
                 </Link>
               </div>
               <div className="dropdown-menu">
-                <Link to={ROUTES.VICE_PROVINCIAL} className={currentPath === ROUTES.VICE_PROVINCIAL ? 'active' : ''}>Vice Provincial</Link>
-                <Link to={ROUTES.ECONOMER} className={currentPath === ROUTES.ECONOMER ? 'active' : ''}>Economer</Link>
-                <Link to={ROUTES.PROVINCIAL_SECRETARY} className={currentPath === ROUTES.PROVINCIAL_SECRETARY ? 'active' : ''}>ING Provincial Secretary</Link>
                 {dynamicPages
                   .filter(page => page.parent_menu === 'provincials')
                   .sort((a, b) => a.sort_order - b.sort_order)
@@ -308,7 +317,14 @@ function Header() {
             <div 
               className={`nav-dropdown ${openDropdown === 'houses' ? 'open' : ''}`}
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('houses')}
-              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
+              onMouseLeave={(e) => {
+                if (!window.matchMedia('(max-width: 768px)').matches) {
+                  const relatedTarget = e.relatedTarget as HTMLElement;
+                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                    setOpenDropdown(null);
+                  }
+                }
+              }}
             >
               <div 
                 className="dropdown-trigger"
@@ -349,7 +365,14 @@ function Header() {
             <div 
               className={`nav-dropdown ${openDropdown === 'council' ? 'open' : ''}`}
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('council')}
-              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
+              onMouseLeave={(e) => {
+                if (!window.matchMedia('(max-width: 768px)').matches) {
+                  const relatedTarget = e.relatedTarget as HTMLElement;
+                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                    setOpenDropdown(null);
+                  }
+                }
+              }}
             >
               <div 
                 className="dropdown-trigger"
@@ -372,8 +395,6 @@ function Header() {
                 </Link>
               </div>
               <div className="dropdown-menu">
-                <Link to={ROUTES.COUNCILLORS_2024_2025} className={currentPath === ROUTES.COUNCILLORS_2024_2025 ? 'active' : ''}>Councillors 2024 – 2025</Link>
-                <Link to={ROUTES.DIMENSION} className={currentPath === ROUTES.DIMENSION ? 'active' : ''}>Dimension</Link>
                 {dynamicPages
                   .filter(page => page.parent_menu === 'council' && !page.is_submenu)
                   .sort((a, b) => a.sort_order - b.sort_order)
@@ -386,47 +407,20 @@ function Header() {
                       {page.menu_label || page.title}
                     </Link>
                   ))}
-                <div 
-                  className={`dropdown-submenu ${openSubmenu === 'commissions' ? 'open' : ''}`}
-                  onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenSubmenu('commissions')}
-                  onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenSubmenu(null)}
-                >
-                  <div 
-                    className="submenu-trigger"
-                    onClick={() => {
-                      if (window.matchMedia('(max-width: 768px)').matches) {
-                        setOpenSubmenu(openSubmenu === 'commissions' ? null : 'commissions');
-                      }
-                    }}
-                  >
-                    <span className="submenu-label">Commissions <FaChevronDown className="submenu-icon" /></span>
-                  </div>
-                  <div className="submenu-items">
-                    <Link to={ROUTES.COMMISSION_SCHOOL_EDUCATION} className={currentPath === ROUTES.COMMISSION_SCHOOL_EDUCATION ? 'active' : ''}>School Education (DBSEM)</Link>
-                    <Link to={ROUTES.COMMISSION_HIGHER_EDUCATION} className={currentPath === ROUTES.COMMISSION_HIGHER_EDUCATION ? 'active' : ''}>Higher Education</Link>
-                    <Link to={ROUTES.COMMISSION_NON_FORMAL} className={currentPath === ROUTES.COMMISSION_NON_FORMAL ? 'active' : ''}>Non-Formal</Link>
-                    <Link to={ROUTES.COMMISSION_YOUTH_AT_RISK} className={currentPath === ROUTES.COMMISSION_YOUTH_AT_RISK ? 'active' : ''}>Youth at Risk (YaR)</Link>
-                    <Link to={ROUTES.COMMISSION_MIGRANTS_DESK} className={currentPath === ROUTES.COMMISSION_MIGRANTS_DESK ? 'active' : ''}>Migrant's Desk</Link>
-                    <Link to={ROUTES.COMMISSION_YOUTH_CENTRE} className={currentPath === ROUTES.COMMISSION_YOUTH_CENTRE ? 'active' : ''}>Youth Centre / Oratories</Link>
-                    <Link to={ROUTES.COMMISSION_SCOUTS_GUIDE} className={currentPath === ROUTES.COMMISSION_SCOUTS_GUIDE ? 'active' : ''}>Scouts & Guide / NCC/ NSS</Link>
-                    <Link to={ROUTES.COMMISSION_HOSTEL_BOARDING} className={currentPath === ROUTES.COMMISSION_HOSTEL_BOARDING ? 'active' : ''}>Hostel & Boarding</Link>
-                    <Link to={ROUTES.COMMISSION_SPORTS_ACADEMY} className={currentPath === ROUTES.COMMISSION_SPORTS_ACADEMY ? 'active' : ''}>Sports Academy</Link>
-                    <Link to={ROUTES.COMMISSION_FORMATION} className={currentPath === ROUTES.COMMISSION_FORMATION ? 'active' : ''}>Formation</Link>
-                    <Link to={ROUTES.COMMISSION_SALESIAN_FAMILY} className={currentPath === ROUTES.COMMISSION_SALESIAN_FAMILY ? 'active' : ''}>Salesian Family</Link>
-                    <Link to={ROUTES.COMMISSION_COOPERATORS_ADMA} className={currentPath === ROUTES.COMMISSION_COOPERATORS_ADMA ? 'active' : ''}>Cooperators & ADMA</Link>
-                    <Link to={ROUTES.COMMISSION_PAST_PUPIL} className={currentPath === ROUTES.COMMISSION_PAST_PUPIL ? 'active' : ''}>Past Pupil</Link>
-                    <Link to={ROUTES.COMMISSION_SOCIAL_COMMUNICATION} className={currentPath === ROUTES.COMMISSION_SOCIAL_COMMUNICATION ? 'active' : ''}>Social Communication</Link>
-                    <Link to={ROUTES.COMMISSION_PROTECTOR_MINOR} className={currentPath === ROUTES.COMMISSION_PROTECTOR_MINOR ? 'active' : ''}>Protector of Minor</Link>
-                    <Link to={ROUTES.COMMISSION_ECOLOGY} className={currentPath === ROUTES.COMMISSION_ECOLOGY ? 'active' : ''}>Ecology</Link>
-                  </div>
-                </div>
               </div>
             </div>
 
             <div 
               className={`nav-dropdown ${openDropdown === 'newsline' ? 'open' : ''}`}
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('newsline')}
-              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
+              onMouseLeave={(e) => {
+                if (!window.matchMedia('(max-width: 768px)').matches) {
+                  const relatedTarget = e.relatedTarget as HTMLElement;
+                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                    setOpenDropdown(null);
+                  }
+                }
+              }}
             >
               <div 
                 className="dropdown-trigger"
@@ -467,7 +461,14 @@ function Header() {
             <div 
               className={`nav-dropdown ${openDropdown === 'circulars' ? 'open' : ''}`}
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('circulars')}
-              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
+              onMouseLeave={(e) => {
+                if (!window.matchMedia('(max-width: 768px)').matches) {
+                  const relatedTarget = e.relatedTarget as HTMLElement;
+                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                    setOpenDropdown(null);
+                  }
+                }
+              }}
             >
               <div 
                 className="dropdown-trigger"
@@ -508,7 +509,14 @@ function Header() {
             <div 
               className={`nav-dropdown ${openDropdown === 'gallery' ? 'open' : ''}`}
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('gallery')}
-              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
+              onMouseLeave={(e) => {
+                if (!window.matchMedia('(max-width: 768px)').matches) {
+                  const relatedTarget = e.relatedTarget as HTMLElement;
+                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                    setOpenDropdown(null);
+                  }
+                }
+              }}
             >
               <div 
                 className="dropdown-trigger"

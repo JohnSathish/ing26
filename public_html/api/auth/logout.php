@@ -1,4 +1,4 @@
-<?php
+Untitled.png<?php
 /**
  * Logout Endpoint
  */

@@ -1,0 +1,151 @@
+[2026-01-07 13:07:28] Starting NewsLine migration...
+[2026-01-07 13:07:28] Fetching main NewsLine page: https://donboscoguwahati.org/index.php/news-line/
+[2026-01-07 13:07:29] Extracting NewsLine menu items...
+[2026-01-07 13:07:29] Found 49 NewsLine menu items
+[2026-01-07 13:07:29] Processing: DECEMBER 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/12/Newsline-December-2025.pdf
+[2026-01-07 13:07:30] Page already exists: december-2025
+[2026-01-07 13:07:30] ✗ Failed to create PDF page: DECEMBER 2025
+[2026-01-07 13:07:30] Processing: NOVEMBER 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/11/ING-CIRCULAR-NOVEMBER-2025.pdf
+[2026-01-07 13:07:30] Page already exists: november-2025
+[2026-01-07 13:07:30] ✗ Failed to create PDF page: NOVEMBER 2025
+[2026-01-07 13:07:30] Processing: OCTOBER 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/10/ING-CIRCULAR-OCTOBER-2025.pdf
+[2026-01-07 13:07:31] Page already exists: october-2025
+[2026-01-07 13:07:31] ✗ Failed to create PDF page: OCTOBER 2025
+[2026-01-07 13:07:31] Processing: SEPTEMBER 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/09/Newsline-September-2025-1.pdf
+[2026-01-07 13:07:32] Page already exists: september-2025
+[2026-01-07 13:07:32] ✗ Failed to create PDF page: SEPTEMBER 2025
+[2026-01-07 13:07:32] Processing: AUGUST 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/08/ING-CIRCULAR-AUGUST-2025.pdf
+[2026-01-07 13:07:32] Page already exists: august-2025
+[2026-01-07 13:07:32] ✗ Failed to create PDF page: AUGUST 2025
+[2026-01-07 13:07:32] Processing: JULY 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/07/ING-CIRCULAR-JULY-2025-.pdf
+[2026-01-07 13:07:33] Page already exists: july-2025
+[2026-01-07 13:07:33] ✗ Failed to create PDF page: JULY 2025
+[2026-01-07 13:07:33] Processing: JUNE 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/06/ING-Newsline-June-2025-Final.pdf
+[2026-01-07 13:07:33] Page already exists: june-2025
+[2026-01-07 13:07:33] ✗ Failed to create PDF page: JUNE 2025
+[2026-01-07 13:07:33] Processing: MAY 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/05/ING-CIRCULAR-MAY-2025_compressed.pdf
+[2026-01-07 13:07:33] Page already exists: may-2025
+[2026-01-07 13:07:33] ✗ Failed to create PDF page: MAY 2025
+[2026-01-07 13:07:33] Processing: APRIL 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/05/ING-CIRCULAR-APRIL-2025_compressed.pdf
+[2026-01-07 13:07:34] Page already exists: april-2025
+[2026-01-07 13:07:34] ✗ Failed to create PDF page: APRIL 2025
+[2026-01-07 13:07:34] Processing: MARCH 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/03/Newsline-March-2025.pdf
+[2026-01-07 13:07:34] Page already exists: march-2025
+[2026-01-07 13:07:34] ✗ Failed to create PDF page: MARCH 2025
+[2026-01-07 13:07:34] Processing: FEBRUARY 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/03/February-2025.pdf
+[2026-01-07 13:07:35] Page already exists: february-2025
+[2026-01-07 13:07:35] ✗ Failed to create PDF page: FEBRUARY 2025
+[2026-01-07 13:07:35] Processing: JANUARY 2025 - https://donboscoguwahati.org/wp-content/uploads/2025/03/January-2025_compressed-1.pdf
+[2026-01-07 13:07:35] Page already exists: january-2025
+[2026-01-07 13:07:35] ✗ Failed to create PDF page: JANUARY 2025
+[2026-01-07 13:07:35] Processing: DECEMBER 2024 - https://donboscoguwahati.org/wp-content/uploads/2025/03/Newsline-December-2024-2.pdf
+[2026-01-07 13:07:35] Page already exists: december-2024
+[2026-01-07 13:07:35] ✗ Failed to create PDF page: DECEMBER 2024
+[2026-01-07 13:07:35] Processing: NOVEMBER 2024 - https://donboscoguwahati.org/wp-content/uploads/2025/03/ING-CIRCULAR-NOVEMBER-2024_compressed.pdf
+[2026-01-07 13:07:36] Page already exists: november-2024
+[2026-01-07 13:07:36] ✗ Failed to create PDF page: NOVEMBER 2024
+[2026-01-07 13:07:36] Processing: OCTOBER 2024 - https://donboscoguwahati.org/wp-content/uploads/2025/03/ING-CIRCULAR-OCTOBER-2024_compressed.pdf
+[2026-01-07 13:07:36] Page already exists: october-2024
+[2026-01-07 13:07:36] ✗ Failed to create PDF page: OCTOBER 2024
+[2026-01-07 13:07:36] Processing: SEPTEMBER 2024 - https://donboscoguwahati.org/wp-content/uploads/2025/03/Newsline-September-2024-compressed-compressed.pdf
+[2026-01-07 13:07:36] Page already exists: september-2024
+[2026-01-07 13:07:36] ✗ Failed to create PDF page: SEPTEMBER 2024
+[2026-01-07 13:07:36] Processing: AUGUST 2024 - https://donboscoguwahati.org/wp-content/uploads/2025/03/ING-CIRCULAR-AUGUST-2024.pdf
+[2026-01-07 13:07:37] Page already exists: august-2024
+[2026-01-07 13:07:37] ✗ Failed to create PDF page: AUGUST 2024
+[2026-01-07 13:07:37] Processing: JULY 2024 - https://donboscoguwahati.org/wp-content/uploads/2025/03/ING-CIRCULAR-JULY-2024.pdf
+[2026-01-07 13:07:37] Page already exists: july-2024
+[2026-01-07 13:07:37] ✗ Failed to create PDF page: JULY 2024
+[2026-01-07 13:07:37] Processing: JUNE 2024 - https://donboscoguwahati.org/wp-content/uploads/2025/03/ING-CIRCULAR-JUNE-2024-.pdf
+[2026-01-07 13:07:38] Page already exists: june-2024
+[2026-01-07 13:07:38] ✗ Failed to create PDF page: JUNE 2024
+[2026-01-07 13:07:38] Processing: MAY 2024 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-JS75-MAY-2024.pdf
+[2026-01-07 13:07:38] Page already exists: may-2024
+[2026-01-07 13:07:38] ✗ Failed to create PDF page: MAY 2024
+[2026-01-07 13:07:38] Processing: DECEMBER 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-CIRCULAR-DECEMBER-2023-1.pdf
+[2026-01-07 13:07:38] Page already exists: december-2023
+[2026-01-07 13:07:38] ✗ Failed to create PDF page: DECEMBER 2023
+[2026-01-07 13:07:38] Processing: NOVEMBER 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-CIRCULAR-NOVEMBER-2023.pdf
+[2026-01-07 13:07:38] Page already exists: november-2023
+[2026-01-07 13:07:38] ✗ Failed to create PDF page: NOVEMBER 2023
+[2026-01-07 13:07:38] Processing: OCTOBER 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-CIRCULAR-OCTOBER-2023-F.pdf
+[2026-01-07 13:07:39] Page already exists: october-2023
+[2026-01-07 13:07:39] ✗ Failed to create PDF page: OCTOBER 2023
+[2026-01-07 13:07:39] Processing: SEPTEMBER 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/CIRCULAR-SEPTEMBER-2023.pdf
+[2026-01-07 13:07:39] Page already exists: september-2023
+[2026-01-07 13:07:39] ✗ Failed to create PDF page: SEPTEMBER 2023
+[2026-01-07 13:07:39] Processing: AUGUST 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/CIRCULAR-AUGUST-2023.pdf
+[2026-01-07 13:07:39] Page already exists: august-2023
+[2026-01-07 13:07:39] ✗ Failed to create PDF page: AUGUST 2023
+[2026-01-07 13:07:39] Processing: JULY 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-CIRCULAR-JULY-2023.pdf
+[2026-01-07 13:07:40] Page already exists: july-2023
+[2026-01-07 13:07:40] ✗ Failed to create PDF page: JULY 2023
+[2026-01-07 13:07:40] Processing: JUNE 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-JS76-June-2023.pdf
+[2026-01-07 13:07:40] Page already exists: june-2023
+[2026-01-07 13:07:40] ✗ Failed to create PDF page: JUNE 2023
+[2026-01-07 13:07:40] Processing: MAY 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-JS75-MAY-2023.pdf
+[2026-01-07 13:07:41] Page already exists: may-2023
+[2026-01-07 13:07:41] ✗ Failed to create PDF page: MAY 2023
+[2026-01-07 13:07:41] Processing: APRIL 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-JS74-APRIL-2023-.pdf
+[2026-01-07 13:07:41] Page already exists: april-2023
+[2026-01-07 13:07:41] ✗ Failed to create PDF page: APRIL 2023
+[2026-01-07 13:07:41] Processing: MARCH 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-JS74-MARCH-2023.pdf
+[2026-01-07 13:07:41] Page already exists: march-2023
+[2026-01-07 13:07:41] ✗ Failed to create PDF page: MARCH 2023
+[2026-01-07 13:07:41] Processing: FEBRUARY 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-JS73-FEBRUARY-2023-1.pdf
+[2026-01-07 13:07:42] Page already exists: february-2023
+[2026-01-07 13:07:42] ✗ Failed to create PDF page: FEBRUARY 2023
+[2026-01-07 13:07:42] Processing: JANUARY 2023 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-JS72-JANUARY-2023.pdf
+[2026-01-07 13:07:42] Page already exists: january-2023
+[2026-01-07 13:07:42] ✗ Failed to create PDF page: JANUARY 2023
+[2026-01-07 13:07:42] Processing: FEBRUARY 2022 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-February-2022.pdf
+[2026-01-07 13:07:42] Page already exists: february-2022
+[2026-01-07 13:07:42] ✗ Failed to create PDF page: FEBRUARY 2022
+[2026-01-07 13:07:42] Processing: DECEMBER 2021 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-December-2021.pdf
+[2026-01-07 13:07:43] Page already exists: december-2021
+[2026-01-07 13:07:43] ✗ Failed to create PDF page: DECEMBER 2021
+[2026-01-07 13:07:43] Processing: OCTOBER 2021 - https://donboscoguwahati.org/wp-content/uploads/2024/12/Circular-October-2021.pdf
+[2026-01-07 13:07:43] Page already exists: october-2021
+[2026-01-07 13:07:43] ✗ Failed to create PDF page: OCTOBER 2021
+[2026-01-07 13:07:43] Processing: AUGUST 2021 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-August-2021.pdf
+[2026-01-07 13:07:43] Page already exists: august-2021
+[2026-01-07 13:07:43] ✗ Failed to create PDF page: AUGUST 2021
+[2026-01-07 13:07:43] Processing: JULY 2021 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-July-2021.pdf
+[2026-01-07 13:07:44] Page already exists: july-2021
+[2026-01-07 13:07:44] ✗ Failed to create PDF page: JULY 2021
+[2026-01-07 13:07:44] Processing: JUNE 2021 - https://donboscoguwahati.org#
+[2026-01-07 13:07:54] Page already exists: june-2021
+[2026-01-07 13:07:54] ✗ Failed to create page: JUNE 2021
+[2026-01-07 13:07:55] Processing: APRIL 2021 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-April-2021-1.pdf
+[2026-01-07 13:07:55] Page already exists: april-2021
+[2026-01-07 13:07:55] ✗ Failed to create PDF page: APRIL 2021
+[2026-01-07 13:07:55] Processing: MARCH 2021 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-March-2021.pdf
+[2026-01-07 13:07:55] Page already exists: march-2021
+[2026-01-07 13:07:55] ✗ Failed to create PDF page: MARCH 2021
+[2026-01-07 13:07:55] Processing: FEBRUARY 2021 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-February.pdf
+[2026-01-07 13:07:56] Page already exists: february-2021
+[2026-01-07 13:07:56] ✗ Failed to create PDF page: FEBRUARY 2021
+[2026-01-07 13:07:56] Processing: JANUARY 2021 - https://donboscoguwahati.org/wp-content/uploads/2024/12/ING-Circular-January-2021.pdf
+[2026-01-07 13:07:56] Page already exists: january-2021
+[2026-01-07 13:07:56] ✗ Failed to create PDF page: JANUARY 2021
+[2026-01-07 13:07:56] Processing: MARCH 2020 - https://donboscoguwahati.org/wp-content/uploads/2024/ING-Newsline-March-2020.pdf
+[2026-01-07 13:07:57] Page already exists: march-2020
+[2026-01-07 13:07:57] ✗ Failed to create PDF page: MARCH 2020
+[2026-01-07 13:07:57] Processing: DECEMBER 2019 - https://donboscoguwahati.org/wp-content/uploads/2024/newsline-Dec-19.pdf
+[2026-01-07 13:08:06] Page already exists: december-2019
+[2026-01-07 13:08:06] ✗ Failed to create PDF page: DECEMBER 2019
+[2026-01-07 13:08:06] Processing: SEPTEMBER 2019 - https://donboscoguwahati.org/wp-content/uploads/2024/04.pdf
+[2026-01-07 13:08:09] Page already exists: september-2019
+[2026-01-07 13:08:09] ✗ Failed to create PDF page: SEPTEMBER 2019
+[2026-01-07 13:08:09] Processing: JUNE 2019 - https://donboscoguwahati.org/wp-content/uploads/2024/June-2019.pdf
+[2026-01-07 13:08:10] Page already exists: june-2019
+[2026-01-07 13:08:10] ✗ Failed to create PDF page: JUNE 2019
+[2026-01-07 13:08:10] Processing: MARCH 2019 - https://donboscoguwahati.org/wp-content/uploads/2024/ING-Newsline-March-2019.pdf
+[2026-01-07 13:08:14] Page already exists: march-2019
+[2026-01-07 13:08:14] ✗ Failed to create PDF page: MARCH 2019
+[2026-01-07 13:08:14] Processing: MARCH 2016 - https://issuu.com/sts_newsletter/docs/2016_march_newsline
+[2026-01-07 13:08:14] Error processing MARCH 2016: Failed to fetch URL: https://issuu.com/sts_newsletter/docs/2016_march_newsline (HTTP 404)
+[2026-01-07 13:08:14] Processing: DECEMBER 2015 - https://issuu.com/sts_newsletter/docs/2015_newsline_dec_issue_web
+[2026-01-07 13:08:15] Error processing DECEMBER 2015: Failed to fetch URL: https://issuu.com/sts_newsletter/docs/2015_newsline_dec_issue_web (HTTP 404)
+[2026-01-07 13:08:15] Migration completed!
+[2026-01-07 13:08:15] Total items processed: 49

@@ -8,6 +8,7 @@ import { apiGet, apiPost, apiPut, apiDelete, apiUploadImage } from '../../servic
 import { API_ENDPOINTS } from '../../utils/constants';
 import { useToast } from '../../contexts/ToastContext';
 import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
+import Pagination from '../../components/Pagination/Pagination';
 import './Management.css';
 
 interface NewsItem {
@@ -32,7 +33,7 @@ function NewsManagement() {
   const [imagePreview, setImagePreview] = useState<string>('');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [currentPage, setCurrentPage] = useState<number>(1);
-  const [itemsPerPage] = useState<number>(20);
+  const [itemsPerPage, setItemsPerPage] = useState<number>(20);
   const [totalItems, setTotalItems] = useState<number>(0);
   const [totalPages, setTotalPages] = useState<number>(0);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -855,61 +856,22 @@ function NewsManagement() {
           </table>
         </div>
 
-        {/* Pagination */}
-        {totalPages > 1 && (
-          <div className="pagination">
-            <div className="pagination-info">
-              Showing {((currentPage - 1) * itemsPerPage) + 1} to {Math.min(currentPage * itemsPerPage, totalItems)} of {totalItems} items
-            </div>
-            <div className="pagination-controls">
-              <button
-                onClick={() => handlePageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-                className="pagination-btn"
-                title="Previous page"
-              >
-                ← Previous
-              </button>
-              
-              <div className="pagination-numbers">
-                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
-                  // Show first page, last page, current page, and pages around current
-                  if (
-                    page === 1 ||
-                    page === totalPages ||
-                    page === currentPage ||
-                    (page >= currentPage - 2 && page <= currentPage + 2)
-                  ) {
-                    return (
-                      <button
-                        key={page}
-                        onClick={() => handlePageChange(page)}
-                        className={`pagination-btn ${page === currentPage ? 'active' : ''}`}
-                      >
-                        {page}
-                      </button>
-                    );
-                  } else if (
-                    page === currentPage - 3 ||
-                    page === currentPage + 3
-                  ) {
-                    return <span key={page} className="pagination-ellipsis">...</span>;
-                  }
-                  return null;
-                })}
-              </div>
-              
-              <button
-                onClick={() => handlePageChange(currentPage + 1)}
-                disabled={currentPage === totalPages}
-                className="pagination-btn"
-                title="Next page"
-              >
-                Next →
-              </button>
-            </div>
-          </div>
-        )}
+        {/* Enhanced Pagination */}
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          totalItems={totalItems}
+          itemsPerPage={itemsPerPage}
+          onPageChange={handlePageChange}
+          onItemsPerPageChange={(newItemsPerPage) => {
+            setItemsPerPage(newItemsPerPage);
+            setCurrentPage(1);
+          }}
+          itemsPerPageOptions={[10, 20, 50, 100]}
+          showItemsPerPage={true}
+          showJumpToPage={true}
+          showInfo={true}
+        />
       </div>
     </AdminLayout>
   );

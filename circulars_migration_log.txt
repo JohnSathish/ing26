@@ -1,0 +1,61 @@
+[2026-01-07 15:30:02] Starting Circulars migration...
+[2026-01-07 15:30:02] Fetching main Circulars page: https://donboscoguwahati.org/index.php/provincial-circular/
+[2026-01-07 15:30:03] Extracting Circulars menu items...
+[2026-01-07 15:30:03] Found 2 Circulars menu items
+[2026-01-07 15:30:03] Processing: CIRCULARS 2025 - https://donboscoguwahati.org/index.php/2025-4/
+[2026-01-07 15:30:03] PDF already exists: circulars-2025.pdf
+[2026-01-07 15:30:03] Image already exists: circulars-2025-7b23ff8e83fb589769a4f0867330bae2.png
+[2026-01-07 15:30:03] Page already exists: circulars-2025
+[2026-01-07 15:30:03] ✗ Failed to create page: 2025
+[2026-01-07 15:30:04] Processing: CIRCULARS 2024 - https://donboscoguwahati.org#
+[2026-01-07 15:30:05] PDF already exists: circulars-2024.pdf
+[2026-01-07 15:30:05] Image already exists: circulars-2024-0fc7a0f4576ccd23959ea53d69b6f369.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-cd30de03910949bc87de427724ba4862.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-0c2422f4a32a3c7a1733a4b7d5419db4.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-703439e1183007dcf7b3526726b9b297.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-e20d2294cb7aed1ab0114f86243673d7.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-0ed3d4efbe46bc6609e70fe576cd52e0.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-a2de87a794dc3ac33fe449d63e97bb8c.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-41810a737f4ac181520123dc7f91c496.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-44c70163f3eb7ea5e72eaeef42be4e72.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-481218436a0d25ea7f2f051f7c71ccb7.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-c7e2c9019bb6baa2b9a52d1946ebd72c.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-9a3ce6e2a525eb1ffb4da80869ee162a.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-aac8161f64177dcddd8bca84b37b6994.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-64a6ba3d9c5c83063ee0eea86830f5ef.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-8e894848088d75995dd7cc9407460ef4.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-0c9e7af011c1b3112be998644934bb14.png
+[2026-01-07 15:30:05] Image already exists: circulars-2024-7d739026536558ef2cabaca76c912473.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-97f418bb17a1a6e552ffac2bd80deb79.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-1baaf5bc23f0bb1c8ce813b807cda5dc.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-01dc5cce2af4f889875c274caab03822.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-2c538439601660ab730af9e5d7544060.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-43ffe51c9c37cfa9ba2286ca92871a7e.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-64f246baf5011197c4ff631e84f0918b.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-809c231c1303c0106558aebeb0587639.jpeg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-3e5fce60e232aa201f7e0052d9a58892.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-b16ccb039dbbb060f982fbe1abfbbb77.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-73d82dfc66018a3b3ce6e6ca4e7ff213.png
+[2026-01-07 15:30:05] Image already exists: circulars-2024-7683d7868529fec05e79f0bbb33aa311.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-df21cf86b228b6f150ebb88ccde93a9c.png
+[2026-01-07 15:30:05] Image already exists: circulars-2024-89385ffa10a69193f7f5bbe129417ea0.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-12dd58e6666711255bb35d640aa850a0.png
+[2026-01-07 15:30:05] Image already exists: circulars-2024-dfdc15aa3ff1f963e98fc36962ca2af6.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-9e541d8de9ce3a6c414cf000bdef4d89.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-af8cf968586f6120549d7f9421c12771.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-1678bf3b9f5f8d85091302bc73f496cf.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-bf73869bc3b4278acdf9a8f3482d299b.png
+[2026-01-07 15:30:05] Image already exists: circulars-2024-29b7790a6e703411e96040f4d0afc10f.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-99ef9821ddb7ccd4299e24acc6c9d72c.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-cf7f1d9227432aadbaac6a18eb212fa2.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-2265c2b8e79a3bee376d32feb703fd4a.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-d9dec03a5cef8300f6f7a7aad2152ea4.png
+[2026-01-07 15:30:05] Image already exists: circulars-2024-d6fc23ac285517f775bb8c814a8b2b29.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-1988ffeec1b22d28dd4ac952c90978ea.png
+[2026-01-07 15:30:05] Image already exists: circulars-2024-713b6d404e5786b3879a3d5cab72be0a.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-04a70989ea29d8b73a0f80ac6b22a4b3.jpg
+[2026-01-07 15:30:05] Image already exists: circulars-2024-7b23ff8e83fb589769a4f0867330bae2.png
+[2026-01-07 15:30:05] Page already exists: circulars-2024
+[2026-01-07 15:30:05] ✗ Failed to create page: Province of Mary Help of Christians ING: Guwahati
+[2026-01-07 15:30:05] Migration completed!
+[2026-01-07 15:30:05] Total items processed: 2

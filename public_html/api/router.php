@@ -19,7 +19,7 @@ if (preg_match('/\.(php|css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot|webp)
     }
 }
 
-// Handle uploads directory - serve images directly
+// Handle uploads directory - serve files directly (images, PDFs, etc.)
 if (strpos($path, '/uploads/') === 0) {
     $filePath = __DIR__ . '/..' . $path;
     if (file_exists($filePath) && is_file($filePath)) {
@@ -31,9 +31,14 @@ if (strpos($path, '/uploads/') === 0) {
             'png' => 'image/png',
             'gif' => 'image/gif',
             'webp' => 'image/webp',
+            'pdf' => 'application/pdf',
         ];
         if (isset($mimeTypes[$extension])) {
             header('Content-Type: ' . $mimeTypes[$extension]);
+        }
+        // For PDFs, allow inline viewing
+        if ($extension === 'pdf') {
+            header('Content-Disposition: inline; filename="' . basename($filePath) . '"');
         }
         readfile($filePath);
         exit;

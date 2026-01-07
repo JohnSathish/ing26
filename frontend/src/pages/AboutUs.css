@@ -7,6 +7,9 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 4rem 1rem;
+  padding-top: 250px; /* Add space for fixed header */
+  position: relative;
+  z-index: 1;
 }
 
 .about-us-page h1 {

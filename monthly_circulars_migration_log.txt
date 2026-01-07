@@ -1,0 +1,203 @@
+[2026-01-07 16:19:28] Starting monthly circulars migration...
+[2026-01-07 16:19:28] Processing year: 2025
+[2026-01-07 16:19:28] Trying URL: https://donboscoguwahati.org/index.php/2025-4/
+[2026-01-07 16:19:30] Found 12 monthly circulars for 2025
+[2026-01-07 16:19:31] Downloaded PDF: december-2025.pdf
+[2026-01-07 16:19:31] ✓ Created circular: December 2025 (ID: 1)
+[2026-01-07 16:19:33] Downloaded PDF: september-2025.pdf
+[2026-01-07 16:19:33] ✓ Created circular: September 2025 (ID: 2)
+[2026-01-07 16:19:34] Downloaded PDF: june-2025.pdf
+[2026-01-07 16:19:34] ✓ Created circular: June 2025 (ID: 3)
+[2026-01-07 16:19:35] Downloaded PDF: march-2025.pdf
+[2026-01-07 16:19:35] ✓ Created circular: March 2025 (ID: 4)
+[2026-01-07 16:19:35] Downloaded PDF: january-2025.pdf
+[2026-01-07 16:19:35] ✓ Created circular: January 2025 (ID: 5)
+[2026-01-07 16:19:37] Downloaded PDF: february-2025.pdf
+[2026-01-07 16:19:37] ✓ Created circular: February 2025 (ID: 6)
+[2026-01-07 16:19:38] Downloaded PDF: april-2025.pdf
+[2026-01-07 16:19:38] ✓ Created circular: April 2025 (ID: 7)
+[2026-01-07 16:19:39] Downloaded PDF: may-2025.pdf
+[2026-01-07 16:19:39] ✓ Created circular: May 2025 (ID: 8)
+[2026-01-07 16:19:40] Downloaded PDF: july-2025.pdf
+[2026-01-07 16:19:40] ✓ Created circular: July 2025 (ID: 9)
+[2026-01-07 16:19:40] Downloaded PDF: august-2025.pdf
+[2026-01-07 16:19:40] ✓ Created circular: August 2025 (ID: 10)
+[2026-01-07 16:19:42] Downloaded PDF: october-2025.pdf
+[2026-01-07 16:19:42] ✓ Created circular: October 2025 (ID: 11)
+[2026-01-07 16:19:43] Downloaded PDF: november-2025.pdf
+[2026-01-07 16:19:43] ✓ Created circular: November 2025 (ID: 12)
+[2026-01-07 16:19:43] Processing year: 2024
+[2026-01-07 16:19:43] Trying URL: https://donboscoguwahati.org/index.php/2024-4/
+[2026-01-07 16:19:44] Failed to fetch https://donboscoguwahati.org/index.php/2024-4/: Failed to fetch URL: https://donboscoguwahati.org/index.php/2024-4/ (HTTP 404)
+[2026-01-07 16:19:44] Trying URL: https://donboscoguwahati.org/index.php/provincial-circular/2024/
+[2026-01-07 16:19:45] Found 12 monthly circulars for 2024
+[2026-01-07 16:19:46] Downloaded PDF: december-2024.pdf
+[2026-01-07 16:19:46] ✓ Created circular: December 2024 (ID: 13)
+[2026-01-07 16:19:48] Downloaded PDF: september-2024.pdf
+[2026-01-07 16:19:48] ✓ Created circular: September 2024 (ID: 14)
+[2026-01-07 16:19:50] Downloaded PDF: june-2024.pdf
+[2026-01-07 16:19:50] ✓ Created circular: June 2024 (ID: 15)
+[2026-01-07 16:19:51] Downloaded PDF: march-2024.pdf
+[2026-01-07 16:19:51] ✓ Created circular: March 2024 (ID: 16)
+[2026-01-07 16:19:52] Downloaded PDF: january-2024.pdf
+[2026-01-07 16:19:52] ✓ Created circular: January 2024 (ID: 17)
+[2026-01-07 16:19:53] Downloaded PDF: february-2024.pdf
+[2026-01-07 16:19:53] ✓ Created circular: February 2024 (ID: 18)
+[2026-01-07 16:19:54] Downloaded PDF: april-2024.pdf
+[2026-01-07 16:19:54] ✓ Created circular: April 2024 (ID: 19)
+[2026-01-07 16:19:55] Downloaded PDF: may-2024.pdf
+[2026-01-07 16:19:55] ✓ Created circular: May 2024 (ID: 20)
+[2026-01-07 16:19:56] Downloaded PDF: july-2024.pdf
+[2026-01-07 16:19:56] ✓ Created circular: July 2024 (ID: 21)
+[2026-01-07 16:19:57] Downloaded PDF: august-2024.pdf
+[2026-01-07 16:19:57] ✓ Created circular: August 2024 (ID: 22)
+[2026-01-07 16:19:58] Downloaded PDF: october-2024.pdf
+[2026-01-07 16:19:58] ✓ Created circular: October 2024 (ID: 23)
+[2026-01-07 16:20:02] Downloaded PDF: november-2024.pdf
+[2026-01-07 16:20:02] ✓ Created circular: November 2024 (ID: 24)
+[2026-01-07 16:20:03] Processing year: 2023
+[2026-01-07 16:20:03] Trying URL: https://donboscoguwahati.org/index.php/2023-4/
+[2026-01-07 16:20:03] Failed to fetch https://donboscoguwahati.org/index.php/2023-4/: Failed to fetch URL: https://donboscoguwahati.org/index.php/2023-4/ (HTTP 404)
+[2026-01-07 16:20:03] Trying URL: https://donboscoguwahati.org/index.php/provincial-circular/2023/
+[2026-01-07 16:20:05] Found 12 monthly circulars for 2023
+[2026-01-07 16:20:06] Downloaded PDF: december-2023.pdf
+[2026-01-07 16:20:06] ✓ Created circular: December 2023 (ID: 25)
+[2026-01-07 16:20:08] Downloaded PDF: september-2023.pdf
+[2026-01-07 16:20:08] ✓ Created circular: September 2023 (ID: 26)
+[2026-01-07 16:20:09] Downloaded PDF: june-2023.pdf
+[2026-01-07 16:20:09] ✓ Created circular: June 2023 (ID: 27)
+[2026-01-07 16:20:10] Downloaded PDF: march-2023.pdf
+[2026-01-07 16:20:10] ✓ Created circular: March 2023 (ID: 28)
+[2026-01-07 16:20:11] Downloaded PDF: january-2023.pdf
+[2026-01-07 16:20:11] ✓ Created circular: January 2023 (ID: 29)
+[2026-01-07 16:20:11] Downloaded PDF: february-2023.pdf
+[2026-01-07 16:20:11] ✓ Created circular: February 2023 (ID: 30)
+[2026-01-07 16:20:12] Downloaded PDF: april-2023.pdf
+[2026-01-07 16:20:12] ✓ Created circular: April 2023 (ID: 31)
+[2026-01-07 16:20:13] Downloaded PDF: may-2023.pdf
+[2026-01-07 16:20:13] ✓ Created circular: May 2023 (ID: 32)
+[2026-01-07 16:20:14] Downloaded PDF: july-2023.pdf
+[2026-01-07 16:20:14] ✓ Created circular: July 2023 (ID: 33)
+[2026-01-07 16:20:15] Downloaded PDF: august-2023.pdf
+[2026-01-07 16:20:15] ✓ Created circular: August 2023 (ID: 34)
+[2026-01-07 16:20:16] Downloaded PDF: october-2023.pdf
+[2026-01-07 16:20:16] ✓ Created circular: October 2023 (ID: 35)
+[2026-01-07 16:20:17] Downloaded PDF: november-2023.pdf
+[2026-01-07 16:20:17] ✓ Created circular: November 2023 (ID: 36)
+[2026-01-07 16:20:18] Processing year: 2022
+[2026-01-07 16:20:18] Trying URL: https://donboscoguwahati.org/index.php/2022-4/
+[2026-01-07 16:20:18] Failed to fetch https://donboscoguwahati.org/index.php/2022-4/: Failed to fetch URL: https://donboscoguwahati.org/index.php/2022-4/ (HTTP 404)
+[2026-01-07 16:20:18] Trying URL: https://donboscoguwahati.org/index.php/provincial-circular/2022/
+[2026-01-07 16:20:20] Found 12 monthly circulars for 2022
+[2026-01-07 16:20:21] Downloaded PDF: december-2022.pdf
+[2026-01-07 16:20:21] ✓ Created circular: December 2022 (ID: 37)
+[2026-01-07 16:20:23] Downloaded PDF: september-2022.pdf
+[2026-01-07 16:20:23] ✓ Created circular: September 2022 (ID: 38)
+[2026-01-07 16:20:24] Downloaded PDF: june-2022.pdf
+[2026-01-07 16:20:24] ✓ Created circular: June 2022 (ID: 39)
+[2026-01-07 16:20:25] Downloaded PDF: march-2022.pdf
+[2026-01-07 16:20:25] ✓ Created circular: March 2022 (ID: 40)
+[2026-01-07 16:20:25] Downloaded PDF: january-2022.pdf
+[2026-01-07 16:20:26] ✓ Created circular: January 2022 (ID: 41)
+[2026-01-07 16:20:26] Downloaded PDF: february-2022.pdf
+[2026-01-07 16:20:26] ✓ Created circular: February 2022 (ID: 42)
+[2026-01-07 16:20:27] Downloaded PDF: april-2022.pdf
+[2026-01-07 16:20:27] ✓ Created circular: April 2022 (ID: 43)
+[2026-01-07 16:20:28] Downloaded PDF: may-2022.pdf
+[2026-01-07 16:20:28] ✓ Created circular: May 2022 (ID: 44)
+[2026-01-07 16:20:29] Downloaded PDF: july-2022.pdf
+[2026-01-07 16:20:29] ✓ Created circular: July 2022 (ID: 45)
+[2026-01-07 16:20:30] Downloaded PDF: august-2022.pdf
+[2026-01-07 16:20:30] ✓ Created circular: August 2022 (ID: 46)
+[2026-01-07 16:20:31] Downloaded PDF: october-2022.pdf
+[2026-01-07 16:20:31] ✓ Created circular: October 2022 (ID: 47)
+[2026-01-07 16:20:33] Downloaded PDF: november-2022.pdf
+[2026-01-07 16:20:33] ✓ Created circular: November 2022 (ID: 48)
+[2026-01-07 16:20:33] Processing year: 2021
+[2026-01-07 16:20:33] Trying URL: https://donboscoguwahati.org/index.php/2021-4/
+[2026-01-07 16:20:34] Failed to fetch https://donboscoguwahati.org/index.php/2021-4/: Failed to fetch URL: https://donboscoguwahati.org/index.php/2021-4/ (HTTP 404)
+[2026-01-07 16:20:34] Trying URL: https://donboscoguwahati.org/index.php/provincial-circular/2021/
+[2026-01-07 16:20:35] Found 12 monthly circulars for 2021
+[2026-01-07 16:20:36] Downloaded PDF: december-2021.pdf
+[2026-01-07 16:20:36] ✓ Created circular: December 2021 (ID: 49)
+[2026-01-07 16:20:39] Downloaded PDF: september-2021.pdf
+[2026-01-07 16:20:39] ✓ Created circular: September 2021 (ID: 50)
+[2026-01-07 16:20:40] Downloaded PDF: june-2021.pdf
+[2026-01-07 16:20:40] ✓ Created circular: June 2021 (ID: 51)
+[2026-01-07 16:20:41] Downloaded PDF: march-2021.pdf
+[2026-01-07 16:20:41] ✓ Created circular: March 2021 (ID: 52)
+[2026-01-07 16:20:42] Downloaded PDF: january-2021.pdf
+[2026-01-07 16:20:42] ✓ Created circular: January 2021 (ID: 53)
+[2026-01-07 16:20:43] Downloaded PDF: february-2021.pdf
+[2026-01-07 16:20:43] ✓ Created circular: February 2021 (ID: 54)
+[2026-01-07 16:20:44] Downloaded PDF: april-2021.pdf
+[2026-01-07 16:20:44] ✓ Created circular: April 2021 (ID: 55)
+[2026-01-07 16:20:45] Downloaded PDF: may-2021.pdf
+[2026-01-07 16:20:45] ✓ Created circular: May 2021 (ID: 56)
+[2026-01-07 16:20:46] Downloaded PDF: july-2021.pdf
+[2026-01-07 16:20:46] ✓ Created circular: July 2021 (ID: 57)
+[2026-01-07 16:20:47] Downloaded PDF: august-2021.pdf
+[2026-01-07 16:20:47] ✓ Created circular: August 2021 (ID: 58)
+[2026-01-07 16:20:48] Downloaded PDF: october-2021.pdf
+[2026-01-07 16:20:48] ✓ Created circular: October 2021 (ID: 59)
+[2026-01-07 16:20:49] Downloaded PDF: november-2021.pdf
+[2026-01-07 16:20:49] ✓ Created circular: November 2021 (ID: 60)
+[2026-01-07 16:20:49] Processing year: 2020
+[2026-01-07 16:20:49] Trying URL: https://donboscoguwahati.org/index.php/2020-4/
+[2026-01-07 16:20:50] Failed to fetch https://donboscoguwahati.org/index.php/2020-4/: Failed to fetch URL: https://donboscoguwahati.org/index.php/2020-4/ (HTTP 404)
+[2026-01-07 16:20:50] Trying URL: https://donboscoguwahati.org/index.php/provincial-circular/2020/
+[2026-01-07 16:20:51] Found 12 monthly circulars for 2020
+[2026-01-07 16:20:52] Downloaded PDF: december-2020.pdf
+[2026-01-07 16:20:52] ✓ Created circular: December 2020 (ID: 61)
+[2026-01-07 16:20:55] Downloaded PDF: september-2020.pdf
+[2026-01-07 16:20:55] ✓ Created circular: September 2020 (ID: 62)
+[2026-01-07 16:20:56] Downloaded PDF: june-2020.pdf
+[2026-01-07 16:20:56] ✓ Created circular: June 2020 (ID: 63)
+[2026-01-07 16:20:57] Downloaded PDF: march-2020.pdf
+[2026-01-07 16:20:57] ✓ Created circular: March 2020 (ID: 64)
+[2026-01-07 16:20:58] Downloaded PDF: january-2020.pdf
+[2026-01-07 16:20:58] ✓ Created circular: January 2020 (ID: 65)
+[2026-01-07 16:20:59] Downloaded PDF: february-2020.pdf
+[2026-01-07 16:20:59] ✓ Created circular: February 2020 (ID: 66)
+[2026-01-07 16:20:59] Downloaded PDF: april-2020.pdf
+[2026-01-07 16:20:59] ✓ Created circular: April 2020 (ID: 67)
+[2026-01-07 16:21:00] Downloaded PDF: may-2020.pdf
+[2026-01-07 16:21:00] ✓ Created circular: May 2020 (ID: 68)
+[2026-01-07 16:21:01] Downloaded PDF: july-2020.pdf
+[2026-01-07 16:21:01] ✓ Created circular: July 2020 (ID: 69)
+[2026-01-07 16:21:02] Downloaded PDF: august-2020.pdf
+[2026-01-07 16:21:02] ✓ Created circular: August 2020 (ID: 70)
+[2026-01-07 16:21:03] Downloaded PDF: october-2020.pdf
+[2026-01-07 16:21:03] ✓ Created circular: October 2020 (ID: 71)
+[2026-01-07 16:21:04] Downloaded PDF: november-2020.pdf
+[2026-01-07 16:21:04] ✓ Created circular: November 2020 (ID: 72)
+[2026-01-07 16:21:05] Processing year: 2019
+[2026-01-07 16:21:05] Trying URL: https://donboscoguwahati.org/index.php/2019-4/
+[2026-01-07 16:21:06] Failed to fetch https://donboscoguwahati.org/index.php/2019-4/: Failed to fetch URL: https://donboscoguwahati.org/index.php/2019-4/ (HTTP 404)
+[2026-01-07 16:21:06] Trying URL: https://donboscoguwahati.org/index.php/provincial-circular/2019/
+[2026-01-07 16:21:07] Found 12 monthly circulars for 2019
+[2026-01-07 16:21:08] Downloaded PDF: december-2019.pdf
+[2026-01-07 16:21:08] ✓ Created circular: December 2019 (ID: 73)
+[2026-01-07 16:21:10] Downloaded PDF: september-2019.pdf
+[2026-01-07 16:21:10] ✓ Created circular: September 2019 (ID: 74)
+[2026-01-07 16:21:11] Downloaded PDF: june-2019.pdf
+[2026-01-07 16:21:11] ✓ Created circular: June 2019 (ID: 75)
+[2026-01-07 16:21:12] Downloaded PDF: march-2019.pdf
+[2026-01-07 16:21:12] ✓ Created circular: March 2019 (ID: 76)
+[2026-01-07 16:21:12] Downloaded PDF: january-2019.pdf
+[2026-01-07 16:21:12] ✓ Created circular: January 2019 (ID: 77)
+[2026-01-07 16:21:13] Downloaded PDF: february-2019.pdf
+[2026-01-07 16:21:13] ✓ Created circular: February 2019 (ID: 78)
+[2026-01-07 16:21:14] Downloaded PDF: april-2019.pdf
+[2026-01-07 16:21:14] ✓ Created circular: April 2019 (ID: 79)
+[2026-01-07 16:21:15] Downloaded PDF: may-2019.pdf
+[2026-01-07 16:21:15] ✓ Created circular: May 2019 (ID: 80)
+[2026-01-07 16:21:16] Downloaded PDF: july-2019.pdf
+[2026-01-07 16:21:16] ✓ Created circular: July 2019 (ID: 81)
+[2026-01-07 16:21:17] Downloaded PDF: august-2019.pdf
+[2026-01-07 16:21:17] ✓ Created circular: August 2019 (ID: 82)
+[2026-01-07 16:21:18] Downloaded PDF: october-2019.pdf
+[2026-01-07 16:21:18] ✓ Created circular: October 2019 (ID: 83)
+[2026-01-07 16:21:19] Downloaded PDF: november-2019.pdf
+[2026-01-07 16:21:19] ✓ Created circular: November 2019 (ID: 84)
+[2026-01-07 16:21:20] Migration completed!

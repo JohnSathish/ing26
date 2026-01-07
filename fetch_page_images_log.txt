@@ -1,0 +1,13 @@
+[2026-01-07 17:42:29] Starting image download from URL: http://localhost:5173/page/vice-provincial
+[2026-01-07 17:42:29] Fetching HTML from URL...
+[2026-01-07 17:42:29] Successfully fetched HTML (718 bytes)
+[2026-01-07 17:42:29] Found 0 unique images
+[2026-01-07 17:42:29] Downloaded 0 images successfully
+[2026-01-07 17:42:29] Completed successfully! Downloaded 0 images.
+[2026-01-07 17:42:29] Images saved to: E:\Projects\ing26/public_html/uploads/pages/
+[2026-01-07 17:45:48] Fetching page from: http://localhost:5173/page/vice-provincial
+[2026-01-07 17:45:48] Fetching HTML from URL...
+[2026-01-07 17:45:48] Fetched HTML (718 bytes)
+[2026-01-07 17:45:48] Checking provincials API for images...
+[2026-01-07 17:45:48] Total unique images found: 0
+[2026-01-07 17:45:48] Completed! Downloaded 0 images.

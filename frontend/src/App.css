@@ -20,14 +20,24 @@ body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
-  padding-top: 200px; /* Offset for fixed header */
+  margin: 0;
+  padding: 0;
 }
 
 #root {
   min-height: 100vh;
   width: 100%;
   overflow-x: hidden;
+  overflow-y: visible;
   position: relative;
+  isolation: isolate;
+}
+
+/* Ensure header dropdowns are always visible above everything */
+.header .dropdown-menu {
+  position: absolute !important;
+  z-index: 999999 !important;
+  isolation: isolate !important;
 }
 
 a {

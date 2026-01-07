@@ -6,8 +6,10 @@
 
 .dynamic-page-container {
   flex: 1;
-  padding-top: 120px;
+  padding-top: 250px; /* Increased to account for fixed header */
   padding-bottom: 3rem;
+  position: relative;
+  z-index: 1;
 }
 
 .dynamic-page-content {
@@ -116,6 +118,25 @@
   color: #1e3a8a;
 }
 
+.dynamic-page-content-html .pdf-download-btn,
+.dynamic-page-content-html .pdf-download {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #1e40af;
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-weight: 600;
+  margin: 1rem 0;
+  transition: background 0.2s;
+}
+
+.dynamic-page-content-html .pdf-download-btn:hover,
+.dynamic-page-content-html .pdf-download:hover {
+  background: #1e3a8a;
+  color: white !important;
+}
+
 .dynamic-page-content-html blockquote {
   border-left: 4px solid #1e40af;
   padding-left: 1.5rem;
@@ -140,9 +161,292 @@
   color: #64748b;
 }
 
+/* Monthly Circulars Section */
+.monthly-circulars-section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #f8fafc;
+  border-radius: 0.5rem;
+}
+
+.monthly-circulars-section h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+}
+
+.monthly-circulars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.monthly-circular-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.monthly-circular-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.monthly-circular-card h3 {
+  font-size: 1.25rem;
+  color: #1e3a8a;
+  margin-bottom: 0.75rem;
+}
+
+.monthly-circular-card .circular-desc {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.monthly-circular-card .pdf-download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1e40af;
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.monthly-circular-card .pdf-download-btn:hover {
+  background: #1e3a8a;
+  color: white !important;
+}
+
+/* Monthly NewsLine Section */
+.monthly-newsline-section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #f8fafc;
+  border-radius: 0.5rem;
+}
+
+.monthly-newsline-section h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+}
+
+.monthly-newsline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.monthly-newsline-card {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.monthly-newsline-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.monthly-newsline-card .newsline-cover {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #e5e7eb;
+}
+
+.monthly-newsline-card .newsline-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.monthly-newsline-card .newsline-content {
+  padding: 1.5rem;
+}
+
+.monthly-newsline-card h3 {
+  font-size: 1.25rem;
+  color: #1e3a8a;
+  margin-bottom: 0.75rem;
+}
+
+.monthly-newsline-card .newsline-desc {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* Monthly Items Pagination */
+.monthly-items-pagination {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: transparent;
+  box-shadow: none;
+}
+
+/* Related Pages Navigation */
+.related-pages-navigation {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: #f8fafc;
+  border-radius: 0.5rem;
+  border-left: 4px solid #1e40af;
+}
+
+.related-pages-navigation h3 {
+  font-size: 1.5rem;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.related-pages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.related-page-link {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  background: white;
+  color: #1e40af;
+  text-decoration: none;
+  border-radius: 0.375rem;
+  border: 1px solid #e2e8f0;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.related-page-link:hover {
+  background: #1e40af;
+  color: white;
+  border-color: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(30, 64, 175, 0.2);
+}
+
+/* Page Navigation (Previous/Next) */
+.page-navigation {
+  display: flex;
+  gap: 1rem;
+  margin: 3rem 0;
+  padding: 2rem 0;
+  border-top: 2px solid #e5e7eb;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.nav-link {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #334155;
+  transition: all 0.2s;
+  gap: 1rem;
+}
+
+.nav-link:hover {
+  background: #f8fafc;
+  border-color: #1e40af;
+  color: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link-prev {
+  text-align: left;
+}
+
+.nav-link-next {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.nav-arrow {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e40af;
+  flex-shrink: 0;
+}
+
+.nav-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.nav-label {
+  font-size: 0.875rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.nav-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+.nav-link:hover .nav-title {
+  color: #1e40af;
+}
+
 @media (max-width: 768px) {
+  .monthly-circulars-grid,
+  .monthly-newsline-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .monthly-circulars-section,
+  .monthly-newsline-section {
+    padding: 1.5rem;
+  }
+  
+  .monthly-circulars-section h2,
+  .monthly-newsline-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .page-navigation {
+    flex-direction: column;
+  }
+  
+  .nav-link {
+    padding: 1rem;
+  }
+  
+  .related-pages-navigation {
+    padding: 1.5rem;
+  }
+  
+  .related-pages-list {
+    flex-direction: column;
+  }
+  
+  .related-page-link {
+    width: 100%;
+    text-align: center;
+  }
+  
   .dynamic-page-container {
-    padding-top: 100px;
+    padding-top: 220px; /* Reduced for mobile but still enough space */
   }
 
   .dynamic-page-content {

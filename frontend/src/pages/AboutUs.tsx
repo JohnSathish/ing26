@@ -20,6 +20,15 @@ function AboutUs() {
       });
   }, []);
 
+  // Remove heading tags from content to avoid duplication
+  const cleanContent = (html: string) => {
+    if (!html) return html;
+    // Remove h1, h2, h3 tags that contain "Our Vision" or "Our Mission"
+    return html
+      .replace(/<h[1-3][^>]*>.*?Our\s+(Vision|Mission).*?<\/h[1-3]>/gi, '')
+      .trim();
+  };
+
   return (
     <div className="about-us-page">
       <Header />
@@ -30,7 +39,7 @@ function AboutUs() {
           <h2>Our Vision</h2>
           <div className="content">
             {settings.about_us_vision ? (
-              <div dangerouslySetInnerHTML={{ __html: settings.about_us_vision }} />
+              <div dangerouslySetInnerHTML={{ __html: cleanContent(settings.about_us_vision) }} />
             ) : (
               <p>Our vision is to serve the people of Northeast India through education, social development, and spiritual guidance.</p>
             )}
@@ -41,7 +50,7 @@ function AboutUs() {
           <h2>Our Mission</h2>
           <div className="content">
             {settings.about_us_mission ? (
-              <div dangerouslySetInnerHTML={{ __html: settings.about_us_mission }} />
+              <div dangerouslySetInnerHTML={{ __html: cleanContent(settings.about_us_mission) }} />
             ) : (
               <p>The Province of Mary Help of Christians, Guwahati (ING) is a diverse, lively, and vibrant missionary province committed to serving the people of Northeast India.</p>
             )}

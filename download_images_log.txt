@@ -1,0 +1,16 @@
+[2026-01-07 17:40:04] Starting image download for page: vice-provincial
+[2026-01-07 17:40:04] Found page: Vice Provincial (ID: 8)
+[2026-01-07 17:40:04] Found 0 images in content
+[2026-01-07 17:40:04] No images to update
+[2026-01-07 17:40:04] Completed successfully!
+[2026-01-07 17:44:16] Starting image download for page: vice-provincial
+[2026-01-07 17:44:16] Found page: Vice Provincial (ID: 8)
+[2026-01-07 17:44:16] Found 0 images in content
+[2026-01-07 17:44:16] No images to update
+[2026-01-07 17:44:16] Completed successfully!
+[2026-01-07 17:44:51] Starting image download for page: vice-provincial
+[2026-01-07 17:44:51] Found page: Vice Provincial (ID: 8)
+[2026-01-07 17:44:51] Found 0 images in content
+[2026-01-07 17:44:51] No images found in content. Content preview: <h2>Vice Provincial</h2><p>The Vice Provincial supports the Provincial in leading our organization.</p>
+[2026-01-07 17:44:51] No images to update
+[2026-01-07 17:44:51] Completed successfully!

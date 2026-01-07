@@ -2,6 +2,22 @@
   width: 100%;
   min-height: 100vh;
   background: #ffffff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+/* Spacer to push hero slider below fixed header */
+/* The header is fixed, so we need to account for its height */
+.hero-spacer {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  display: none;
 }
 
 /* Smooth scrolling */

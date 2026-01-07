@@ -22,14 +22,25 @@ try {
         $setting = $stmt->fetch();
         
         if (!$setting) {
-            http_response_code(404);
-            echo json_encode(['error' => 'Setting not found']);
+            // Return success with null value instead of 404 for missing keys
+            // This allows frontend to handle missing settings gracefully
+            echo json_encode([
+                'success' => true,
+                'data' => [
+                    'key_name' => $key,
+                    'value' => null,
+                    'type' => 'text'
+                ]
+            ]);
             exit;
         }
         
+        // Return in format expected by frontend (key-value object)
         echo json_encode([
             'success' => true,
-            'data' => $setting
+            'data' => [
+                $setting['key_name'] => $setting['value']
+            ]
         ]);
     } else {
         // Get all settings

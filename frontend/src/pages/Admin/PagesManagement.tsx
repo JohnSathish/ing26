@@ -9,6 +9,7 @@ import { API_ENDPOINTS } from '../../utils/constants';
 import { useToast } from '../../contexts/ToastContext';
 import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
 import EmptyState from '../../components/EmptyState/EmptyState';
+import Pagination from '../../components/Pagination/Pagination';
 import './Management.css';
 
 interface Page {
@@ -51,7 +52,7 @@ function PagesManagement() {
   const [searchFilter, setSearchFilter] = useState<'all' | 'enabled' | 'disabled' | 'in_menu' | 'featured'>('all');
   const [showSearchFilters, setShowSearchFilters] = useState(false);
   const [currentPage, setCurrentPage] = useState<number>(1);
-  const [itemsPerPage] = useState<number>(20);
+  const [itemsPerPage, setItemsPerPage] = useState<number>(20);
   const [totalItems, setTotalItems] = useState<number>(0);
   const [totalPages, setTotalPages] = useState<number>(0);
   const [sortColumn, setSortColumn] = useState<'title' | 'slug' | 'created_at' | 'sort_order'>('sort_order');
@@ -1368,27 +1369,21 @@ function PagesManagement() {
               </table>
             </div>
 
-            {totalPages > 1 && (
-              <div className="pagination-controls">
-                <button
-                  onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
-                  disabled={currentPage === 1}
-                  className="pagination-button"
-                >
-                  Previous
-                </button>
-                <div className="pagination-info">
-                  Page {currentPage} of {totalPages}
-                </div>
-                <button
-                  onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
-                  disabled={currentPage === totalPages}
-                  className="pagination-button"
-                >
-                  Next
-                </button>
-              </div>
-            )}
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              totalItems={totalItems}
+              itemsPerPage={itemsPerPage}
+              onPageChange={(page) => setCurrentPage(page)}
+              onItemsPerPageChange={(newItemsPerPage) => {
+                setItemsPerPage(newItemsPerPage);
+                setCurrentPage(1);
+              }}
+              itemsPerPageOptions={[10, 20, 50, 100]}
+              showItemsPerPage={true}
+              showJumpToPage={true}
+              showInfo={true}
+            />
           </>
         )}
       </div>

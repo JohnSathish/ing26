@@ -5,6 +5,17 @@ import { useState, useEffect, useRef } from 'react';
  */
 
 /**
+ * Get the base URL for static files (uploads, PDFs, etc.)
+ * In development, Vite proxies /uploads to localhost:8000, so we can use relative paths
+ * In production, files are served from the same origin
+ */
+function getStaticFileBaseUrl(): string {
+  // Vite proxy handles /uploads in development, so we can use relative paths
+  // In production, files are served from the same origin
+  return '';
+}
+
+/**
  * Get image URL with fallback
  */
 export function getImageUrl(url: string | null | undefined, fallback: string = '/placeholder.jpg'): string {
@@ -17,13 +28,35 @@ export function getImageUrl(url: string | null | undefined, fallback: string = '
     return url;
   }
   
-  // If URL starts with /, it's a relative path
+  // If URL starts with /, prepend base URL in development
   if (url.startsWith('/')) {
+    return getStaticFileBaseUrl() + url;
+  }
+  
+  // Otherwise, prepend /uploads/ and base URL
+  return getStaticFileBaseUrl() + `/uploads/${url}`;
+}
+
+/**
+ * Get PDF URL - ensures PDFs are served from the correct server
+ */
+export function getPdfUrl(url: string | null | undefined): string {
+  if (!url || url.trim() === '') {
+    return '';
+  }
+  
+  // If URL is already absolute, return as is
+  if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('//')) {
     return url;
   }
   
-  // Otherwise, prepend /uploads/ if it's a relative path
-  return `/uploads/${url}`;
+  // If URL starts with /, prepend base URL in development
+  if (url.startsWith('/')) {
+    return getStaticFileBaseUrl() + url;
+  }
+  
+  // Otherwise, prepend /uploads/ and base URL
+  return getStaticFileBaseUrl() + `/uploads/${url}`;
 }
 
 /**

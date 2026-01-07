@@ -1,0 +1,8 @@
+[2026-01-07 17:43:41] Starting image download for Vice Provincial
+[2026-01-07 17:43:41] Vice Provincial not found. Checking all provincials...
+[2026-01-07 17:43:41] Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deleted_at' in 'where clause'
+[2026-01-07 17:43:41] Stack trace: #0 E:\Projects\ing26\download_vice_provincial_images.php(206): PDO->query('SELECT id, name...')
+#1 {main}
+[2026-01-07 17:43:58] Starting image download for Vice Provincial
+[2026-01-07 17:43:58] Vice Provincial not found. Checking all provincials...
+[2026-01-07 17:43:58] Found 0 provincials in database

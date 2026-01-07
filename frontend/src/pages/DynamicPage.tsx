@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import HousesAccordion from '../components/HousesAccordion/HousesAccordion';
 import { apiGet } from '../services/api';
-import { API_ENDPOINTS } from '../utils/constants';
+import { API_ENDPOINTS, ROUTES } from '../utils/constants';
 import LoadingSpinner from '../components/LoadingSpinner/LoadingSpinner';
+import { getImageUrl, getPdfUrl } from '../utils/imageUtils';
+import Pagination from '../components/Pagination/Pagination';
 import './DynamicPage.css';
 
 interface Page {
@@ -19,13 +21,52 @@ interface Page {
   featured_image: string;
   is_enabled: boolean;
   is_featured: boolean;
+  parent_menu?: string;
+}
+
+interface Circular {
+  id: number;
+  title: string;
+  month: number;
+  year: number;
+  file_path: string;
+  description: string;
+}
+
+interface NewsLineIssue {
+  id: number;
+  title: string;
+  month: number;
+  year: number;
+  cover_image: string;
+  pdf_path: string;
+  qr_code_url: string;
+  description: string;
+}
+
+interface RelatedPage {
+  id: number;
+  title: string;
+  slug: string;
+  menu_label: string;
+  sort_order: number;
 }
 
 function DynamicPage() {
   const { slug } = useParams<{ slug: string }>();
+  const navigate = useNavigate();
   const [page, setPage] = useState<Page | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [monthlyCirculars, setMonthlyCirculars] = useState<Circular[]>([]);
+  const [loadingCirculars, setLoadingCirculars] = useState(false);
+  const [monthlyNewsLine, setMonthlyNewsLine] = useState<NewsLineIssue[]>([]);
+  const [loadingNewsLine, setLoadingNewsLine] = useState(false);
+  const [relatedPages, setRelatedPages] = useState<RelatedPage[]>([]);
+  const [currentPageIndex, setCurrentPageIndex] = useState<number>(-1);
+  const [circularsPage, setCircularsPage] = useState<number>(1);
+  const [newslinePage, setNewslinePage] = useState<number>(1);
+  const itemsPerPage = 12;
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -55,6 +96,36 @@ function DynamicPage() {
         if (metaDescription) {
           metaDescription.setAttribute('content', response.data.meta_description || response.data.excerpt || '');
         }
+        
+        // Check if this is a Circulars year page
+        if (slug && slug.startsWith('circulars-')) {
+          const yearMatch = slug.match(/circulars-(\d{4})/);
+          if (yearMatch) {
+            const year = parseInt(yearMatch[1], 10);
+            loadMonthlyCirculars(year);
+          }
+        }
+        
+        // Check if this is a NewsLine page (parent_menu = 'newsline' or slug matches month-year pattern)
+        const isNewsLinePage = response.data.parent_menu === 'newsline' || 
+                               (slug && slug.match(/^(january|february|march|april|may|june|july|august|september|october|november|december)-\d{4}$/i)) ||
+                               response.data.title.match(/^(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+\d{4}$/i);
+        
+        if (isNewsLinePage) {
+          // Extract year from title or slug
+          const monthYearMatch = response.data.title.match(/(\d{4})/);
+          const slugYearMatch = slug && slug.match(/-(\d{4})$/);
+          const year = monthYearMatch ? parseInt(monthYearMatch[1], 10) : 
+                      (slugYearMatch ? parseInt(slugYearMatch[1], 10) : null);
+          if (year) {
+            loadMonthlyNewsLine(year);
+          }
+        }
+        
+        // Load related pages (sibling pages with same parent_menu)
+        if (response.data.parent_menu) {
+          loadRelatedPages(response.data.parent_menu, response.data.id);
+        }
       } else {
         setError('Page not found');
       }
@@ -62,6 +133,68 @@ function DynamicPage() {
       setError(error.message || 'Failed to load page');
     } finally {
       setLoading(false);
+    }
+  };
+
+  const loadMonthlyCirculars = async (year: number) => {
+    try {
+      setLoadingCirculars(true);
+      const response = await apiGet<{ success: boolean; data: Circular[] }>(
+        `${API_ENDPOINTS.CIRCULARS.LIST}?year=${year}&limit=12`
+      );
+      
+      if (response.success && response.data) {
+        // Sort by month (1-12)
+        const sorted = [...response.data].sort((a, b) => a.month - b.month);
+        setMonthlyCirculars(sorted);
+      }
+    } catch (error) {
+      console.error('Failed to load monthly circulars:', error);
+    } finally {
+      setLoadingCirculars(false);
+    }
+  };
+
+  const loadMonthlyNewsLine = async (year: number) => {
+    try {
+      setLoadingNewsLine(true);
+      const response = await apiGet<{ success: boolean; data: NewsLineIssue[]; pagination?: any }>(
+        `${API_ENDPOINTS.NEWSLINE.LIST}?year=${year}&limit=100`
+      );
+      
+      if (response.success && response.data) {
+        // Sort by month (1-12)
+        const sorted = [...response.data].sort((a, b) => a.month - b.month);
+        setMonthlyNewsLine(sorted);
+      }
+    } catch (error) {
+      console.error('Failed to load monthly NewsLine:', error);
+    } finally {
+      setLoadingNewsLine(false);
+    }
+  };
+
+  const loadRelatedPages = async (parentMenu: string, currentPageId: number) => {
+    try {
+      const response = await apiGet<{ success: boolean; menu_items: RelatedPage[]; data: Page[] }>(
+        `${API_ENDPOINTS.PAGES.LIST}?enabled_only=true`
+      );
+      
+      if (response.success && response.menu_items) {
+        // Get all pages with same parent_menu (including current page)
+        const allPages = response.menu_items
+          .filter(p => p.parent_menu === parentMenu)
+          .sort((a, b) => a.sort_order - b.sort_order);
+        
+        // Find current page index
+        const index = allPages.findIndex(p => p.id === currentPageId);
+        setCurrentPageIndex(index);
+        
+        // Set related pages (all siblings, we'll use index to determine prev/next)
+        setRelatedPages(allPages);
+      }
+    } catch (error) {
+      console.error('Failed to load related pages:', error);
     }
   };
 
@@ -110,11 +243,147 @@ function DynamicPage() {
               <p className="dynamic-page-excerpt">{page.excerpt}</p>
             )}
             
+            {/* Display monthly circulars if this is a Circulars year page */}
+            {slug && slug.startsWith('circulars-') && (
+              <div className="monthly-circulars-section">
+                <h2>Monthly Circulars</h2>
+                {loadingCirculars ? (
+                  <p>Loading circulars...</p>
+                ) : monthlyCirculars.length > 0 ? (
+                  <div className="monthly-circulars-grid">
+                    {monthlyCirculars.map((circular) => (
+                      <div key={circular.id} className="monthly-circular-card">
+                        <h3>{getMonthName(circular.month)} {circular.year}</h3>
+                        {circular.description && <p className="circular-desc">{circular.description}</p>}
+                        {circular.file_path && (
+                          <a 
+                            href={getPdfUrl(circular.file_path)} 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="pdf-download-btn"
+                          >
+                            Download PDF
+                          </a>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p>No circulars available for this year.</p>
+                )}
+              </div>
+            )}
+
+            {/* Display monthly NewsLine if this is a NewsLine page */}
+            {page && (page.parent_menu === 'newsline' || (slug && slug.match(/^(january|february|march|april|may|june|july|august|september|october|november|december)-\d{4}$/i)) || page.title.match(/^(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+\d{4}$/i)) && (
+              <div className="monthly-newsline-section">
+                <h2>Monthly NewsLine Issues</h2>
+                {loadingNewsLine ? (
+                  <p>Loading NewsLine issues...</p>
+                ) : monthlyNewsLine.length > 0 ? (
+                  <>
+                    <div className="monthly-newsline-grid">
+                      {monthlyNewsLine
+                        .slice((newslinePage - 1) * itemsPerPage, newslinePage * itemsPerPage)
+                        .map((issue) => (
+                        <div key={issue.id} className="monthly-newsline-card">
+                          {issue.cover_image && (
+                            <div className="newsline-cover">
+                              <img src={getImageUrl(issue.cover_image)} alt={issue.title} />
+                            </div>
+                          )}
+                          <div className="newsline-content">
+                            <h3>{getMonthName(issue.month)} {issue.year}</h3>
+                            {issue.description && <p className="newsline-desc">{issue.description}</p>}
+                            {issue.pdf_path && (
+                              <a 
+                                href={getPdfUrl(issue.pdf_path)} 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className="pdf-download-btn"
+                              >
+                                Download/View PDF
+                              </a>
+                            )}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                    {monthlyNewsLine.length > itemsPerPage && (
+                      <Pagination
+                        currentPage={newslinePage}
+                        totalPages={Math.ceil(monthlyNewsLine.length / itemsPerPage)}
+                        totalItems={monthlyNewsLine.length}
+                        itemsPerPage={itemsPerPage}
+                        onPageChange={setNewslinePage}
+                        showItemsPerPage={false}
+                        showJumpToPage={true}
+                        showInfo={true}
+                        className="monthly-items-pagination"
+                      />
+                    )}
+                  </>
+                ) : (
+                  <p>No NewsLine issues available for this year.</p>
+                )}
+              </div>
+            )}
+
             {page.content && (
               <div 
                 className="dynamic-page-content-html"
-                dangerouslySetInnerHTML={{ __html: page.content }} 
+                dangerouslySetInnerHTML={{ __html: processContent(page.content) }} 
               />
+            )}
+
+            {/* Related Pages Navigation */}
+            {relatedPages.length > 1 && (
+              <div className="related-pages-navigation">
+                <h3>Related Pages</h3>
+                <div className="related-pages-list">
+                  {relatedPages
+                    .filter(p => p.id !== page.id)
+                    .map((relatedPage) => (
+                    <Link
+                      key={relatedPage.id}
+                      to={`/page/${relatedPage.slug}`}
+                      className="related-page-link"
+                    >
+                      {relatedPage.menu_label || relatedPage.title}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Previous/Next Navigation */}
+            {currentPageIndex >= 0 && relatedPages.length > 1 && (
+              <div className="page-navigation">
+                {currentPageIndex > 0 && relatedPages[currentPageIndex - 1] && (
+                  <Link
+                    to={`/page/${relatedPages[currentPageIndex - 1].slug}`}
+                    className="nav-link nav-link-prev"
+                  >
+                    <span className="nav-arrow">←</span>
+                    <div className="nav-content">
+                      <span className="nav-label">Previous</span>
+                      <span className="nav-title">{relatedPages[currentPageIndex - 1].menu_label || relatedPages[currentPageIndex - 1].title}</span>
+                    </div>
+                  </Link>
+                )}
+                {currentPageIndex < relatedPages.length - 1 && relatedPages[currentPageIndex + 1] && (
+                  <Link
+                    to={`/page/${relatedPages[currentPageIndex + 1].slug}`}
+                    className="nav-link nav-link-next"
+                  >
+                    <div className="nav-content">
+                      <span className="nav-label">Next</span>
+                      <span className="nav-title">{relatedPages[currentPageIndex + 1].menu_label || relatedPages[currentPageIndex + 1].title}</span>
+                    </div>
+                    <span className="nav-arrow">→</span>
+                  </Link>
+                )}
+              </div>
             )}
 
             {/* Display houses accordion for diocese pages */}
@@ -151,6 +420,43 @@ function DynamicPage() {
       <Footer />
     </div>
   );
+}
+
+// Get month name from month number
+function getMonthName(month: number): string {
+  const months = [
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'
+  ];
+  return months[month - 1] || '';
+}
+
+// Process content to fix PDF and image URLs
+function processContent(content: string): string {
+  // Fix PDF links - ensure they use correct server URL
+  content = content.replace(
+    /href=["']([^"']*\.pdf)["']/gi,
+    (match, url) => {
+      const pdfUrl = getPdfUrl(url);
+      return `href="${pdfUrl}"`;
+    }
+  );
+  
+  // Fix image URLs
+  content = content.replace(
+    /src=["']([^"']*\.(jpg|jpeg|png|gif|webp))["']/gi,
+    (match, url) => {
+      // If it's already an absolute URL, keep it
+      if (url.startsWith('http://') || url.startsWith('https://')) {
+        return match;
+      }
+      // Use getImageUrl for relative paths
+      const absoluteUrl = getImageUrl(url);
+      return `src="${absoluteUrl}"`;
+    }
+  );
+  
+  return content;
 }
 
 // Map diocese slugs to their houses

@@ -1,0 +1,42 @@
+[2026-01-07 17:47:43] Starting Economer page migration from: https://donboscoguwahati.org/index.php/about-us/the-economers/
+[2026-01-07 17:47:43] Fetching HTML from WordPress...
+[2026-01-07 17:47:44] Successfully fetched HTML (105447 bytes)
+[2026-01-07 17:47:44] Extracting content...
+[2026-01-07 17:47:44] Extracted title: Economers
+[2026-01-07 17:47:44] Content length: 2292
+[2026-01-07 17:47:44] Found 2 images to download
+[2026-01-07 17:47:44] Downloading image: placeholder.jpg
+[2026-01-07 17:47:45] HTTP error 404 downloading https://donboscoguwahati.org/placeholder.jpg
+[2026-01-07 17:47:45] Downloading image: placeholder.jpg
+[2026-01-07 17:47:46] HTTP error 404 downloading https://donboscoguwahati.org/placeholder.jpg
+[2026-01-07 17:47:46] ✓ Updated page: Economers (ID: 9)
+[2026-01-07 17:47:46] ✓ Migration completed successfully!
+[2026-01-07 17:47:46] Page available at: http://localhost:5173/page/economer
+[2026-01-07 17:47:46] Downloaded 0 images
+[2026-01-07 17:48:18] Starting Economer page migration from: https://donboscoguwahati.org/index.php/about-us/the-economers/
+[2026-01-07 17:48:18] Fetching HTML from WordPress...
+[2026-01-07 17:48:19] Successfully fetched HTML (105447 bytes)
+[2026-01-07 17:48:19] Extracting content...
+[2026-01-07 17:48:19] Extracted title: Economers
+[2026-01-07 17:48:19] Content length: 2292
+[2026-01-07 17:48:19] Found 8 images to download
+[2026-01-07 17:48:19] Downloading image: https://donboscoguwahati.org/wp-content/uploads/2024/12/Picture1-150x150.jpg
+[2026-01-07 17:48:19] ✓ Downloaded image: https://donboscoguwahati.org/wp-content/uploads/2024/12/Picture1-150x150.jpg -> /uploads/pages/economer_695e8e53992ee.jpg
+[2026-01-07 17:48:19] Downloading image: https://donboscoguwahati.org/wp-content/uploads/2024/12/Picture1.jpg
+[2026-01-07 17:48:20] ✓ Downloaded image: https://donboscoguwahati.org/wp-content/uploads/2024/12/Picture1.jpg -> /uploads/pages/economer_695e8e53d0fd6.jpg
+[2026-01-07 17:48:20] Downloading image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025-1024x1024.png
+[2026-01-07 17:48:20] ✓ Downloaded image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025-1024x1024.png -> /uploads/pages/economer_695e8e5406e29.png
+[2026-01-07 17:48:20] Downloading image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025-300x300.png
+[2026-01-07 17:48:20] ✓ Downloaded image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025-300x300.png -> /uploads/pages/economer_695e8e544cb8a.png
+[2026-01-07 17:48:20] Downloading image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025-150x150.png
+[2026-01-07 17:48:20] ✓ Downloaded image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025-150x150.png -> /uploads/pages/economer_695e8e5489b62.png
+[2026-01-07 17:48:20] Downloading image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025-768x768.png
+[2026-01-07 17:48:21] ✓ Downloaded image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025-768x768.png -> /uploads/pages/economer_695e8e54ceecf.png
+[2026-01-07 17:48:21] Downloading image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025.png
+[2026-01-07 17:48:21] ✓ Downloaded image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025.png -> /uploads/pages/economer_695e8e551fa50.png
+[2026-01-07 17:48:21] Downloading image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025-1024x1024.png
+[2026-01-07 17:48:21] ✓ Downloaded image: https://donboscoguwahati.org/wp-content/uploads/2025/12/ING-Newsline-December-2025-1024x1024.png -> /uploads/pages/economer_695e8e55671c2.png
+[2026-01-07 17:48:21] ✓ Updated page: Economers (ID: 9)
+[2026-01-07 17:48:21] ✓ Migration completed successfully!
+[2026-01-07 17:48:21] Page available at: http://localhost:5173/page/economer
+[2026-01-07 17:48:21] Downloaded 7 images
