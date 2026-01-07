@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { apiGet } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
 import './Houses.css';
@@ -41,6 +42,32 @@ function Houses() {
     return '/uploads/images/' + image;
   };
 
+  // Map house/diocese names to their dynamic page slugs
+  const getDioceseSlug = (name: string): string | null => {
+    const nameLower = name.toLowerCase();
+    
+    if (nameLower.includes('bongaigaon')) {
+      return 'bongaigaon-diocese';
+    }
+    if (nameLower.includes('diphu')) {
+      return 'diphu-diocese';
+    }
+    if (nameLower.includes('guwahati')) {
+      return 'guwahati-archdiocese';
+    }
+    if (nameLower.includes('nongstoin')) {
+      return 'nongstoin-diocese';
+    }
+    if (nameLower.includes('tezpur')) {
+      return 'tezpur-diocese';
+    }
+    if (nameLower.includes('tura')) {
+      return 'tura-diocese';
+    }
+    
+    return null;
+  };
+
   return (
     <section className="houses" id="houses">
       <div className="container">
@@ -66,7 +93,16 @@ function Houses() {
                 {house.description && (
                   <p className="house-description">{house.description}</p>
                 )}
-                <button className="house-read-more-btn">Read More</button>
+                {getDioceseSlug(house.name) ? (
+                  <Link 
+                    to={`/page/${getDioceseSlug(house.name)}`}
+                    className="house-read-more-btn"
+                  >
+                    Read More
+                  </Link>
+                ) : (
+                  <button className="house-read-more-btn">Read More</button>
+                )}
               </div>
             </div>
           ))}

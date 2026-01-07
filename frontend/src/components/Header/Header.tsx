@@ -15,6 +15,16 @@ interface Settings {
   contact_phone?: string;
 }
 
+interface DynamicPage {
+  id: number;
+  title: string;
+  slug: string;
+  menu_label: string;
+  parent_menu: string | null;
+  is_submenu: boolean;
+  sort_order: number;
+}
+
 function Header() {
   const [flashNews, setFlashNews] = useState<string>('');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -23,6 +33,7 @@ function Header() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
   const [isSticky, setIsSticky] = useState(false);
+  const [dynamicPages, setDynamicPages] = useState<DynamicPage[]>([]);
   const location = useLocation();
   
   // Safeguard: ensure location is an object with pathname
@@ -61,6 +72,17 @@ function Header() {
       .then((response) => {
         if (response.success && response.data) {
           setSettings(response.data);
+        }
+      })
+      .catch(() => {
+        // Silent fail
+      });
+
+    // Fetch dynamic pages for menu
+    apiGet<{ success: boolean; menu_items: DynamicPage[] }>(`${API_ENDPOINTS.PAGES.LIST}?enabled_only=true`)
+      .then((response) => {
+        if (response.success && response.menu_items) {
+          setDynamicPages(response.menu_items);
         }
       })
       .catch(() => {
@@ -221,6 +243,18 @@ function Header() {
               <div className="dropdown-menu">
                 <Link to={ROUTES.OUR_VISION} className={currentPath === ROUTES.OUR_VISION ? 'active' : ''}>Our Vision</Link>
                 <Link to={ROUTES.OUR_MISSION} className={currentPath === ROUTES.OUR_MISSION ? 'active' : ''}>Our Mission</Link>
+                {dynamicPages
+                  .filter(page => page.parent_menu === 'about')
+                  .sort((a, b) => a.sort_order - b.sort_order)
+                  .map(page => (
+                    <Link 
+                      key={page.id} 
+                      to={`/page/${page.slug}`} 
+                      className={currentPath === `/page/${page.slug}` ? 'active' : ''}
+                    >
+                      {page.menu_label || page.title}
+                    </Link>
+                  ))}
               </div>
             </div>
 
@@ -253,6 +287,18 @@ function Header() {
                 <Link to={ROUTES.VICE_PROVINCIAL} className={currentPath === ROUTES.VICE_PROVINCIAL ? 'active' : ''}>Vice Provincial</Link>
                 <Link to={ROUTES.ECONOMER} className={currentPath === ROUTES.ECONOMER ? 'active' : ''}>Economer</Link>
                 <Link to={ROUTES.PROVINCIAL_SECRETARY} className={currentPath === ROUTES.PROVINCIAL_SECRETARY ? 'active' : ''}>ING Provincial Secretary</Link>
+                {dynamicPages
+                  .filter(page => page.parent_menu === 'provincials')
+                  .sort((a, b) => a.sort_order - b.sort_order)
+                  .map(page => (
+                    <Link 
+                      key={page.id} 
+                      to={`/page/${page.slug}`} 
+                      className={currentPath === `/page/${page.slug}` ? 'active' : ''}
+                    >
+                      {page.menu_label || page.title}
+                    </Link>
+                  ))}
               </div>
             </div>
 
@@ -285,12 +331,18 @@ function Header() {
                 </Link>
               </div>
               <div className="dropdown-menu">
-                <Link to={ROUTES.DIOCESE_BONGAIGAON} className={currentPath === ROUTES.DIOCESE_BONGAIGAON ? 'active' : ''}>Bongaigaon Diocese</Link>
-                <Link to={ROUTES.DIOCESE_DIPHU} className={currentPath === ROUTES.DIOCESE_DIPHU ? 'active' : ''}>Diphu Diocese</Link>
-                <Link to={ROUTES.DIOCESE_GUWAHATI} className={currentPath === ROUTES.DIOCESE_GUWAHATI ? 'active' : ''}>Guwahati Archdiocese</Link>
-                <Link to={ROUTES.DIOCESE_NONGSTOIN} className={currentPath === ROUTES.DIOCESE_NONGSTOIN ? 'active' : ''}>Nongstoin Diocese</Link>
-                <Link to={ROUTES.DIOCESE_TEZPUR} className={currentPath === ROUTES.DIOCESE_TEZPUR ? 'active' : ''}>Tezpur Diocese</Link>
-                <Link to={ROUTES.DIOCESE_TURA} className={currentPath === ROUTES.DIOCESE_TURA ? 'active' : ''}>Tura Diocese</Link>
+                {dynamicPages
+                  .filter(page => page.parent_menu === 'houses')
+                  .sort((a, b) => a.sort_order - b.sort_order)
+                  .map(page => (
+                    <Link 
+                      key={page.id} 
+                      to={`/page/${page.slug}`} 
+                      className={currentPath === `/page/${page.slug}` ? 'active' : ''}
+                    >
+                      {page.menu_label || page.title}
+                    </Link>
+                  ))}
               </div>
             </div>
 
@@ -322,6 +374,18 @@ function Header() {
               <div className="dropdown-menu">
                 <Link to={ROUTES.COUNCILLORS_2024_2025} className={currentPath === ROUTES.COUNCILLORS_2024_2025 ? 'active' : ''}>Councillors 2024 – 2025</Link>
                 <Link to={ROUTES.DIMENSION} className={currentPath === ROUTES.DIMENSION ? 'active' : ''}>Dimension</Link>
+                {dynamicPages
+                  .filter(page => page.parent_menu === 'council' && !page.is_submenu)
+                  .sort((a, b) => a.sort_order - b.sort_order)
+                  .map(page => (
+                    <Link 
+                      key={page.id} 
+                      to={`/page/${page.slug}`} 
+                      className={currentPath === `/page/${page.slug}` ? 'active' : ''}
+                    >
+                      {page.menu_label || page.title}
+                    </Link>
+                  ))}
                 <div 
                   className={`dropdown-submenu ${openSubmenu === 'commissions' ? 'open' : ''}`}
                   onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenSubmenu('commissions')}
@@ -359,9 +423,128 @@ function Header() {
               </div>
             </div>
 
-            <Link to={ROUTES.NEWSLINE} className={currentPath === ROUTES.NEWSLINE ? 'active' : ''}>NewsLine</Link>
-            <Link to={ROUTES.CIRCULARS} className={currentPath === ROUTES.CIRCULARS ? 'active' : ''}>Circulars</Link>
-            <Link to={ROUTES.GALLERY} className={currentPath === ROUTES.GALLERY ? 'active' : ''}>Gallery</Link>
+            <div 
+              className={`nav-dropdown ${openDropdown === 'newsline' ? 'open' : ''}`}
+              onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('newsline')}
+              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
+            >
+              <div 
+                className="dropdown-trigger"
+                onClick={() => {
+                  if (window.matchMedia('(max-width: 768px)').matches) {
+                    setOpenDropdown(openDropdown === 'newsline' ? null : 'newsline');
+                  }
+                }}
+              >
+                <Link 
+                  to={ROUTES.NEWSLINE} 
+                  className={currentPath === ROUTES.NEWSLINE ? 'active' : ''}
+                  onClick={(e) => {
+                    if (window.matchMedia('(max-width: 768px)').matches && openDropdown !== 'newsline') {
+                      e.preventDefault();
+                    }
+                  }}
+                >
+                  NewsLine <FaChevronDown className="dropdown-icon" />
+                </Link>
+              </div>
+              <div className="dropdown-menu">
+                {dynamicPages
+                  .filter(page => page.parent_menu === 'newsline')
+                  .sort((a, b) => a.sort_order - b.sort_order)
+                  .map(page => (
+                    <Link 
+                      key={page.id} 
+                      to={`/page/${page.slug}`} 
+                      className={currentPath === `/page/${page.slug}` ? 'active' : ''}
+                    >
+                      {page.menu_label || page.title}
+                    </Link>
+                  ))}
+              </div>
+            </div>
+
+            <div 
+              className={`nav-dropdown ${openDropdown === 'circulars' ? 'open' : ''}`}
+              onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('circulars')}
+              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
+            >
+              <div 
+                className="dropdown-trigger"
+                onClick={() => {
+                  if (window.matchMedia('(max-width: 768px)').matches) {
+                    setOpenDropdown(openDropdown === 'circulars' ? null : 'circulars');
+                  }
+                }}
+              >
+                <Link 
+                  to={ROUTES.CIRCULARS} 
+                  className={currentPath === ROUTES.CIRCULARS ? 'active' : ''}
+                  onClick={(e) => {
+                    if (window.matchMedia('(max-width: 768px)').matches && openDropdown !== 'circulars') {
+                      e.preventDefault();
+                    }
+                  }}
+                >
+                  Circulars <FaChevronDown className="dropdown-icon" />
+                </Link>
+              </div>
+              <div className="dropdown-menu">
+                {dynamicPages
+                  .filter(page => page.parent_menu === 'circulars')
+                  .sort((a, b) => a.sort_order - b.sort_order)
+                  .map(page => (
+                    <Link 
+                      key={page.id} 
+                      to={`/page/${page.slug}`} 
+                      className={currentPath === `/page/${page.slug}` ? 'active' : ''}
+                    >
+                      {page.menu_label || page.title}
+                    </Link>
+                  ))}
+              </div>
+            </div>
+
+            <div 
+              className={`nav-dropdown ${openDropdown === 'gallery' ? 'open' : ''}`}
+              onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('gallery')}
+              onMouseLeave={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown(null)}
+            >
+              <div 
+                className="dropdown-trigger"
+                onClick={() => {
+                  if (window.matchMedia('(max-width: 768px)').matches) {
+                    setOpenDropdown(openDropdown === 'gallery' ? null : 'gallery');
+                  }
+                }}
+              >
+                <Link 
+                  to={ROUTES.GALLERY} 
+                  className={currentPath === ROUTES.GALLERY ? 'active' : ''}
+                  onClick={(e) => {
+                    if (window.matchMedia('(max-width: 768px)').matches && openDropdown !== 'gallery') {
+                      e.preventDefault();
+                    }
+                  }}
+                >
+                  Gallery <FaChevronDown className="dropdown-icon" />
+                </Link>
+              </div>
+              <div className="dropdown-menu">
+                {dynamicPages
+                  .filter(page => page.parent_menu === 'gallery')
+                  .sort((a, b) => a.sort_order - b.sort_order)
+                  .map(page => (
+                    <Link 
+                      key={page.id} 
+                      to={`/page/${page.slug}`} 
+                      className={currentPath === `/page/${page.slug}` ? 'active' : ''}
+                    >
+                      {page.menu_label || page.title}
+                    </Link>
+                  ))}
+              </div>
+            </div>
           </nav>
         </div>
       </div>

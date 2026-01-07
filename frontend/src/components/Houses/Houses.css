@@ -101,12 +101,17 @@
   transition: all 0.3s ease;
   align-self: flex-start;
   margin-top: auto;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .house-read-more-btn:hover {
   background: #7e22ce;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(147, 51, 234, 0.4);
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 1024px) {
