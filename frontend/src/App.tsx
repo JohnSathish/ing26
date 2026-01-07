@@ -44,6 +44,8 @@ import QuickLinksManagement from './pages/Admin/QuickLinksManagement';
 import CollaborationsManagement from './pages/Admin/CollaborationsManagement';
 import SettingsManagement from './pages/Admin/SettingsManagement';
 import StrennaManagement from './pages/Admin/StrennaManagement';
+import PagesManagement from './pages/Admin/PagesManagement';
+import DynamicPage from './pages/DynamicPage';
 import './App.css';
 import './styles/design-system.css';
 
@@ -309,6 +311,18 @@ function AppRoutes() {
           </ProtectedRoute>
         }
       />
+      <Route
+        path={ROUTES.ADMIN.PAGES}
+        element={
+          <ProtectedRoute>
+            <AdminRoute>
+              <PagesManagement />
+            </AdminRoute>
+          </ProtectedRoute>
+        }
+      />
+      {/* Dynamic Pages - must be after all static routes */}
+      <Route path="/page/:slug" element={<DynamicPage />} />
     </Routes>
   );
 }

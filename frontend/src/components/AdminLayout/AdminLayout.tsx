@@ -60,6 +60,12 @@ function AdminLayout({ children }: AdminLayoutProps) {
         { path: ROUTES.ADMIN.SETTINGS, label: 'Settings' },
       ]
     },
+    {
+      title: 'Pages',
+      items: [
+        { path: ROUTES.ADMIN.PAGES, label: 'Dynamic Pages' },
+      ]
+    },
   ];
 
   return (

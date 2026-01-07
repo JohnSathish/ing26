@@ -144,6 +144,17 @@ switch ($endpoint) {
         $file = __DIR__ . '/strenna/' . ($pathParts[1] ?? 'list') . '.php';
         break;
     
+    case 'pages':
+        $action = $pathParts[1] ?? 'list';
+        if ($action === 'get' || $action === 'list' || $action === 'create' || $action === 'update' || $action === 'delete') {
+            $file = __DIR__ . '/pages/' . $action . '.php';
+        } else {
+            http_response_code(404);
+            echo json_encode(['error' => 'Pages endpoint not found']);
+            exit;
+        }
+        break;
+    
     case 'upload':
         if (($pathParts[1] ?? '') === 'image') {
             $file = __DIR__ . '/upload/image.php';

@@ -106,6 +106,13 @@ export const API_ENDPOINTS = {
     CREATE: '/api/strenna/create',
     UPDATE: '/api/strenna/update',
   },
+  PAGES: {
+    LIST: '/api/pages/list',
+    GET: '/api/pages/get',
+    CREATE: '/api/pages/create',
+    UPDATE: '/api/pages/update',
+    DELETE: '/api/pages/delete',
+  },
   UPLOAD: {
     IMAGE: '/api/upload/image',
   },
@@ -175,6 +182,7 @@ export const ROUTES = {
     COLLABORATIONS: '/admin/collaborations',
     SETTINGS: '/admin/settings',
     STRENNA: '/admin/strenna',
+    PAGES: '/admin/pages',
   },
 } as const;
 

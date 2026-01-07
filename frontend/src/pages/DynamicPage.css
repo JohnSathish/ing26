@@ -1,0 +1,168 @@
+.dynamic-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dynamic-page-container {
+  flex: 1;
+  padding-top: 120px;
+  padding-bottom: 3rem;
+}
+
+.dynamic-page-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.dynamic-page-image {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dynamic-page-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.dynamic-page-body {
+  background: white;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.dynamic-page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.dynamic-page-excerpt {
+  font-size: 1.25rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-style: italic;
+  padding-left: 1rem;
+  border-left: 4px solid #1e40af;
+}
+
+.dynamic-page-content-html {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #334155;
+}
+
+.dynamic-page-content-html h1,
+.dynamic-page-content-html h2,
+.dynamic-page-content-html h3,
+.dynamic-page-content-html h4,
+.dynamic-page-content-html h5,
+.dynamic-page-content-html h6 {
+  color: #1e3a8a;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.dynamic-page-content-html h1 {
+  font-size: 2rem;
+}
+
+.dynamic-page-content-html h2 {
+  font-size: 1.75rem;
+}
+
+.dynamic-page-content-html h3 {
+  font-size: 1.5rem;
+}
+
+.dynamic-page-content-html p {
+  margin-bottom: 1.5rem;
+}
+
+.dynamic-page-content-html img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.dynamic-page-content-html ul,
+.dynamic-page-content-html ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.dynamic-page-content-html li {
+  margin-bottom: 0.5rem;
+}
+
+.dynamic-page-content-html a {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.dynamic-page-content-html a:hover {
+  color: #1e3a8a;
+}
+
+.dynamic-page-content-html blockquote {
+  border-left: 4px solid #1e40af;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #64748b;
+}
+
+.error-message {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.error-message h2 {
+  font-size: 2rem;
+  color: #dc2626;
+  margin-bottom: 1rem;
+}
+
+.error-message p {
+  font-size: 1.125rem;
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+  .dynamic-page-container {
+    padding-top: 100px;
+  }
+
+  .dynamic-page-content {
+    padding: 0 1rem;
+  }
+
+  .dynamic-page-body {
+    padding: 2rem 1.5rem;
+  }
+
+  .dynamic-page-title {
+    font-size: 2rem;
+  }
+
+  .dynamic-page-excerpt {
+    font-size: 1.125rem;
+  }
+
+  .dynamic-page-content-html {
+    font-size: 1rem;
+  }
+}
+
