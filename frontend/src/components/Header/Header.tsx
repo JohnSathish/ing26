@@ -197,7 +197,7 @@ function Header() {
                 <img src="/logoing.jpg" alt="Province Logo" className="header-logo-img" />
               </Link>
               <Link to={ROUTES.HOME} className="header-title-link">
-                <h1 className="header-title">Province of Mary Help of Christians ING: Guwahati</h1>
+                <h1 className="header-title">Province of Mary Help of Christians - Guwahati</h1>
               </Link>
             </div>
             <div className="header-info">
@@ -212,16 +212,31 @@ function Header() {
           >
             {mobileMenuOpen ? '✕' : '☰'}
           </button>
-          <nav className={`header-nav ${mobileMenuOpen ? 'open' : ''}`}>
-            <Link to={ROUTES.HOME} className={currentPath === ROUTES.HOME ? 'active' : ''}>Home</Link>
+          <nav 
+            className={`header-nav ${mobileMenuOpen ? 'open' : ''}`}
+            role="navigation"
+            aria-label="Main navigation"
+          >
+            <Link 
+              to={ROUTES.HOME} 
+              className={currentPath === ROUTES.HOME && !currentHash ? 'active' : ''}
+              aria-current={currentPath === ROUTES.HOME && !currentHash ? 'page' : undefined}
+            >
+              Home
+            </Link>
             
             <div 
               className={`nav-dropdown ${openDropdown === 'about' ? 'open' : ''}`}
-              onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('about')}
+              role="menubar"
+              onMouseEnter={() => {
+                if (!window.matchMedia('(max-width: 768px)').matches) {
+                  setOpenDropdown('about');
+                }
+              }}
               onMouseLeave={(e) => {
                 if (!window.matchMedia('(max-width: 768px)').matches) {
-                  const relatedTarget = e.relatedTarget as HTMLElement;
-                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                  const relatedTarget = e.relatedTarget as HTMLElement | null;
+                  if (!relatedTarget || (relatedTarget instanceof HTMLElement && !relatedTarget.closest('.nav-dropdown'))) {
                     setOpenDropdown(null);
                   }
                 }
@@ -229,9 +244,25 @@ function Header() {
             >
               <div 
                 className="dropdown-trigger"
-                onClick={() => {
+                role="button"
+                aria-expanded={openDropdown === 'about'}
+                aria-haspopup="true"
+                aria-controls="about-menu"
+                tabIndex={0}
+                onClick={(e) => {
                   if (window.matchMedia('(max-width: 768px)').matches) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    const newDropdown = openDropdown === 'about' ? null : 'about';
+                    setOpenDropdown(newDropdown);
+                  }
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
                     setOpenDropdown(openDropdown === 'about' ? null : 'about');
+                  } else if (e.key === 'Escape') {
+                    setOpenDropdown(null);
                   }
                 }}
               >
@@ -247,7 +278,12 @@ function Header() {
                   About Us <FaChevronDown className="dropdown-icon" />
                 </Link>
               </div>
-              <div className="dropdown-menu">
+              <div 
+                id="about-menu"
+                className="dropdown-menu"
+                role="menu"
+                aria-labelledby="about-trigger"
+              >
                 {dynamicPages
                   .filter(page => page.parent_menu === 'about')
                   .sort((a, b) => a.sort_order - b.sort_order)
@@ -256,6 +292,8 @@ function Header() {
                       key={page.id} 
                       to={`/page/${page.slug}`} 
                       className={currentPath === `/page/${page.slug}` ? 'active' : ''}
+                      role="menuitem"
+                      tabIndex={openDropdown === 'about' ? 0 : -1}
                     >
                       {page.menu_label || page.title}
                     </Link>
@@ -265,11 +303,15 @@ function Header() {
 
             <div 
               className={`nav-dropdown ${openDropdown === 'provincials' ? 'open' : ''}`}
-              onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('provincials')}
+              onMouseEnter={() => {
+                if (!window.matchMedia('(max-width: 768px)').matches) {
+                  setOpenDropdown('provincials');
+                }
+              }}
               onMouseLeave={(e) => {
                 if (!window.matchMedia('(max-width: 768px)').matches) {
-                  const relatedTarget = e.relatedTarget as HTMLElement;
-                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                  const relatedTarget = e.relatedTarget as HTMLElement | null;
+                  if (!relatedTarget || (relatedTarget instanceof HTMLElement && !relatedTarget.closest('.nav-dropdown'))) {
                     setOpenDropdown(null);
                   }
                 }
@@ -319,8 +361,8 @@ function Header() {
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('houses')}
               onMouseLeave={(e) => {
                 if (!window.matchMedia('(max-width: 768px)').matches) {
-                  const relatedTarget = e.relatedTarget as HTMLElement;
-                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                  const relatedTarget = e.relatedTarget as HTMLElement | null;
+                  if (!relatedTarget || (relatedTarget instanceof HTMLElement && !relatedTarget.closest('.nav-dropdown'))) {
                     setOpenDropdown(null);
                   }
                 }
@@ -367,8 +409,8 @@ function Header() {
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('council')}
               onMouseLeave={(e) => {
                 if (!window.matchMedia('(max-width: 768px)').matches) {
-                  const relatedTarget = e.relatedTarget as HTMLElement;
-                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                  const relatedTarget = e.relatedTarget as HTMLElement | null;
+                  if (!relatedTarget || (relatedTarget instanceof HTMLElement && !relatedTarget.closest('.nav-dropdown'))) {
                     setOpenDropdown(null);
                   }
                 }
@@ -415,8 +457,8 @@ function Header() {
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('newsline')}
               onMouseLeave={(e) => {
                 if (!window.matchMedia('(max-width: 768px)').matches) {
-                  const relatedTarget = e.relatedTarget as HTMLElement;
-                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                  const relatedTarget = e.relatedTarget as HTMLElement | null;
+                  if (!relatedTarget || (relatedTarget instanceof HTMLElement && !relatedTarget.closest('.nav-dropdown'))) {
                     setOpenDropdown(null);
                   }
                 }
@@ -463,8 +505,8 @@ function Header() {
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('circulars')}
               onMouseLeave={(e) => {
                 if (!window.matchMedia('(max-width: 768px)').matches) {
-                  const relatedTarget = e.relatedTarget as HTMLElement;
-                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                  const relatedTarget = e.relatedTarget as HTMLElement | null;
+                  if (!relatedTarget || (relatedTarget instanceof HTMLElement && !relatedTarget.closest('.nav-dropdown'))) {
                     setOpenDropdown(null);
                   }
                 }
@@ -511,8 +553,8 @@ function Header() {
               onMouseEnter={() => !window.matchMedia('(max-width: 768px)').matches && setOpenDropdown('gallery')}
               onMouseLeave={(e) => {
                 if (!window.matchMedia('(max-width: 768px)').matches) {
-                  const relatedTarget = e.relatedTarget as HTMLElement;
-                  if (!relatedTarget || !relatedTarget.closest('.nav-dropdown')) {
+                  const relatedTarget = e.relatedTarget as HTMLElement | null;
+                  if (!relatedTarget || (relatedTarget instanceof HTMLElement && !relatedTarget.closest('.nav-dropdown'))) {
                     setOpenDropdown(null);
                   }
                 }
@@ -539,6 +581,18 @@ function Header() {
                 </Link>
               </div>
               <div className="dropdown-menu">
+                <Link 
+                  to={ROUTES.GALLERY_PHOTOS} 
+                  className={currentPath === ROUTES.GALLERY_PHOTOS ? 'active' : ''}
+                >
+                  Photos
+                </Link>
+                <Link 
+                  to={ROUTES.GALLERY_VIDEOS} 
+                  className={currentPath === ROUTES.GALLERY_VIDEOS ? 'active' : ''}
+                >
+                  Videos
+                </Link>
                 {dynamicPages
                   .filter(page => page.parent_menu === 'gallery')
                   .sort((a, b) => a.sort_order - b.sort_order)

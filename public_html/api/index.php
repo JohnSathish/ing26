@@ -73,6 +73,21 @@ switch ($endpoint) {
         $file = __DIR__ . '/auth/' . ($pathParts[1] ?? 'check') . '.php';
         break;
     
+    case 'admin':
+        $action = $pathParts[1] ?? '';
+        if ($action === 'update-credentials') {
+            $file = __DIR__ . '/admin/update-credentials.php';
+        } elseif ($action === 'create-user') {
+            $file = __DIR__ . '/admin/create-user.php';
+        } elseif ($action === 'list-users') {
+            $file = __DIR__ . '/admin/list-users.php';
+        } else {
+            http_response_code(404);
+            echo json_encode(['error' => 'Admin endpoint not found']);
+            exit;
+        }
+        break;
+    
     case 'dashboard':
         $file = __DIR__ . '/dashboard/' . ($pathParts[1] ?? 'stats') . '.php';
         break;
@@ -114,6 +129,30 @@ switch ($endpoint) {
     
     case 'gallery':
         $file = __DIR__ . '/gallery/' . ($pathParts[1] ?? 'list') . '.php';
+        break;
+    
+    case 'photo_galleries':
+    case 'photo-galleries':
+        $action = $pathParts[1] ?? 'list';
+        if (in_array($action, ['list', 'create', 'update', 'delete'])) {
+            $file = __DIR__ . '/photo_galleries/' . $action . '.php';
+        } else {
+            http_response_code(404);
+            echo json_encode(['error' => 'Photo galleries endpoint not found']);
+            exit;
+        }
+        break;
+    
+    case 'video_galleries':
+    case 'video-galleries':
+        $action = $pathParts[1] ?? 'list';
+        if (in_array($action, ['list', 'create', 'update', 'delete'])) {
+            $file = __DIR__ . '/video_galleries/' . $action . '.php';
+        } else {
+            http_response_code(404);
+            echo json_encode(['error' => 'Video galleries endpoint not found']);
+            exit;
+        }
         break;
     
     case 'provincials':
@@ -163,6 +202,10 @@ switch ($endpoint) {
             echo json_encode(['error' => 'Upload endpoint not found']);
             exit;
         }
+        break;
+    
+    case 'visitor':
+        $file = __DIR__ . '/visitor/' . ($pathParts[1] ?? 'increment') . '.php';
         break;
     
     default:

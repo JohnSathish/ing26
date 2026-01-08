@@ -65,6 +65,18 @@ export const API_ENDPOINTS = {
     UPDATE: '/api/gallery/update',
     DELETE: '/api/gallery/delete',
   },
+  PHOTO_GALLERIES: {
+    LIST: '/api/photo_galleries/list',
+    CREATE: '/api/photo_galleries/create',
+    UPDATE: '/api/photo_galleries/update',
+    DELETE: '/api/photo_galleries/delete',
+  },
+  VIDEO_GALLERIES: {
+    LIST: '/api/video_galleries/list',
+    CREATE: '/api/video_galleries/create',
+    UPDATE: '/api/video_galleries/update',
+    DELETE: '/api/video_galleries/delete',
+  },
   PROVINCIALS: {
     LIST: '/api/provincials/list',
     CURRENT: '/api/provincials/current',
@@ -116,6 +128,11 @@ export const API_ENDPOINTS = {
   UPLOAD: {
     IMAGE: '/api/upload/image',
   },
+  ADMIN: {
+    UPDATE_CREDENTIALS: '/api/admin/update-credentials',
+    CREATE_USER: '/api/admin/create-user',
+    LIST_USERS: '/api/admin/list-users',
+  },
 } as const;
 
 export const ROUTES = {
@@ -160,10 +177,13 @@ export const ROUTES = {
   CIRCULARS: '/circulars',
   NEWSLINE: '/newsline',
   GALLERY: '/gallery',
+  GALLERY_PHOTOS: '/gallery/photos',
+  GALLERY_VIDEOS: '/gallery/videos',
   NEWS_DETAIL: '/news/:slug',
   ALL_NEWS: '/all-news',
   PROVINCE: '/province',
   PROVINCIAL_MESSAGE: '/provincial-message',
+  CONTACT_US: '/contact-us',
   ADMIN: {
     DASHBOARD: '/admin',
     BIRTHDAY: '/admin/birthday',
@@ -175,6 +195,8 @@ export const ROUTES = {
     CIRCULARS: '/admin/circulars',
     NEWSLINE: '/admin/newsline',
     GALLERY: '/admin/gallery',
+    PHOTO_GALLERIES: '/admin/photo-galleries',
+    VIDEO_GALLERIES: '/admin/video-galleries',
     PROVINCIALS: '/admin/provincials',
     COUNCIL: '/admin/council',
     COMMISSIONS: '/admin/commissions',
@@ -183,6 +205,7 @@ export const ROUTES = {
     SETTINGS: '/admin/settings',
     STRENNA: '/admin/strenna',
     PAGES: '/admin/pages',
+    USER_MANAGEMENT: '/admin/user-management',
   },
 } as const;
 

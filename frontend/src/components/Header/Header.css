@@ -13,7 +13,6 @@
   overflow: visible !important;
   transform: none;
   will-change: auto;
-  isolation: isolate;
 }
 
 /* Enhanced sticky state for better visibility */
@@ -116,22 +115,25 @@
 
 .header-main {
   background: white;
-  padding: 0.75rem 0;
+  padding: 0.5rem 0;
   border-bottom: 2px solid #e5e7eb;
   position: relative;
   z-index: 10001;
-  overflow: visible;
+  overflow: visible !important;
+  clip-path: none !important;
 }
 
 .header-main .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
   padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  overflow: visible;
+  overflow: visible !important;
   position: relative;
+  clip-path: none !important;
 }
 
 .header-top-section {
@@ -211,14 +213,13 @@
 
 .header-nav {
   display: flex;
-  gap: 0.5rem;
-  flex-wrap: nowrap;
+  gap: 0.15rem;
+  flex-wrap: nowrap !important;
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0.75rem 1.5rem;
+  margin: 0;
+  padding: 0.5rem 1rem;
   background: #ffffff;
   border-top: 1px solid #e5e7eb;
   border-bottom: 1px solid #e5e7eb;
@@ -226,46 +227,61 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   position: relative;
   z-index: 10001;
-  isolation: isolate;
+  white-space: nowrap;
+  clip-path: none !important;
+  min-height: auto;
+  height: auto;
 }
 
-/* Ensure dropdowns for right-side menus (NewsLine, Circulars, Gallery) appear above hero */
-.header-nav > .nav-dropdown:last-child .dropdown-menu,
-.header-nav > .nav-dropdown:nth-last-child(2) .dropdown-menu,
-.header-nav > .nav-dropdown:nth-last-child(3) .dropdown-menu {
-  z-index: 9999999 !important;
-  position: absolute !important;
-  isolation: isolate !important;
+@media (max-width: 768px) {
+  .header-nav:not(.open) {
+    display: none !important;
+  }
 }
 
-.header-nav > .nav-dropdown:last-child.open .dropdown-menu,
-.header-nav > .nav-dropdown:nth-last-child(2).open .dropdown-menu,
-.header-nav > .nav-dropdown:nth-last-child(3).open .dropdown-menu {
-  z-index: 9999999 !important;
-  position: absolute !important;
-  isolation: isolate !important;
-  contain: layout style paint !important;
-  transform: translateY(0) translateZ(0) !important;
+
+/* Each dropdown creates its own stacking context */
+.nav-dropdown {
+  position: relative;
+  z-index: 1000;
+  flex-shrink: 0 !important;
+  white-space: nowrap;
+  display: inline-flex;
+}
+
+.nav-dropdown.open {
+  z-index: 1000000;
+}
+
+/* Ensure ALL dropdowns appear above navigation bar and hero slider */
+.header-nav > .nav-dropdown {
+  z-index: 1000;
+}
+
+.header-nav > .nav-dropdown.open {
+  z-index: 1000000;
 }
 
 .header-nav a {
   color: #64748b;
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.9375rem;
-  padding: 0.625rem 1.25rem;
+  font-size: 0.8125rem;
+  padding: 0.35rem 0.65rem;
   transition: all 0.2s ease;
   position: relative;
-  white-space: nowrap;
+  white-space: nowrap !important;
   text-transform: capitalize;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   background: transparent;
   border: none;
   border-radius: 0.5rem;
-  flex: 0 1 auto;
+  flex: 0 0 auto !important;
   text-align: center;
   min-width: fit-content;
   letter-spacing: 0;
+  display: inline-block;
+  line-height: 1.3;
 }
 
 .header-nav a:hover {
@@ -299,8 +315,13 @@
 /* Dropdown Menu Styles */
 .nav-dropdown {
   position: relative;
-  z-index: 999999;
+  z-index: 1000;
   isolation: isolate;
+}
+
+/* Create stacking context for each dropdown */
+.nav-dropdown.open {
+  z-index: 10000;
 }
 
 /* Create invisible bridge between trigger and menu to prevent closing on hover */
@@ -312,7 +333,7 @@
   right: 0;
   height: 0.5rem;
   background: transparent;
-  z-index: 9999998;
+  z-index: 1;
   pointer-events: auto;
   display: none;
 }
@@ -343,23 +364,28 @@
 
 .dropdown-menu {
   position: absolute !important;
-  top: 100% !important;
+  top: calc(100% + 0.25rem) !important;
   left: 0 !important;
   background: white !important;
   min-width: 200px;
+  max-width: 280px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25) !important;
   border-radius: 0.5rem;
   padding: 0.5rem 0;
-  margin-top: 0.25rem !important;
+  margin: 0 !important;
   opacity: 0;
   visibility: hidden;
   transform: translateY(-10px) translateZ(0);
-  transition: all 0.3s ease;
-  z-index: 9999999 !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1000000 !important;
   border: 1px solid #e5e7eb;
   will-change: transform, opacity;
-  isolation: isolate;
   pointer-events: none;
+  overflow-y: auto;
+  max-height: 70vh;
+  display: block !important;
+  clip-path: none !important;
+  clip: auto !important;
 }
 
 .nav-dropdown.open .dropdown-menu {
@@ -367,12 +393,20 @@
   visibility: visible !important;
   transform: translateY(0) translateZ(0) !important;
   pointer-events: auto !important;
-  z-index: 9999999 !important;
+  z-index: 1000000 !important;
   position: absolute !important;
-  isolation: isolate !important;
-  top: 100% !important;
-  left: 0 !important;
-  margin-top: 0.25rem !important;
+  display: block !important;
+  clip-path: none !important;
+  clip: auto !important;
+}
+
+/* Ensure open dropdowns appear above closed ones */
+.nav-dropdown:not(.open) {
+  z-index: 1000;
+}
+
+.nav-dropdown.open {
+  z-index: 10000;
 }
 
 .dropdown-menu a {
@@ -561,7 +595,11 @@
   }
 
   .nav-dropdown.open .dropdown-menu {
-    display: flex;
+    display: flex !important;
+  }
+
+  .nav-dropdown:not(.open) .dropdown-menu {
+    display: none !important;
   }
 
   .dropdown-menu a {
@@ -660,21 +698,64 @@
     gap: 0;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
     border-top: 1px solid #e5e7eb;
     border-bottom: 1px solid #e5e7eb;
     background: #ffffff;
     box-shadow: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 1002;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    z-index: auto;
+    margin: 0;
+    display: none !important;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .header-nav .nav-dropdown {
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .header-nav .nav-dropdown .dropdown-menu {
+    position: relative !important;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    max-height: none;
+    background: #f9fafb;
+    top: auto !important;
+    left: auto !important;
+    width: 100%;
+  }
+
+  .header-nav .nav-dropdown.open .dropdown-menu {
+    display: block;
+    position: relative !important;
+  }
+
+  .header-nav .nav-dropdown .dropdown-menu a {
+    padding: 0.875rem 2.5rem;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 0.875rem;
   }
 
   .header-nav.open {
-    max-height: calc(100vh - 200px);
-    overflow-y: auto;
+    display: flex !important;
+    visibility: visible;
+    opacity: 1;
+    max-height: none;
+    overflow: visible;
     padding: 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
