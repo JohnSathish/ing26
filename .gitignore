@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads directory - exclude large files
+public_html/uploads/
+!public_html/uploads/.gitkeep
+
+# Database
+*.sql
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Log files
+*.log
+migration_*.txt
+*_log.txt
+*_migration_log.txt
+
+# PHP
+composer.lock
+
+# Large PDF files that exceed GitHub limits
+public_html/uploads/newsline/march-2019.pdf
+public_html/uploads/newsline/december-2019.pdf
+
