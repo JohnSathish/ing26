@@ -52,8 +52,13 @@ interface RelatedPage {
   sort_order: number;
 }
 
-function DynamicPage() {
-  const { slug } = useParams<{ slug: string }>();
+interface DynamicPageProps {
+  slug?: string; // Optional prop to override URL slug
+}
+
+function DynamicPage({ slug: propSlug }: DynamicPageProps = {}) {
+  const { slug: urlSlug } = useParams<{ slug: string }>();
+  const slug = propSlug || urlSlug; // Use prop slug if provided, otherwise use URL slug
   const navigate = useNavigate();
   const [page, setPage] = useState<Page | null>(null);
   const [loading, setLoading] = useState(true);

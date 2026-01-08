@@ -103,7 +103,7 @@ function AppRoutes() {
       <Route path={ROUTES.ABOUT_US} element={<AboutUs />} />
       <Route path={ROUTES.OUR_VISION} element={<OurVision />} />
       <Route path={ROUTES.OUR_MISSION} element={<OurMission />} />
-      <Route path={ROUTES.DON_BOSCO} element={<DonBosco />} />
+      <Route path={ROUTES.DON_BOSCO} element={<DynamicPage slug="don-bosco" />} />
       <Route path={ROUTES.GC29} element={<GC29 />} />
       <Route path={ROUTES.PROVINCIALS} element={<Provincials />} />
       <Route path={ROUTES.VICE_PROVINCIAL} element={<ViceProvincial />} />

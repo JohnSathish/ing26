@@ -3,6 +3,10 @@ import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Image from '@tiptap/extension-image';
 import TextAlign from '@tiptap/extension-text-align';
+import { Table } from '@tiptap/extension-table';
+import { TableRow } from '@tiptap/extension-table-row';
+import { TableCell } from '@tiptap/extension-table-cell';
+import { TableHeader } from '@tiptap/extension-table-header';
 import AdminLayout from '../../components/AdminLayout/AdminLayout';
 import { apiGet, apiPost, apiPut, apiDelete, apiUploadImage } from '../../services/api';
 import { API_ENDPOINTS } from '../../utils/constants';
@@ -67,6 +71,8 @@ function PagesManagement() {
   const [uploadingBulk, setUploadingBulk] = useState(false);
   const [activeTab, setActiveTab] = useState<'basic' | 'content' | 'menu' | 'seo'>('basic');
   const [showPreview, setShowPreview] = useState(false);
+  const [showCodeView, setShowCodeView] = useState(false);
+  const codeViewTextareaRef = useRef<HTMLTextAreaElement>(null);
   const [formData, setFormData] = useState({
     title: '',
     slug: '',
@@ -96,11 +102,22 @@ function PagesManagement() {
       TextAlign.configure({
         types: ['heading', 'paragraph'],
       }),
+      Table.configure({
+        resizable: true,
+        HTMLAttributes: {
+          class: 'vice-provincials-table',
+        },
+      }),
+      TableRow,
+      TableHeader,
+      TableCell,
     ],
     content: formData.content,
     onUpdate: ({ editor }) => {
-      const html = editor.getHTML();
-      setFormData(prev => ({ ...prev, content: html }));
+      if (!showCodeView) {
+        const html = editor.getHTML();
+        setFormData(prev => ({ ...prev, content: html }));
+      }
     },
     editorProps: {
       attributes: {
@@ -111,10 +128,28 @@ function PagesManagement() {
 
   // Update editor content when formData.content changes
   useEffect(() => {
-    if (editor && formData.content !== editor.getHTML()) {
+    if (editor && !showCodeView && formData.content !== editor.getHTML()) {
       editor.commands.setContent(formData.content || '');
     }
-  }, [formData.content, editor]);
+  }, [formData.content, editor, showCodeView]);
+
+  // Handle code view toggle
+  const handleCodeViewToggle = () => {
+    if (showCodeView) {
+      // Switching from code view to visual editor
+      const htmlContent = codeViewTextareaRef.current?.value || formData.content;
+      setFormData(prev => ({ ...prev, content: htmlContent }));
+      if (editor) {
+        editor.commands.setContent(htmlContent || '');
+      }
+    }
+    setShowCodeView(!showCodeView);
+  };
+
+  // Handle code view content change
+  const handleCodeViewChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setFormData(prev => ({ ...prev, content: e.target.value }));
+  };
 
   // Generate slug from title
   const generateSlug = (title: string): string => {
@@ -236,6 +271,7 @@ function PagesManagement() {
     });
     setImagePreview('');
     setEditing(null);
+    setShowCodeView(false); // Reset to visual editor
     if (editor) {
       editor.commands.setContent('');
     }
@@ -392,6 +428,7 @@ function PagesManagement() {
       sort_order: page.sort_order || 0,
     });
     setImagePreview(page.featured_image || '');
+    setShowCodeView(false); // Reset to visual editor when editing
     setShowForm(true);
     if (editor) {
       editor.commands.setContent(page.content || '');
@@ -769,8 +806,107 @@ function PagesManagement() {
                                 {uploadingBulk ? '⏳' : '🖼️+'}
                               </button>
                             </div>
+                            <div className="toolbar-group">
+                              <button
+                                type="button"
+                                onClick={() => editor.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()}
+                                className="toolbar-btn"
+                                title="Insert Table"
+                                disabled={!editor.can().insertTable({ rows: 3, cols: 3, withHeaderRow: true })}
+                              >
+                                📊
+                              </button>
+                              {editor && editor.isActive('table') && (
+                                <>
+                                  <button
+                                    type="button"
+                                    onClick={() => editor.chain().focus().addColumnBefore().run()}
+                                    className="toolbar-btn"
+                                    title="Add Column Before"
+                                    disabled={!editor.can().addColumnBefore()}
+                                  >
+                                    ➕
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => editor.chain().focus().addColumnAfter().run()}
+                                    className="toolbar-btn"
+                                    title="Add Column After"
+                                    disabled={!editor.can().addColumnAfter()}
+                                  >
+                                    ➕
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => editor.chain().focus().deleteColumn().run()}
+                                    className="toolbar-btn"
+                                    title="Delete Column"
+                                    disabled={!editor.can().deleteColumn()}
+                                  >
+                                    ➖
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => editor.chain().focus().addRowBefore().run()}
+                                    className="toolbar-btn"
+                                    title="Add Row Before"
+                                    disabled={!editor.can().addRowBefore()}
+                                  >
+                                    ⬆️
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => editor.chain().focus().addRowAfter().run()}
+                                    className="toolbar-btn"
+                                    title="Add Row After"
+                                    disabled={!editor.can().addRowAfter()}
+                                  >
+                                    ⬇️
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => editor.chain().focus().deleteRow().run()}
+                                    className="toolbar-btn"
+                                    title="Delete Row"
+                                    disabled={!editor.can().deleteRow()}
+                                  >
+                                    🗑️
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => editor.chain().focus().deleteTable().run()}
+                                    className="toolbar-btn"
+                                    title="Delete Table"
+                                    disabled={!editor.can().deleteTable()}
+                                  >
+                                    🗑️📊
+                                  </button>
+                                </>
+                              )}
+                            </div>
+                            <div className="toolbar-group">
+                              <button
+                                type="button"
+                                onClick={handleCodeViewToggle}
+                                className={`toolbar-btn ${showCodeView ? 'is-active' : ''}`}
+                                title={showCodeView ? 'Switch to Visual Editor' : 'Switch to HTML Code View'}
+                              >
+                                {showCodeView ? '👁️' : '</>'}
+                              </button>
+                            </div>
                           </div>
-                          <EditorContent editor={editor} />
+                          {showCodeView ? (
+                            <textarea
+                              ref={codeViewTextareaRef}
+                              value={formData.content}
+                              onChange={handleCodeViewChange}
+                              className="code-view-textarea"
+                              placeholder="Paste or write HTML code here. Tables and other HTML structures will be preserved."
+                              spellCheck={false}
+                            />
+                          ) : (
+                            <EditorContent editor={editor} />
+                          )}
                           <input
                             type="file"
                             ref={editorImageInputRef}
